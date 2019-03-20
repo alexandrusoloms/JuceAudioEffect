@@ -433,6 +433,9 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
+    <ClCompile Include="..\..\Source\SliderUtil.cpp">
+      <Filter>OriginalFx\Source</Filter>
+    </ClCompile>
     <ClCompile Include="..\..\Source\PluginProcessor.cpp">
       <Filter>OriginalFx\Source</Filter>
     </ClCompile>
@@ -2418,6 +2421,9 @@
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="..\..\Source\SliderUtil.h">
+      <Filter>OriginalFx\Source</Filter>
+    </ClInclude>
     <ClInclude Include="..\..\Source\PluginProcessor.h">
       <Filter>OriginalFx\Source</Filter>
     </ClInclude>

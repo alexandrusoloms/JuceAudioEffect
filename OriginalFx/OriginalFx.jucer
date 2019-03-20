@@ -4,6 +4,8 @@
               pluginChannelConfigs="{1, 1}, {2, 2}" pluginManufacturer="Alexandru">
   <MAINGROUP id="VBEHQ3" name="OriginalFx">
     <GROUP id="{04A0F456-F3EE-00A0-D435-1F71A910F729}" name="Source">
+      <FILE id="ApOwQ4" name="SliderUtil.cpp" compile="1" resource="0" file="Source/SliderUtil.cpp"/>
+      <FILE id="ODoBq5" name="SliderUtil.h" compile="0" resource="0" file="Source/SliderUtil.h"/>
       <FILE id="J7Z0Ai" name="PluginProcessor.cpp" compile="1" resource="0"
             file="Source/PluginProcessor.cpp"/>
       <FILE id="z1Uqeh" name="PluginProcessor.h" compile="0" resource="0"

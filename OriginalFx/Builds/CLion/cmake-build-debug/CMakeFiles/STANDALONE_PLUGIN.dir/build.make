@@ -43,10 +43,10 @@ RM = /snap/clion/61/bin/cmake/linux/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/mariussolomes/digital_audio_effects/OriginalFx/Builds/CLion
+CMAKE_SOURCE_DIR = /home/mariussolomes/JuceAudioEffect/OriginalFx/Builds/CLion
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/mariussolomes/digital_audio_effects/OriginalFx/Builds/CLion/cmake-build-debug
+CMAKE_BINARY_DIR = /home/mariussolomes/JuceAudioEffect/OriginalFx/Builds/CLion/cmake-build-debug
 
 # Include any dependencies generated for this target.
 include CMakeFiles/STANDALONE_PLUGIN.dir/depend.make
@@ -57,27 +57,27 @@ include CMakeFiles/STANDALONE_PLUGIN.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/STANDALONE_PLUGIN.dir/flags.make
 
-CMakeFiles/STANDALONE_PLUGIN.dir/home/mariussolomes/digital_audio_effects/OriginalFx/JuceLibraryCode/include_juce_audio_plugin_client_Standalone.cpp.o: CMakeFiles/STANDALONE_PLUGIN.dir/flags.make
-CMakeFiles/STANDALONE_PLUGIN.dir/home/mariussolomes/digital_audio_effects/OriginalFx/JuceLibraryCode/include_juce_audio_plugin_client_Standalone.cpp.o: /home/mariussolomes/digital_audio_effects/OriginalFx/JuceLibraryCode/include_juce_audio_plugin_client_Standalone.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/mariussolomes/digital_audio_effects/OriginalFx/Builds/CLion/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/STANDALONE_PLUGIN.dir/home/mariussolomes/digital_audio_effects/OriginalFx/JuceLibraryCode/include_juce_audio_plugin_client_Standalone.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/STANDALONE_PLUGIN.dir/home/mariussolomes/digital_audio_effects/OriginalFx/JuceLibraryCode/include_juce_audio_plugin_client_Standalone.cpp.o -c /home/mariussolomes/digital_audio_effects/OriginalFx/JuceLibraryCode/include_juce_audio_plugin_client_Standalone.cpp
+CMakeFiles/STANDALONE_PLUGIN.dir/home/mariussolomes/JuceAudioEffect/OriginalFx/JuceLibraryCode/include_juce_audio_plugin_client_Standalone.cpp.o: CMakeFiles/STANDALONE_PLUGIN.dir/flags.make
+CMakeFiles/STANDALONE_PLUGIN.dir/home/mariussolomes/JuceAudioEffect/OriginalFx/JuceLibraryCode/include_juce_audio_plugin_client_Standalone.cpp.o: /home/mariussolomes/JuceAudioEffect/OriginalFx/JuceLibraryCode/include_juce_audio_plugin_client_Standalone.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/mariussolomes/JuceAudioEffect/OriginalFx/Builds/CLion/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/STANDALONE_PLUGIN.dir/home/mariussolomes/JuceAudioEffect/OriginalFx/JuceLibraryCode/include_juce_audio_plugin_client_Standalone.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/STANDALONE_PLUGIN.dir/home/mariussolomes/JuceAudioEffect/OriginalFx/JuceLibraryCode/include_juce_audio_plugin_client_Standalone.cpp.o -c /home/mariussolomes/JuceAudioEffect/OriginalFx/JuceLibraryCode/include_juce_audio_plugin_client_Standalone.cpp
 
-CMakeFiles/STANDALONE_PLUGIN.dir/home/mariussolomes/digital_audio_effects/OriginalFx/JuceLibraryCode/include_juce_audio_plugin_client_Standalone.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/STANDALONE_PLUGIN.dir/home/mariussolomes/digital_audio_effects/OriginalFx/JuceLibraryCode/include_juce_audio_plugin_client_Standalone.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/mariussolomes/digital_audio_effects/OriginalFx/JuceLibraryCode/include_juce_audio_plugin_client_Standalone.cpp > CMakeFiles/STANDALONE_PLUGIN.dir/home/mariussolomes/digital_audio_effects/OriginalFx/JuceLibraryCode/include_juce_audio_plugin_client_Standalone.cpp.i
+CMakeFiles/STANDALONE_PLUGIN.dir/home/mariussolomes/JuceAudioEffect/OriginalFx/JuceLibraryCode/include_juce_audio_plugin_client_Standalone.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/STANDALONE_PLUGIN.dir/home/mariussolomes/JuceAudioEffect/OriginalFx/JuceLibraryCode/include_juce_audio_plugin_client_Standalone.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/mariussolomes/JuceAudioEffect/OriginalFx/JuceLibraryCode/include_juce_audio_plugin_client_Standalone.cpp > CMakeFiles/STANDALONE_PLUGIN.dir/home/mariussolomes/JuceAudioEffect/OriginalFx/JuceLibraryCode/include_juce_audio_plugin_client_Standalone.cpp.i
 
-CMakeFiles/STANDALONE_PLUGIN.dir/home/mariussolomes/digital_audio_effects/OriginalFx/JuceLibraryCode/include_juce_audio_plugin_client_Standalone.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/STANDALONE_PLUGIN.dir/home/mariussolomes/digital_audio_effects/OriginalFx/JuceLibraryCode/include_juce_audio_plugin_client_Standalone.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/mariussolomes/digital_audio_effects/OriginalFx/JuceLibraryCode/include_juce_audio_plugin_client_Standalone.cpp -o CMakeFiles/STANDALONE_PLUGIN.dir/home/mariussolomes/digital_audio_effects/OriginalFx/JuceLibraryCode/include_juce_audio_plugin_client_Standalone.cpp.s
+CMakeFiles/STANDALONE_PLUGIN.dir/home/mariussolomes/JuceAudioEffect/OriginalFx/JuceLibraryCode/include_juce_audio_plugin_client_Standalone.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/STANDALONE_PLUGIN.dir/home/mariussolomes/JuceAudioEffect/OriginalFx/JuceLibraryCode/include_juce_audio_plugin_client_Standalone.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/mariussolomes/JuceAudioEffect/OriginalFx/JuceLibraryCode/include_juce_audio_plugin_client_Standalone.cpp -o CMakeFiles/STANDALONE_PLUGIN.dir/home/mariussolomes/JuceAudioEffect/OriginalFx/JuceLibraryCode/include_juce_audio_plugin_client_Standalone.cpp.s
 
 # Object files for target STANDALONE_PLUGIN
 STANDALONE_PLUGIN_OBJECTS = \
-"CMakeFiles/STANDALONE_PLUGIN.dir/home/mariussolomes/digital_audio_effects/OriginalFx/JuceLibraryCode/include_juce_audio_plugin_client_Standalone.cpp.o"
+"CMakeFiles/STANDALONE_PLUGIN.dir/home/mariussolomes/JuceAudioEffect/OriginalFx/JuceLibraryCode/include_juce_audio_plugin_client_Standalone.cpp.o"
 
 # External object files for target STANDALONE_PLUGIN
 STANDALONE_PLUGIN_EXTERNAL_OBJECTS =
 
-OriginalFx: CMakeFiles/STANDALONE_PLUGIN.dir/home/mariussolomes/digital_audio_effects/OriginalFx/JuceLibraryCode/include_juce_audio_plugin_client_Standalone.cpp.o
+OriginalFx: CMakeFiles/STANDALONE_PLUGIN.dir/home/mariussolomes/JuceAudioEffect/OriginalFx/JuceLibraryCode/include_juce_audio_plugin_client_Standalone.cpp.o
 OriginalFx: CMakeFiles/STANDALONE_PLUGIN.dir/build.make
 OriginalFx: libOriginalFx.a
 OriginalFx: /usr/lib/x86_64-linux-gnu/libGL.so
@@ -85,7 +85,7 @@ OriginalFx: /usr/lib/x86_64-linux-gnu/libdl.so
 OriginalFx: /usr/lib/x86_64-linux-gnu/libpthread.so
 OriginalFx: /usr/lib/x86_64-linux-gnu/librt.so
 OriginalFx: CMakeFiles/STANDALONE_PLUGIN.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/mariussolomes/digital_audio_effects/OriginalFx/Builds/CLion/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable OriginalFx"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/mariussolomes/JuceAudioEffect/OriginalFx/Builds/CLion/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable OriginalFx"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/STANDALONE_PLUGIN.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -98,6 +98,6 @@ CMakeFiles/STANDALONE_PLUGIN.dir/clean:
 .PHONY : CMakeFiles/STANDALONE_PLUGIN.dir/clean
 
 CMakeFiles/STANDALONE_PLUGIN.dir/depend:
-	cd /home/mariussolomes/digital_audio_effects/OriginalFx/Builds/CLion/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/mariussolomes/digital_audio_effects/OriginalFx/Builds/CLion /home/mariussolomes/digital_audio_effects/OriginalFx/Builds/CLion /home/mariussolomes/digital_audio_effects/OriginalFx/Builds/CLion/cmake-build-debug /home/mariussolomes/digital_audio_effects/OriginalFx/Builds/CLion/cmake-build-debug /home/mariussolomes/digital_audio_effects/OriginalFx/Builds/CLion/cmake-build-debug/CMakeFiles/STANDALONE_PLUGIN.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/mariussolomes/JuceAudioEffect/OriginalFx/Builds/CLion/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/mariussolomes/JuceAudioEffect/OriginalFx/Builds/CLion /home/mariussolomes/JuceAudioEffect/OriginalFx/Builds/CLion /home/mariussolomes/JuceAudioEffect/OriginalFx/Builds/CLion/cmake-build-debug /home/mariussolomes/JuceAudioEffect/OriginalFx/Builds/CLion/cmake-build-debug /home/mariussolomes/JuceAudioEffect/OriginalFx/Builds/CLion/cmake-build-debug/CMakeFiles/STANDALONE_PLUGIN.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/STANDALONE_PLUGIN.dir/depend
 

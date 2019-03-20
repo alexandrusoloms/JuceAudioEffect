@@ -10,7 +10,10 @@
 
 #pragma once
 
+#include <iostream>
 #include "../JuceLibraryCode/JuceHeader.h"
+
+using namespace std;
 
 //==============================================================================
 /**
@@ -20,15 +23,15 @@ class OriginalFxAudioProcessor  : public AudioProcessor
 public:
     //==============================================================================
     OriginalFxAudioProcessor();
-    ~OriginalFxAudioProcessor();
+    ~OriginalFxAudioProcessor() override;
 
     //==============================================================================
     void prepareToPlay (double sampleRate, int samplesPerBlock) override;
     void releaseResources() override;
 
-   #ifndef JucePlugin_PreferredChannelConfigurations
+#ifndef JucePlugin_PreferredChannelConfigurations
     bool isBusesLayoutSupported (const BusesLayout& layouts) const override;
-   #endif
+#endif
 
     void processBlock (AudioBuffer<float>&, MidiBuffer&) override;
 
@@ -55,7 +58,19 @@ public:
     void getStateInformation (MemoryBlock& destData) override;
     void setStateInformation (const void* data, int sizeInBytes) override;
 
+    // Reverb
+    Reverb theReverb;
+    Reverb::Parameters theReverbParameters;
+
+    // Filters
+    AudioParameterFloat* highPassFilterCutOff;
+    AudioParameterFloat* lowPassFilterCutOff;
+    IIRFilter filter;
+    //
 private:
+
+    void shrinkBuffer(float* buffer);
+
     //==============================================================================
     JUCE_DECLARE_NON_COPYABLE_WITH_LEAK_DETECTOR (OriginalFxAudioProcessor)
 };

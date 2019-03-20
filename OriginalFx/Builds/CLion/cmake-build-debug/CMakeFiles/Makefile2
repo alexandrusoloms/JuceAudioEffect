@@ -59,10 +59,10 @@ RM = /snap/clion/61/bin/cmake/linux/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/mariussolomes/digital_audio_effects/OriginalFx/Builds/CLion
+CMAKE_SOURCE_DIR = /home/mariussolomes/JuceAudioEffect/OriginalFx/Builds/CLion
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/mariussolomes/digital_audio_effects/OriginalFx/Builds/CLion/cmake-build-debug
+CMAKE_BINARY_DIR = /home/mariussolomes/JuceAudioEffect/OriginalFx/Builds/CLion/cmake-build-debug
 
 #=============================================================================
 # Target rules for target CMakeFiles/STANDALONE_PLUGIN.dir
@@ -71,7 +71,7 @@ CMAKE_BINARY_DIR = /home/mariussolomes/digital_audio_effects/OriginalFx/Builds/C
 CMakeFiles/STANDALONE_PLUGIN.dir/all: CMakeFiles/SHARED_CODE.dir/all
 	$(MAKE) -f CMakeFiles/STANDALONE_PLUGIN.dir/build.make CMakeFiles/STANDALONE_PLUGIN.dir/depend
 	$(MAKE) -f CMakeFiles/STANDALONE_PLUGIN.dir/build.make CMakeFiles/STANDALONE_PLUGIN.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/mariussolomes/digital_audio_effects/OriginalFx/Builds/CLion/cmake-build-debug/CMakeFiles --progress-num=18,19 "Built target STANDALONE_PLUGIN"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/mariussolomes/JuceAudioEffect/OriginalFx/Builds/CLion/cmake-build-debug/CMakeFiles --progress-num=19,20 "Built target STANDALONE_PLUGIN"
 .PHONY : CMakeFiles/STANDALONE_PLUGIN.dir/all
 
 # Include target in all.
@@ -81,9 +81,9 @@ all: CMakeFiles/STANDALONE_PLUGIN.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/STANDALONE_PLUGIN.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/mariussolomes/digital_audio_effects/OriginalFx/Builds/CLion/cmake-build-debug/CMakeFiles 19
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/mariussolomes/JuceAudioEffect/OriginalFx/Builds/CLion/cmake-build-debug/CMakeFiles 20
 	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/STANDALONE_PLUGIN.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/mariussolomes/digital_audio_effects/OriginalFx/Builds/CLion/cmake-build-debug/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/mariussolomes/JuceAudioEffect/OriginalFx/Builds/CLion/cmake-build-debug/CMakeFiles 0
 .PHONY : CMakeFiles/STANDALONE_PLUGIN.dir/rule
 
 # Convenience name for target.
@@ -108,7 +108,7 @@ clean: CMakeFiles/STANDALONE_PLUGIN.dir/clean
 CMakeFiles/SHARED_CODE.dir/all:
 	$(MAKE) -f CMakeFiles/SHARED_CODE.dir/build.make CMakeFiles/SHARED_CODE.dir/depend
 	$(MAKE) -f CMakeFiles/SHARED_CODE.dir/build.make CMakeFiles/SHARED_CODE.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/mariussolomes/digital_audio_effects/OriginalFx/Builds/CLion/cmake-build-debug/CMakeFiles --progress-num=1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17 "Built target SHARED_CODE"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/mariussolomes/JuceAudioEffect/OriginalFx/Builds/CLion/cmake-build-debug/CMakeFiles --progress-num=1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18 "Built target SHARED_CODE"
 .PHONY : CMakeFiles/SHARED_CODE.dir/all
 
 # Include target in all.
@@ -118,9 +118,9 @@ all: CMakeFiles/SHARED_CODE.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/SHARED_CODE.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/mariussolomes/digital_audio_effects/OriginalFx/Builds/CLion/cmake-build-debug/CMakeFiles 17
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/mariussolomes/JuceAudioEffect/OriginalFx/Builds/CLion/cmake-build-debug/CMakeFiles 18
 	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/SHARED_CODE.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/mariussolomes/digital_audio_effects/OriginalFx/Builds/CLion/cmake-build-debug/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/mariussolomes/JuceAudioEffect/OriginalFx/Builds/CLion/cmake-build-debug/CMakeFiles 0
 .PHONY : CMakeFiles/SHARED_CODE.dir/rule
 
 # Convenience name for target.

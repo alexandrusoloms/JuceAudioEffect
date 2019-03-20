@@ -2,8 +2,8 @@
 <project version="4">
   <component name="CMakeRunConfigurationManager" shouldGenerate="true" shouldDeleteObsolete="true">
     <generated>
-      <config projectName="OriginalFx" targetName="SHARED_CODE" />
       <config projectName="OriginalFx" targetName="STANDALONE_PLUGIN" />
+      <config projectName="OriginalFx" targetName="SHARED_CODE" />
     </generated>
   </component>
   <component name="CMakeSettings">
@@ -13,9 +13,46 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d19914eb-bc4d-4113-a1c9-384f70c25948" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../parametricEQ/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../parametriceq/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../parametriceq/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../parametriceq/Source/PluginProcessor.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../parametriceq/Source/PluginProcessor.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Builds/CLion/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Builds/CLion/CMakeLists.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Builds/CLion/cmake-build-debug/CMakeCache.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Builds/CLion/cmake-build-debug/CMakeCache.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Builds/CLion/cmake-build-debug/CMakeFiles/CMakeDirectoryInformation.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/Builds/CLion/cmake-build-debug/CMakeFiles/CMakeDirectoryInformation.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Builds/CLion/cmake-build-debug/CMakeFiles/CMakeOutput.log" beforeDir="false" afterPath="$PROJECT_DIR$/Builds/CLion/cmake-build-debug/CMakeFiles/CMakeOutput.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Builds/CLion/cmake-build-debug/CMakeFiles/Makefile.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/Builds/CLion/cmake-build-debug/CMakeFiles/Makefile.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Builds/CLion/cmake-build-debug/CMakeFiles/Makefile2" beforeDir="false" afterPath="$PROJECT_DIR$/Builds/CLion/cmake-build-debug/CMakeFiles/Makefile2" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Builds/CLion/cmake-build-debug/CMakeFiles/SHARED_CODE.dir/CXX.includecache" beforeDir="false" afterPath="$PROJECT_DIR$/Builds/CLion/cmake-build-debug/CMakeFiles/SHARED_CODE.dir/CXX.includecache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Builds/CLion/cmake-build-debug/CMakeFiles/SHARED_CODE.dir/DependInfo.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/Builds/CLion/cmake-build-debug/CMakeFiles/SHARED_CODE.dir/DependInfo.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Builds/CLion/cmake-build-debug/CMakeFiles/SHARED_CODE.dir/build.make" beforeDir="false" afterPath="$PROJECT_DIR$/Builds/CLion/cmake-build-debug/CMakeFiles/SHARED_CODE.dir/build.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Builds/CLion/cmake-build-debug/CMakeFiles/SHARED_CODE.dir/cmake_clean.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/Builds/CLion/cmake-build-debug/CMakeFiles/SHARED_CODE.dir/cmake_clean.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Builds/CLion/cmake-build-debug/CMakeFiles/SHARED_CODE.dir/depend.internal" beforeDir="false" afterPath="$PROJECT_DIR$/Builds/CLion/cmake-build-debug/CMakeFiles/SHARED_CODE.dir/depend.internal" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Builds/CLion/cmake-build-debug/CMakeFiles/SHARED_CODE.dir/depend.make" beforeDir="false" afterPath="$PROJECT_DIR$/Builds/CLion/cmake-build-debug/CMakeFiles/SHARED_CODE.dir/depend.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Builds/CLion/cmake-build-debug/CMakeFiles/SHARED_CODE.dir/flags.make" beforeDir="false" afterPath="$PROJECT_DIR$/Builds/CLion/cmake-build-debug/CMakeFiles/SHARED_CODE.dir/flags.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Builds/CLion/cmake-build-debug/CMakeFiles/SHARED_CODE.dir/link.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Builds/CLion/cmake-build-debug/CMakeFiles/SHARED_CODE.dir/link.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Builds/CLion/cmake-build-debug/CMakeFiles/SHARED_CODE.dir/progress.make" beforeDir="false" afterPath="$PROJECT_DIR$/Builds/CLion/cmake-build-debug/CMakeFiles/SHARED_CODE.dir/progress.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Builds/CLion/cmake-build-debug/CMakeFiles/STANDALONE_PLUGIN.dir/CXX.includecache" beforeDir="false" afterPath="$PROJECT_DIR$/Builds/CLion/cmake-build-debug/CMakeFiles/STANDALONE_PLUGIN.dir/CXX.includecache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Builds/CLion/cmake-build-debug/CMakeFiles/STANDALONE_PLUGIN.dir/DependInfo.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/Builds/CLion/cmake-build-debug/CMakeFiles/STANDALONE_PLUGIN.dir/DependInfo.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Builds/CLion/cmake-build-debug/CMakeFiles/STANDALONE_PLUGIN.dir/build.make" beforeDir="false" afterPath="$PROJECT_DIR$/Builds/CLion/cmake-build-debug/CMakeFiles/STANDALONE_PLUGIN.dir/build.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Builds/CLion/cmake-build-debug/CMakeFiles/STANDALONE_PLUGIN.dir/cmake_clean.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/Builds/CLion/cmake-build-debug/CMakeFiles/STANDALONE_PLUGIN.dir/cmake_clean.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Builds/CLion/cmake-build-debug/CMakeFiles/STANDALONE_PLUGIN.dir/depend.internal" beforeDir="false" afterPath="$PROJECT_DIR$/Builds/CLion/cmake-build-debug/CMakeFiles/STANDALONE_PLUGIN.dir/depend.internal" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Builds/CLion/cmake-build-debug/CMakeFiles/STANDALONE_PLUGIN.dir/depend.make" beforeDir="false" afterPath="$PROJECT_DIR$/Builds/CLion/cmake-build-debug/CMakeFiles/STANDALONE_PLUGIN.dir/depend.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Builds/CLion/cmake-build-debug/CMakeFiles/STANDALONE_PLUGIN.dir/flags.make" beforeDir="false" afterPath="$PROJECT_DIR$/Builds/CLion/cmake-build-debug/CMakeFiles/STANDALONE_PLUGIN.dir/flags.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Builds/CLion/cmake-build-debug/CMakeFiles/STANDALONE_PLUGIN.dir/link.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Builds/CLion/cmake-build-debug/CMakeFiles/STANDALONE_PLUGIN.dir/link.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Builds/CLion/cmake-build-debug/CMakeFiles/STANDALONE_PLUGIN.dir/progress.make" beforeDir="false" afterPath="$PROJECT_DIR$/Builds/CLion/cmake-build-debug/CMakeFiles/STANDALONE_PLUGIN.dir/progress.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Builds/CLion/cmake-build-debug/CMakeFiles/TargetDirectories.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Builds/CLion/cmake-build-debug/CMakeFiles/TargetDirectories.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Builds/CLion/cmake-build-debug/CMakeFiles/clion-log.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Builds/CLion/cmake-build-debug/CMakeFiles/clion-log.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Builds/CLion/cmake-build-debug/CMakeFiles/progress.marks" beforeDir="false" afterPath="$PROJECT_DIR$/Builds/CLion/cmake-build-debug/CMakeFiles/progress.marks" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Builds/CLion/cmake-build-debug/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/Builds/CLion/cmake-build-debug/Makefile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Builds/CLion/cmake-build-debug/OriginalFx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Builds/CLion/cmake-build-debug/OriginalFx.cbp" beforeDir="false" afterPath="$PROJECT_DIR$/Builds/CLion/cmake-build-debug/OriginalFx.cbp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Builds/CLion/cmake-build-debug/cmake_install.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/Builds/CLion/cmake-build-debug/cmake_install.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Builds/LinuxMakefile/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/Builds/LinuxMakefile/Makefile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Builds/VisualStudio2017/OriginalFx_SharedCode.vcxproj" beforeDir="false" afterPath="$PROJECT_DIR$/Builds/VisualStudio2017/OriginalFx_SharedCode.vcxproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Builds/VisualStudio2017/OriginalFx_SharedCode.vcxproj.filters" beforeDir="false" afterPath="$PROJECT_DIR$/Builds/VisualStudio2017/OriginalFx_SharedCode.vcxproj.filters" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/OriginalFx.jucer" beforeDir="false" afterPath="$PROJECT_DIR$/OriginalFx.jucer" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Source/PluginEditor.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Source/PluginEditor.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Source/PluginEditor.h" beforeDir="false" afterPath="$PROJECT_DIR$/Source/PluginEditor.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Source/PluginProcessor.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Source/PluginProcessor.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Source/PluginProcessor.h" beforeDir="false" afterPath="$PROJECT_DIR$/Source/PluginProcessor.h" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/Builds/CLion/cmake-build-debug/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -26,29 +63,104 @@
   </component>
   <component name="ExecutionTargetManager" SELECTED_TARGET="CMakeBuildProfile:Debug" />
   <component name="FileEditorManager">
-    <leaf>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Source/PluginEditor.h">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="195">
-              <caret line="13" column="28" selection-start-line="13" selection-start-column="28" selection-end-line="13" selection-end-column="28" />
-              <folding>
-                <element signature="e#287#329#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <splitter split-orientation="horizontal" split-proportion="0.5">
+      <split-first>
+        <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+          <file pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/Source/PluginEditor.h">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="95">
+                  <caret line="29" column="36" selection-start-line="29" selection-start-column="36" selection-end-line="29" selection-end-column="36" />
+                  <folding>
+                    <element signature="e#287#329#0" expanded="true" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/Source/PluginProcessor.h">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="360">
+                  <caret line="24" column="31" lean-forward="true" selection-start-line="24" selection-start-column="31" selection-end-line="24" selection-end-column="31" />
+                  <folding>
+                    <element signature="e#290#309#0" expanded="true" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/Source/SliderUtil.h">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="270">
+                  <caret line="18" column="26" lean-forward="true" selection-start-line="18" selection-start-column="26" selection-end-line="18" selection-end-column="26" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+        </leaf>
+      </split-first>
+      <split-second>
+        <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+          <file pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/Source/PluginEditor.cpp">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="345">
+                  <caret line="24" column="13" selection-start-line="24" selection-start-column="13" selection-end-line="24" selection-end-column="13" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/Source/PluginProcessor.cpp">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="-75">
+                  <caret line="29" column="39" selection-start-line="29" selection-start-column="39" selection-end-line="29" selection-end-column="39" />
+                  <folding>
+                    <element signature="e#276#304#0" expanded="true" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/Source/SliderUtil.cpp">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="315">
+                  <caret line="21" column="1" selection-start-line="21" selection-start-column="1" selection-end-line="21" selection-end-column="1" />
+                  <folding>
+                    <element signature="e#286#302#0" expanded="true" />
+                    <element signature="e#353#369#0" expanded="true" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+        </leaf>
+      </split-second>
+    </splitter>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/Source/SliderUtil.h" />
+        <option value="$PROJECT_DIR$/Source/SliderUtil.cpp" />
+        <option value="$PROJECT_DIR$/Source/PluginProcessor.cpp" />
+        <option value="$PROJECT_DIR$/Source/PluginEditor.cpp" />
+        <option value="$PROJECT_DIR$/Source/PluginProcessor.h" />
+        <option value="$PROJECT_DIR$/Source/PluginEditor.h" />
+      </list>
+    </option>
+  </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="120" />
-    <option name="y" value="1147" />
-    <option name="width" value="1697" />
-    <option name="height" value="935" />
+    <option name="x" value="159" />
+    <option name="y" value="140" />
+    <option name="width" value="1717" />
+    <option name="height" value="967" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -77,7 +189,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/Builds/CLion/CMakeLists.txt" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
   </component>
@@ -120,46 +232,97 @@
       <option name="presentableId" value="Default" />
       <updated>1553084590081</updated>
       <workItem from="1553084591263" duration="103000" />
+      <workItem from="1553085140731" duration="238000" />
+      <workItem from="1553085381421" duration="14000" />
+      <workItem from="1553085592618" duration="7593000" />
+      <workItem from="1553096985238" duration="1838000" />
+      <workItem from="1553099498274" duration="21000" />
+      <workItem from="1553099695322" duration="1211000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="103000" />
+    <option name="totallyTimeSpent" value="11018000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="1107" width="1920" height="1053" extended-state="6" />
+    <frame x="0" y="0" width="1920" height="1080" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info id="Favorites" side_tool="true" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25" />
+      <window_info content_ui="combo" id="Project" order="0" weight="0.25" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="CMake" />
-      <window_info anchor="bottom" id="Database Changes" />
-      <window_info anchor="bottom" id="Version Control" />
-      <window_info anchor="bottom" id="Messages" weight="0.32912722" />
-      <window_info anchor="bottom" id="Terminal" />
-      <window_info anchor="bottom" id="Event Log" side_tool="true" />
+      <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.32912722" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32822084" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.3997955" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="right" id="Database" />
+      <window_info anchor="bottom" id="Database Changes" order="7" />
+      <window_info anchor="bottom" id="Messages" order="8" weight="0.32822084" />
+      <window_info anchor="bottom" id="Terminal" order="9" />
+      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
+      <window_info anchor="bottom" id="Version Control" order="11" />
+      <window_info anchor="bottom" id="CMake" order="12" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Database" order="3" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/Source/PluginProcessor.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-75">
+          <caret line="29" column="39" selection-start-line="29" selection-start-column="39" selection-end-line="29" selection-end-column="39" />
+          <folding>
+            <element signature="e#276#304#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Source/SliderUtil.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="315">
+          <caret line="21" column="1" selection-start-line="21" selection-start-column="1" selection-end-line="21" selection-end-column="1" />
+          <folding>
+            <element signature="e#286#302#0" expanded="true" />
+            <element signature="e#353#369#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Source/SliderUtil.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="18" column="26" lean-forward="true" selection-start-line="18" selection-start-column="26" selection-end-line="18" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Source/PluginProcessor.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="24" column="31" lean-forward="true" selection-start-line="24" selection-start-column="31" selection-end-line="24" selection-end-column="31" />
+          <folding>
+            <element signature="e#290#309#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Source/PluginEditor.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="345">
+          <caret line="24" column="13" selection-start-line="24" selection-start-column="13" selection-end-line="24" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/Source/PluginEditor.h">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="13" column="28" selection-start-line="13" selection-start-column="28" selection-end-line="13" selection-end-column="28" />
+        <state relative-caret-position="95">
+          <caret line="29" column="36" selection-start-line="29" selection-start-column="36" selection-end-line="29" selection-end-column="36" />
           <folding>
             <element signature="e#287#329#0" expanded="true" />
           </folding>

@@ -1,5 +1,5 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/STANDALONE_PLUGIN.dir/home/mariussolomes/digital_audio_effects/OriginalFx/JuceLibraryCode/include_juce_audio_plugin_client_Standalone.cpp.o"
+  "CMakeFiles/STANDALONE_PLUGIN.dir/home/mariussolomes/JuceAudioEffect/OriginalFx/JuceLibraryCode/include_juce_audio_plugin_client_Standalone.cpp.o"
   "OriginalFx.pdb"
   "OriginalFx"
 )

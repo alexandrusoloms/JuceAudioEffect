@@ -48,10 +48,10 @@ RM = /snap/clion/61/bin/cmake/linux/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/mariussolomes/digital_audio_effects/OriginalFx/Builds/CLion
+CMAKE_SOURCE_DIR = /home/mariussolomes/JuceAudioEffect/OriginalFx/Builds/CLion
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/mariussolomes/digital_audio_effects/OriginalFx/Builds/CLion/cmake-build-debug
+CMAKE_BINARY_DIR = /home/mariussolomes/JuceAudioEffect/OriginalFx/Builds/CLion/cmake-build-debug
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -80,9 +80,9 @@ edit_cache/fast: edit_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/mariussolomes/digital_audio_effects/OriginalFx/Builds/CLion/cmake-build-debug/CMakeFiles /home/mariussolomes/digital_audio_effects/OriginalFx/Builds/CLion/cmake-build-debug/CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/mariussolomes/JuceAudioEffect/OriginalFx/Builds/CLion/cmake-build-debug/CMakeFiles /home/mariussolomes/JuceAudioEffect/OriginalFx/Builds/CLion/cmake-build-debug/CMakeFiles/progress.marks
 	$(MAKE) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/mariussolomes/digital_audio_effects/OriginalFx/Builds/CLion/cmake-build-debug/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/mariussolomes/JuceAudioEffect/OriginalFx/Builds/CLion/cmake-build-debug/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -136,464 +136,491 @@ SHARED_CODE/fast:
 	$(MAKE) -f CMakeFiles/SHARED_CODE.dir/build.make CMakeFiles/SHARED_CODE.dir/build
 .PHONY : SHARED_CODE/fast
 
-home/mariussolomes/digital_audio_effects/OriginalFx/JuceLibraryCode/include_juce_audio_basics.o: home/mariussolomes/digital_audio_effects/OriginalFx/JuceLibraryCode/include_juce_audio_basics.cpp.o
+home/mariussolomes/JuceAudioEffect/OriginalFx/JuceLibraryCode/include_juce_audio_basics.o: home/mariussolomes/JuceAudioEffect/OriginalFx/JuceLibraryCode/include_juce_audio_basics.cpp.o
 
-.PHONY : home/mariussolomes/digital_audio_effects/OriginalFx/JuceLibraryCode/include_juce_audio_basics.o
-
-# target to build an object file
-home/mariussolomes/digital_audio_effects/OriginalFx/JuceLibraryCode/include_juce_audio_basics.cpp.o:
-	$(MAKE) -f CMakeFiles/SHARED_CODE.dir/build.make CMakeFiles/SHARED_CODE.dir/home/mariussolomes/digital_audio_effects/OriginalFx/JuceLibraryCode/include_juce_audio_basics.cpp.o
-.PHONY : home/mariussolomes/digital_audio_effects/OriginalFx/JuceLibraryCode/include_juce_audio_basics.cpp.o
-
-home/mariussolomes/digital_audio_effects/OriginalFx/JuceLibraryCode/include_juce_audio_basics.i: home/mariussolomes/digital_audio_effects/OriginalFx/JuceLibraryCode/include_juce_audio_basics.cpp.i
-
-.PHONY : home/mariussolomes/digital_audio_effects/OriginalFx/JuceLibraryCode/include_juce_audio_basics.i
-
-# target to preprocess a source file
-home/mariussolomes/digital_audio_effects/OriginalFx/JuceLibraryCode/include_juce_audio_basics.cpp.i:
-	$(MAKE) -f CMakeFiles/SHARED_CODE.dir/build.make CMakeFiles/SHARED_CODE.dir/home/mariussolomes/digital_audio_effects/OriginalFx/JuceLibraryCode/include_juce_audio_basics.cpp.i
-.PHONY : home/mariussolomes/digital_audio_effects/OriginalFx/JuceLibraryCode/include_juce_audio_basics.cpp.i
-
-home/mariussolomes/digital_audio_effects/OriginalFx/JuceLibraryCode/include_juce_audio_basics.s: home/mariussolomes/digital_audio_effects/OriginalFx/JuceLibraryCode/include_juce_audio_basics.cpp.s
-
-.PHONY : home/mariussolomes/digital_audio_effects/OriginalFx/JuceLibraryCode/include_juce_audio_basics.s
-
-# target to generate assembly for a file
-home/mariussolomes/digital_audio_effects/OriginalFx/JuceLibraryCode/include_juce_audio_basics.cpp.s:
-	$(MAKE) -f CMakeFiles/SHARED_CODE.dir/build.make CMakeFiles/SHARED_CODE.dir/home/mariussolomes/digital_audio_effects/OriginalFx/JuceLibraryCode/include_juce_audio_basics.cpp.s
-.PHONY : home/mariussolomes/digital_audio_effects/OriginalFx/JuceLibraryCode/include_juce_audio_basics.cpp.s
-
-home/mariussolomes/digital_audio_effects/OriginalFx/JuceLibraryCode/include_juce_audio_devices.o: home/mariussolomes/digital_audio_effects/OriginalFx/JuceLibraryCode/include_juce_audio_devices.cpp.o
-
-.PHONY : home/mariussolomes/digital_audio_effects/OriginalFx/JuceLibraryCode/include_juce_audio_devices.o
+.PHONY : home/mariussolomes/JuceAudioEffect/OriginalFx/JuceLibraryCode/include_juce_audio_basics.o
 
 # target to build an object file
-home/mariussolomes/digital_audio_effects/OriginalFx/JuceLibraryCode/include_juce_audio_devices.cpp.o:
-	$(MAKE) -f CMakeFiles/SHARED_CODE.dir/build.make CMakeFiles/SHARED_CODE.dir/home/mariussolomes/digital_audio_effects/OriginalFx/JuceLibraryCode/include_juce_audio_devices.cpp.o
-.PHONY : home/mariussolomes/digital_audio_effects/OriginalFx/JuceLibraryCode/include_juce_audio_devices.cpp.o
+home/mariussolomes/JuceAudioEffect/OriginalFx/JuceLibraryCode/include_juce_audio_basics.cpp.o:
+	$(MAKE) -f CMakeFiles/SHARED_CODE.dir/build.make CMakeFiles/SHARED_CODE.dir/home/mariussolomes/JuceAudioEffect/OriginalFx/JuceLibraryCode/include_juce_audio_basics.cpp.o
+.PHONY : home/mariussolomes/JuceAudioEffect/OriginalFx/JuceLibraryCode/include_juce_audio_basics.cpp.o
 
-home/mariussolomes/digital_audio_effects/OriginalFx/JuceLibraryCode/include_juce_audio_devices.i: home/mariussolomes/digital_audio_effects/OriginalFx/JuceLibraryCode/include_juce_audio_devices.cpp.i
+home/mariussolomes/JuceAudioEffect/OriginalFx/JuceLibraryCode/include_juce_audio_basics.i: home/mariussolomes/JuceAudioEffect/OriginalFx/JuceLibraryCode/include_juce_audio_basics.cpp.i
 
-.PHONY : home/mariussolomes/digital_audio_effects/OriginalFx/JuceLibraryCode/include_juce_audio_devices.i
+.PHONY : home/mariussolomes/JuceAudioEffect/OriginalFx/JuceLibraryCode/include_juce_audio_basics.i
 
 # target to preprocess a source file
-home/mariussolomes/digital_audio_effects/OriginalFx/JuceLibraryCode/include_juce_audio_devices.cpp.i:
-	$(MAKE) -f CMakeFiles/SHARED_CODE.dir/build.make CMakeFiles/SHARED_CODE.dir/home/mariussolomes/digital_audio_effects/OriginalFx/JuceLibraryCode/include_juce_audio_devices.cpp.i
-.PHONY : home/mariussolomes/digital_audio_effects/OriginalFx/JuceLibraryCode/include_juce_audio_devices.cpp.i
+home/mariussolomes/JuceAudioEffect/OriginalFx/JuceLibraryCode/include_juce_audio_basics.cpp.i:
+	$(MAKE) -f CMakeFiles/SHARED_CODE.dir/build.make CMakeFiles/SHARED_CODE.dir/home/mariussolomes/JuceAudioEffect/OriginalFx/JuceLibraryCode/include_juce_audio_basics.cpp.i
+.PHONY : home/mariussolomes/JuceAudioEffect/OriginalFx/JuceLibraryCode/include_juce_audio_basics.cpp.i
 
-home/mariussolomes/digital_audio_effects/OriginalFx/JuceLibraryCode/include_juce_audio_devices.s: home/mariussolomes/digital_audio_effects/OriginalFx/JuceLibraryCode/include_juce_audio_devices.cpp.s
+home/mariussolomes/JuceAudioEffect/OriginalFx/JuceLibraryCode/include_juce_audio_basics.s: home/mariussolomes/JuceAudioEffect/OriginalFx/JuceLibraryCode/include_juce_audio_basics.cpp.s
 
-.PHONY : home/mariussolomes/digital_audio_effects/OriginalFx/JuceLibraryCode/include_juce_audio_devices.s
+.PHONY : home/mariussolomes/JuceAudioEffect/OriginalFx/JuceLibraryCode/include_juce_audio_basics.s
 
 # target to generate assembly for a file
-home/mariussolomes/digital_audio_effects/OriginalFx/JuceLibraryCode/include_juce_audio_devices.cpp.s:
-	$(MAKE) -f CMakeFiles/SHARED_CODE.dir/build.make CMakeFiles/SHARED_CODE.dir/home/mariussolomes/digital_audio_effects/OriginalFx/JuceLibraryCode/include_juce_audio_devices.cpp.s
-.PHONY : home/mariussolomes/digital_audio_effects/OriginalFx/JuceLibraryCode/include_juce_audio_devices.cpp.s
+home/mariussolomes/JuceAudioEffect/OriginalFx/JuceLibraryCode/include_juce_audio_basics.cpp.s:
+	$(MAKE) -f CMakeFiles/SHARED_CODE.dir/build.make CMakeFiles/SHARED_CODE.dir/home/mariussolomes/JuceAudioEffect/OriginalFx/JuceLibraryCode/include_juce_audio_basics.cpp.s
+.PHONY : home/mariussolomes/JuceAudioEffect/OriginalFx/JuceLibraryCode/include_juce_audio_basics.cpp.s
 
-home/mariussolomes/digital_audio_effects/OriginalFx/JuceLibraryCode/include_juce_audio_formats.o: home/mariussolomes/digital_audio_effects/OriginalFx/JuceLibraryCode/include_juce_audio_formats.cpp.o
+home/mariussolomes/JuceAudioEffect/OriginalFx/JuceLibraryCode/include_juce_audio_devices.o: home/mariussolomes/JuceAudioEffect/OriginalFx/JuceLibraryCode/include_juce_audio_devices.cpp.o
 
-.PHONY : home/mariussolomes/digital_audio_effects/OriginalFx/JuceLibraryCode/include_juce_audio_formats.o
+.PHONY : home/mariussolomes/JuceAudioEffect/OriginalFx/JuceLibraryCode/include_juce_audio_devices.o
 
 # target to build an object file
-home/mariussolomes/digital_audio_effects/OriginalFx/JuceLibraryCode/include_juce_audio_formats.cpp.o:
-	$(MAKE) -f CMakeFiles/SHARED_CODE.dir/build.make CMakeFiles/SHARED_CODE.dir/home/mariussolomes/digital_audio_effects/OriginalFx/JuceLibraryCode/include_juce_audio_formats.cpp.o
-.PHONY : home/mariussolomes/digital_audio_effects/OriginalFx/JuceLibraryCode/include_juce_audio_formats.cpp.o
+home/mariussolomes/JuceAudioEffect/OriginalFx/JuceLibraryCode/include_juce_audio_devices.cpp.o:
+	$(MAKE) -f CMakeFiles/SHARED_CODE.dir/build.make CMakeFiles/SHARED_CODE.dir/home/mariussolomes/JuceAudioEffect/OriginalFx/JuceLibraryCode/include_juce_audio_devices.cpp.o
+.PHONY : home/mariussolomes/JuceAudioEffect/OriginalFx/JuceLibraryCode/include_juce_audio_devices.cpp.o
 
-home/mariussolomes/digital_audio_effects/OriginalFx/JuceLibraryCode/include_juce_audio_formats.i: home/mariussolomes/digital_audio_effects/OriginalFx/JuceLibraryCode/include_juce_audio_formats.cpp.i
+home/mariussolomes/JuceAudioEffect/OriginalFx/JuceLibraryCode/include_juce_audio_devices.i: home/mariussolomes/JuceAudioEffect/OriginalFx/JuceLibraryCode/include_juce_audio_devices.cpp.i
 
-.PHONY : home/mariussolomes/digital_audio_effects/OriginalFx/JuceLibraryCode/include_juce_audio_formats.i
+.PHONY : home/mariussolomes/JuceAudioEffect/OriginalFx/JuceLibraryCode/include_juce_audio_devices.i
 
 # target to preprocess a source file
-home/mariussolomes/digital_audio_effects/OriginalFx/JuceLibraryCode/include_juce_audio_formats.cpp.i:
-	$(MAKE) -f CMakeFiles/SHARED_CODE.dir/build.make CMakeFiles/SHARED_CODE.dir/home/mariussolomes/digital_audio_effects/OriginalFx/JuceLibraryCode/include_juce_audio_formats.cpp.i
-.PHONY : home/mariussolomes/digital_audio_effects/OriginalFx/JuceLibraryCode/include_juce_audio_formats.cpp.i
+home/mariussolomes/JuceAudioEffect/OriginalFx/JuceLibraryCode/include_juce_audio_devices.cpp.i:
+	$(MAKE) -f CMakeFiles/SHARED_CODE.dir/build.make CMakeFiles/SHARED_CODE.dir/home/mariussolomes/JuceAudioEffect/OriginalFx/JuceLibraryCode/include_juce_audio_devices.cpp.i
+.PHONY : home/mariussolomes/JuceAudioEffect/OriginalFx/JuceLibraryCode/include_juce_audio_devices.cpp.i
 
-home/mariussolomes/digital_audio_effects/OriginalFx/JuceLibraryCode/include_juce_audio_formats.s: home/mariussolomes/digital_audio_effects/OriginalFx/JuceLibraryCode/include_juce_audio_formats.cpp.s
+home/mariussolomes/JuceAudioEffect/OriginalFx/JuceLibraryCode/include_juce_audio_devices.s: home/mariussolomes/JuceAudioEffect/OriginalFx/JuceLibraryCode/include_juce_audio_devices.cpp.s
 
-.PHONY : home/mariussolomes/digital_audio_effects/OriginalFx/JuceLibraryCode/include_juce_audio_formats.s
+.PHONY : home/mariussolomes/JuceAudioEffect/OriginalFx/JuceLibraryCode/include_juce_audio_devices.s
 
 # target to generate assembly for a file
-home/mariussolomes/digital_audio_effects/OriginalFx/JuceLibraryCode/include_juce_audio_formats.cpp.s:
-	$(MAKE) -f CMakeFiles/SHARED_CODE.dir/build.make CMakeFiles/SHARED_CODE.dir/home/mariussolomes/digital_audio_effects/OriginalFx/JuceLibraryCode/include_juce_audio_formats.cpp.s
-.PHONY : home/mariussolomes/digital_audio_effects/OriginalFx/JuceLibraryCode/include_juce_audio_formats.cpp.s
+home/mariussolomes/JuceAudioEffect/OriginalFx/JuceLibraryCode/include_juce_audio_devices.cpp.s:
+	$(MAKE) -f CMakeFiles/SHARED_CODE.dir/build.make CMakeFiles/SHARED_CODE.dir/home/mariussolomes/JuceAudioEffect/OriginalFx/JuceLibraryCode/include_juce_audio_devices.cpp.s
+.PHONY : home/mariussolomes/JuceAudioEffect/OriginalFx/JuceLibraryCode/include_juce_audio_devices.cpp.s
 
-home/mariussolomes/digital_audio_effects/OriginalFx/JuceLibraryCode/include_juce_audio_plugin_client_Standalone.o: home/mariussolomes/digital_audio_effects/OriginalFx/JuceLibraryCode/include_juce_audio_plugin_client_Standalone.cpp.o
+home/mariussolomes/JuceAudioEffect/OriginalFx/JuceLibraryCode/include_juce_audio_formats.o: home/mariussolomes/JuceAudioEffect/OriginalFx/JuceLibraryCode/include_juce_audio_formats.cpp.o
 
-.PHONY : home/mariussolomes/digital_audio_effects/OriginalFx/JuceLibraryCode/include_juce_audio_plugin_client_Standalone.o
+.PHONY : home/mariussolomes/JuceAudioEffect/OriginalFx/JuceLibraryCode/include_juce_audio_formats.o
 
 # target to build an object file
-home/mariussolomes/digital_audio_effects/OriginalFx/JuceLibraryCode/include_juce_audio_plugin_client_Standalone.cpp.o:
-	$(MAKE) -f CMakeFiles/STANDALONE_PLUGIN.dir/build.make CMakeFiles/STANDALONE_PLUGIN.dir/home/mariussolomes/digital_audio_effects/OriginalFx/JuceLibraryCode/include_juce_audio_plugin_client_Standalone.cpp.o
-.PHONY : home/mariussolomes/digital_audio_effects/OriginalFx/JuceLibraryCode/include_juce_audio_plugin_client_Standalone.cpp.o
+home/mariussolomes/JuceAudioEffect/OriginalFx/JuceLibraryCode/include_juce_audio_formats.cpp.o:
+	$(MAKE) -f CMakeFiles/SHARED_CODE.dir/build.make CMakeFiles/SHARED_CODE.dir/home/mariussolomes/JuceAudioEffect/OriginalFx/JuceLibraryCode/include_juce_audio_formats.cpp.o
+.PHONY : home/mariussolomes/JuceAudioEffect/OriginalFx/JuceLibraryCode/include_juce_audio_formats.cpp.o
 
-home/mariussolomes/digital_audio_effects/OriginalFx/JuceLibraryCode/include_juce_audio_plugin_client_Standalone.i: home/mariussolomes/digital_audio_effects/OriginalFx/JuceLibraryCode/include_juce_audio_plugin_client_Standalone.cpp.i
+home/mariussolomes/JuceAudioEffect/OriginalFx/JuceLibraryCode/include_juce_audio_formats.i: home/mariussolomes/JuceAudioEffect/OriginalFx/JuceLibraryCode/include_juce_audio_formats.cpp.i
 
-.PHONY : home/mariussolomes/digital_audio_effects/OriginalFx/JuceLibraryCode/include_juce_audio_plugin_client_Standalone.i
+.PHONY : home/mariussolomes/JuceAudioEffect/OriginalFx/JuceLibraryCode/include_juce_audio_formats.i
 
 # target to preprocess a source file
-home/mariussolomes/digital_audio_effects/OriginalFx/JuceLibraryCode/include_juce_audio_plugin_client_Standalone.cpp.i:
-	$(MAKE) -f CMakeFiles/STANDALONE_PLUGIN.dir/build.make CMakeFiles/STANDALONE_PLUGIN.dir/home/mariussolomes/digital_audio_effects/OriginalFx/JuceLibraryCode/include_juce_audio_plugin_client_Standalone.cpp.i
-.PHONY : home/mariussolomes/digital_audio_effects/OriginalFx/JuceLibraryCode/include_juce_audio_plugin_client_Standalone.cpp.i
+home/mariussolomes/JuceAudioEffect/OriginalFx/JuceLibraryCode/include_juce_audio_formats.cpp.i:
+	$(MAKE) -f CMakeFiles/SHARED_CODE.dir/build.make CMakeFiles/SHARED_CODE.dir/home/mariussolomes/JuceAudioEffect/OriginalFx/JuceLibraryCode/include_juce_audio_formats.cpp.i
+.PHONY : home/mariussolomes/JuceAudioEffect/OriginalFx/JuceLibraryCode/include_juce_audio_formats.cpp.i
 
-home/mariussolomes/digital_audio_effects/OriginalFx/JuceLibraryCode/include_juce_audio_plugin_client_Standalone.s: home/mariussolomes/digital_audio_effects/OriginalFx/JuceLibraryCode/include_juce_audio_plugin_client_Standalone.cpp.s
+home/mariussolomes/JuceAudioEffect/OriginalFx/JuceLibraryCode/include_juce_audio_formats.s: home/mariussolomes/JuceAudioEffect/OriginalFx/JuceLibraryCode/include_juce_audio_formats.cpp.s
 
-.PHONY : home/mariussolomes/digital_audio_effects/OriginalFx/JuceLibraryCode/include_juce_audio_plugin_client_Standalone.s
+.PHONY : home/mariussolomes/JuceAudioEffect/OriginalFx/JuceLibraryCode/include_juce_audio_formats.s
 
 # target to generate assembly for a file
-home/mariussolomes/digital_audio_effects/OriginalFx/JuceLibraryCode/include_juce_audio_plugin_client_Standalone.cpp.s:
-	$(MAKE) -f CMakeFiles/STANDALONE_PLUGIN.dir/build.make CMakeFiles/STANDALONE_PLUGIN.dir/home/mariussolomes/digital_audio_effects/OriginalFx/JuceLibraryCode/include_juce_audio_plugin_client_Standalone.cpp.s
-.PHONY : home/mariussolomes/digital_audio_effects/OriginalFx/JuceLibraryCode/include_juce_audio_plugin_client_Standalone.cpp.s
+home/mariussolomes/JuceAudioEffect/OriginalFx/JuceLibraryCode/include_juce_audio_formats.cpp.s:
+	$(MAKE) -f CMakeFiles/SHARED_CODE.dir/build.make CMakeFiles/SHARED_CODE.dir/home/mariussolomes/JuceAudioEffect/OriginalFx/JuceLibraryCode/include_juce_audio_formats.cpp.s
+.PHONY : home/mariussolomes/JuceAudioEffect/OriginalFx/JuceLibraryCode/include_juce_audio_formats.cpp.s
 
-home/mariussolomes/digital_audio_effects/OriginalFx/JuceLibraryCode/include_juce_audio_plugin_client_utils.o: home/mariussolomes/digital_audio_effects/OriginalFx/JuceLibraryCode/include_juce_audio_plugin_client_utils.cpp.o
+home/mariussolomes/JuceAudioEffect/OriginalFx/JuceLibraryCode/include_juce_audio_plugin_client_Standalone.o: home/mariussolomes/JuceAudioEffect/OriginalFx/JuceLibraryCode/include_juce_audio_plugin_client_Standalone.cpp.o
 
-.PHONY : home/mariussolomes/digital_audio_effects/OriginalFx/JuceLibraryCode/include_juce_audio_plugin_client_utils.o
+.PHONY : home/mariussolomes/JuceAudioEffect/OriginalFx/JuceLibraryCode/include_juce_audio_plugin_client_Standalone.o
 
 # target to build an object file
-home/mariussolomes/digital_audio_effects/OriginalFx/JuceLibraryCode/include_juce_audio_plugin_client_utils.cpp.o:
-	$(MAKE) -f CMakeFiles/SHARED_CODE.dir/build.make CMakeFiles/SHARED_CODE.dir/home/mariussolomes/digital_audio_effects/OriginalFx/JuceLibraryCode/include_juce_audio_plugin_client_utils.cpp.o
-.PHONY : home/mariussolomes/digital_audio_effects/OriginalFx/JuceLibraryCode/include_juce_audio_plugin_client_utils.cpp.o
+home/mariussolomes/JuceAudioEffect/OriginalFx/JuceLibraryCode/include_juce_audio_plugin_client_Standalone.cpp.o:
+	$(MAKE) -f CMakeFiles/STANDALONE_PLUGIN.dir/build.make CMakeFiles/STANDALONE_PLUGIN.dir/home/mariussolomes/JuceAudioEffect/OriginalFx/JuceLibraryCode/include_juce_audio_plugin_client_Standalone.cpp.o
+.PHONY : home/mariussolomes/JuceAudioEffect/OriginalFx/JuceLibraryCode/include_juce_audio_plugin_client_Standalone.cpp.o
 
-home/mariussolomes/digital_audio_effects/OriginalFx/JuceLibraryCode/include_juce_audio_plugin_client_utils.i: home/mariussolomes/digital_audio_effects/OriginalFx/JuceLibraryCode/include_juce_audio_plugin_client_utils.cpp.i
+home/mariussolomes/JuceAudioEffect/OriginalFx/JuceLibraryCode/include_juce_audio_plugin_client_Standalone.i: home/mariussolomes/JuceAudioEffect/OriginalFx/JuceLibraryCode/include_juce_audio_plugin_client_Standalone.cpp.i
 
-.PHONY : home/mariussolomes/digital_audio_effects/OriginalFx/JuceLibraryCode/include_juce_audio_plugin_client_utils.i
+.PHONY : home/mariussolomes/JuceAudioEffect/OriginalFx/JuceLibraryCode/include_juce_audio_plugin_client_Standalone.i
 
 # target to preprocess a source file
-home/mariussolomes/digital_audio_effects/OriginalFx/JuceLibraryCode/include_juce_audio_plugin_client_utils.cpp.i:
-	$(MAKE) -f CMakeFiles/SHARED_CODE.dir/build.make CMakeFiles/SHARED_CODE.dir/home/mariussolomes/digital_audio_effects/OriginalFx/JuceLibraryCode/include_juce_audio_plugin_client_utils.cpp.i
-.PHONY : home/mariussolomes/digital_audio_effects/OriginalFx/JuceLibraryCode/include_juce_audio_plugin_client_utils.cpp.i
+home/mariussolomes/JuceAudioEffect/OriginalFx/JuceLibraryCode/include_juce_audio_plugin_client_Standalone.cpp.i:
+	$(MAKE) -f CMakeFiles/STANDALONE_PLUGIN.dir/build.make CMakeFiles/STANDALONE_PLUGIN.dir/home/mariussolomes/JuceAudioEffect/OriginalFx/JuceLibraryCode/include_juce_audio_plugin_client_Standalone.cpp.i
+.PHONY : home/mariussolomes/JuceAudioEffect/OriginalFx/JuceLibraryCode/include_juce_audio_plugin_client_Standalone.cpp.i
 
-home/mariussolomes/digital_audio_effects/OriginalFx/JuceLibraryCode/include_juce_audio_plugin_client_utils.s: home/mariussolomes/digital_audio_effects/OriginalFx/JuceLibraryCode/include_juce_audio_plugin_client_utils.cpp.s
+home/mariussolomes/JuceAudioEffect/OriginalFx/JuceLibraryCode/include_juce_audio_plugin_client_Standalone.s: home/mariussolomes/JuceAudioEffect/OriginalFx/JuceLibraryCode/include_juce_audio_plugin_client_Standalone.cpp.s
 
-.PHONY : home/mariussolomes/digital_audio_effects/OriginalFx/JuceLibraryCode/include_juce_audio_plugin_client_utils.s
+.PHONY : home/mariussolomes/JuceAudioEffect/OriginalFx/JuceLibraryCode/include_juce_audio_plugin_client_Standalone.s
 
 # target to generate assembly for a file
-home/mariussolomes/digital_audio_effects/OriginalFx/JuceLibraryCode/include_juce_audio_plugin_client_utils.cpp.s:
-	$(MAKE) -f CMakeFiles/SHARED_CODE.dir/build.make CMakeFiles/SHARED_CODE.dir/home/mariussolomes/digital_audio_effects/OriginalFx/JuceLibraryCode/include_juce_audio_plugin_client_utils.cpp.s
-.PHONY : home/mariussolomes/digital_audio_effects/OriginalFx/JuceLibraryCode/include_juce_audio_plugin_client_utils.cpp.s
+home/mariussolomes/JuceAudioEffect/OriginalFx/JuceLibraryCode/include_juce_audio_plugin_client_Standalone.cpp.s:
+	$(MAKE) -f CMakeFiles/STANDALONE_PLUGIN.dir/build.make CMakeFiles/STANDALONE_PLUGIN.dir/home/mariussolomes/JuceAudioEffect/OriginalFx/JuceLibraryCode/include_juce_audio_plugin_client_Standalone.cpp.s
+.PHONY : home/mariussolomes/JuceAudioEffect/OriginalFx/JuceLibraryCode/include_juce_audio_plugin_client_Standalone.cpp.s
 
-home/mariussolomes/digital_audio_effects/OriginalFx/JuceLibraryCode/include_juce_audio_processors.o: home/mariussolomes/digital_audio_effects/OriginalFx/JuceLibraryCode/include_juce_audio_processors.cpp.o
+home/mariussolomes/JuceAudioEffect/OriginalFx/JuceLibraryCode/include_juce_audio_plugin_client_utils.o: home/mariussolomes/JuceAudioEffect/OriginalFx/JuceLibraryCode/include_juce_audio_plugin_client_utils.cpp.o
 
-.PHONY : home/mariussolomes/digital_audio_effects/OriginalFx/JuceLibraryCode/include_juce_audio_processors.o
+.PHONY : home/mariussolomes/JuceAudioEffect/OriginalFx/JuceLibraryCode/include_juce_audio_plugin_client_utils.o
 
 # target to build an object file
-home/mariussolomes/digital_audio_effects/OriginalFx/JuceLibraryCode/include_juce_audio_processors.cpp.o:
-	$(MAKE) -f CMakeFiles/SHARED_CODE.dir/build.make CMakeFiles/SHARED_CODE.dir/home/mariussolomes/digital_audio_effects/OriginalFx/JuceLibraryCode/include_juce_audio_processors.cpp.o
-.PHONY : home/mariussolomes/digital_audio_effects/OriginalFx/JuceLibraryCode/include_juce_audio_processors.cpp.o
+home/mariussolomes/JuceAudioEffect/OriginalFx/JuceLibraryCode/include_juce_audio_plugin_client_utils.cpp.o:
+	$(MAKE) -f CMakeFiles/SHARED_CODE.dir/build.make CMakeFiles/SHARED_CODE.dir/home/mariussolomes/JuceAudioEffect/OriginalFx/JuceLibraryCode/include_juce_audio_plugin_client_utils.cpp.o
+.PHONY : home/mariussolomes/JuceAudioEffect/OriginalFx/JuceLibraryCode/include_juce_audio_plugin_client_utils.cpp.o
 
-home/mariussolomes/digital_audio_effects/OriginalFx/JuceLibraryCode/include_juce_audio_processors.i: home/mariussolomes/digital_audio_effects/OriginalFx/JuceLibraryCode/include_juce_audio_processors.cpp.i
+home/mariussolomes/JuceAudioEffect/OriginalFx/JuceLibraryCode/include_juce_audio_plugin_client_utils.i: home/mariussolomes/JuceAudioEffect/OriginalFx/JuceLibraryCode/include_juce_audio_plugin_client_utils.cpp.i
 
-.PHONY : home/mariussolomes/digital_audio_effects/OriginalFx/JuceLibraryCode/include_juce_audio_processors.i
+.PHONY : home/mariussolomes/JuceAudioEffect/OriginalFx/JuceLibraryCode/include_juce_audio_plugin_client_utils.i
 
 # target to preprocess a source file
-home/mariussolomes/digital_audio_effects/OriginalFx/JuceLibraryCode/include_juce_audio_processors.cpp.i:
-	$(MAKE) -f CMakeFiles/SHARED_CODE.dir/build.make CMakeFiles/SHARED_CODE.dir/home/mariussolomes/digital_audio_effects/OriginalFx/JuceLibraryCode/include_juce_audio_processors.cpp.i
-.PHONY : home/mariussolomes/digital_audio_effects/OriginalFx/JuceLibraryCode/include_juce_audio_processors.cpp.i
+home/mariussolomes/JuceAudioEffect/OriginalFx/JuceLibraryCode/include_juce_audio_plugin_client_utils.cpp.i:
+	$(MAKE) -f CMakeFiles/SHARED_CODE.dir/build.make CMakeFiles/SHARED_CODE.dir/home/mariussolomes/JuceAudioEffect/OriginalFx/JuceLibraryCode/include_juce_audio_plugin_client_utils.cpp.i
+.PHONY : home/mariussolomes/JuceAudioEffect/OriginalFx/JuceLibraryCode/include_juce_audio_plugin_client_utils.cpp.i
 
-home/mariussolomes/digital_audio_effects/OriginalFx/JuceLibraryCode/include_juce_audio_processors.s: home/mariussolomes/digital_audio_effects/OriginalFx/JuceLibraryCode/include_juce_audio_processors.cpp.s
+home/mariussolomes/JuceAudioEffect/OriginalFx/JuceLibraryCode/include_juce_audio_plugin_client_utils.s: home/mariussolomes/JuceAudioEffect/OriginalFx/JuceLibraryCode/include_juce_audio_plugin_client_utils.cpp.s
 
-.PHONY : home/mariussolomes/digital_audio_effects/OriginalFx/JuceLibraryCode/include_juce_audio_processors.s
+.PHONY : home/mariussolomes/JuceAudioEffect/OriginalFx/JuceLibraryCode/include_juce_audio_plugin_client_utils.s
 
 # target to generate assembly for a file
-home/mariussolomes/digital_audio_effects/OriginalFx/JuceLibraryCode/include_juce_audio_processors.cpp.s:
-	$(MAKE) -f CMakeFiles/SHARED_CODE.dir/build.make CMakeFiles/SHARED_CODE.dir/home/mariussolomes/digital_audio_effects/OriginalFx/JuceLibraryCode/include_juce_audio_processors.cpp.s
-.PHONY : home/mariussolomes/digital_audio_effects/OriginalFx/JuceLibraryCode/include_juce_audio_processors.cpp.s
+home/mariussolomes/JuceAudioEffect/OriginalFx/JuceLibraryCode/include_juce_audio_plugin_client_utils.cpp.s:
+	$(MAKE) -f CMakeFiles/SHARED_CODE.dir/build.make CMakeFiles/SHARED_CODE.dir/home/mariussolomes/JuceAudioEffect/OriginalFx/JuceLibraryCode/include_juce_audio_plugin_client_utils.cpp.s
+.PHONY : home/mariussolomes/JuceAudioEffect/OriginalFx/JuceLibraryCode/include_juce_audio_plugin_client_utils.cpp.s
 
-home/mariussolomes/digital_audio_effects/OriginalFx/JuceLibraryCode/include_juce_audio_utils.o: home/mariussolomes/digital_audio_effects/OriginalFx/JuceLibraryCode/include_juce_audio_utils.cpp.o
+home/mariussolomes/JuceAudioEffect/OriginalFx/JuceLibraryCode/include_juce_audio_processors.o: home/mariussolomes/JuceAudioEffect/OriginalFx/JuceLibraryCode/include_juce_audio_processors.cpp.o
 
-.PHONY : home/mariussolomes/digital_audio_effects/OriginalFx/JuceLibraryCode/include_juce_audio_utils.o
+.PHONY : home/mariussolomes/JuceAudioEffect/OriginalFx/JuceLibraryCode/include_juce_audio_processors.o
 
 # target to build an object file
-home/mariussolomes/digital_audio_effects/OriginalFx/JuceLibraryCode/include_juce_audio_utils.cpp.o:
-	$(MAKE) -f CMakeFiles/SHARED_CODE.dir/build.make CMakeFiles/SHARED_CODE.dir/home/mariussolomes/digital_audio_effects/OriginalFx/JuceLibraryCode/include_juce_audio_utils.cpp.o
-.PHONY : home/mariussolomes/digital_audio_effects/OriginalFx/JuceLibraryCode/include_juce_audio_utils.cpp.o
+home/mariussolomes/JuceAudioEffect/OriginalFx/JuceLibraryCode/include_juce_audio_processors.cpp.o:
+	$(MAKE) -f CMakeFiles/SHARED_CODE.dir/build.make CMakeFiles/SHARED_CODE.dir/home/mariussolomes/JuceAudioEffect/OriginalFx/JuceLibraryCode/include_juce_audio_processors.cpp.o
+.PHONY : home/mariussolomes/JuceAudioEffect/OriginalFx/JuceLibraryCode/include_juce_audio_processors.cpp.o
 
-home/mariussolomes/digital_audio_effects/OriginalFx/JuceLibraryCode/include_juce_audio_utils.i: home/mariussolomes/digital_audio_effects/OriginalFx/JuceLibraryCode/include_juce_audio_utils.cpp.i
+home/mariussolomes/JuceAudioEffect/OriginalFx/JuceLibraryCode/include_juce_audio_processors.i: home/mariussolomes/JuceAudioEffect/OriginalFx/JuceLibraryCode/include_juce_audio_processors.cpp.i
 
-.PHONY : home/mariussolomes/digital_audio_effects/OriginalFx/JuceLibraryCode/include_juce_audio_utils.i
+.PHONY : home/mariussolomes/JuceAudioEffect/OriginalFx/JuceLibraryCode/include_juce_audio_processors.i
 
 # target to preprocess a source file
-home/mariussolomes/digital_audio_effects/OriginalFx/JuceLibraryCode/include_juce_audio_utils.cpp.i:
-	$(MAKE) -f CMakeFiles/SHARED_CODE.dir/build.make CMakeFiles/SHARED_CODE.dir/home/mariussolomes/digital_audio_effects/OriginalFx/JuceLibraryCode/include_juce_audio_utils.cpp.i
-.PHONY : home/mariussolomes/digital_audio_effects/OriginalFx/JuceLibraryCode/include_juce_audio_utils.cpp.i
+home/mariussolomes/JuceAudioEffect/OriginalFx/JuceLibraryCode/include_juce_audio_processors.cpp.i:
+	$(MAKE) -f CMakeFiles/SHARED_CODE.dir/build.make CMakeFiles/SHARED_CODE.dir/home/mariussolomes/JuceAudioEffect/OriginalFx/JuceLibraryCode/include_juce_audio_processors.cpp.i
+.PHONY : home/mariussolomes/JuceAudioEffect/OriginalFx/JuceLibraryCode/include_juce_audio_processors.cpp.i
 
-home/mariussolomes/digital_audio_effects/OriginalFx/JuceLibraryCode/include_juce_audio_utils.s: home/mariussolomes/digital_audio_effects/OriginalFx/JuceLibraryCode/include_juce_audio_utils.cpp.s
+home/mariussolomes/JuceAudioEffect/OriginalFx/JuceLibraryCode/include_juce_audio_processors.s: home/mariussolomes/JuceAudioEffect/OriginalFx/JuceLibraryCode/include_juce_audio_processors.cpp.s
 
-.PHONY : home/mariussolomes/digital_audio_effects/OriginalFx/JuceLibraryCode/include_juce_audio_utils.s
+.PHONY : home/mariussolomes/JuceAudioEffect/OriginalFx/JuceLibraryCode/include_juce_audio_processors.s
 
 # target to generate assembly for a file
-home/mariussolomes/digital_audio_effects/OriginalFx/JuceLibraryCode/include_juce_audio_utils.cpp.s:
-	$(MAKE) -f CMakeFiles/SHARED_CODE.dir/build.make CMakeFiles/SHARED_CODE.dir/home/mariussolomes/digital_audio_effects/OriginalFx/JuceLibraryCode/include_juce_audio_utils.cpp.s
-.PHONY : home/mariussolomes/digital_audio_effects/OriginalFx/JuceLibraryCode/include_juce_audio_utils.cpp.s
+home/mariussolomes/JuceAudioEffect/OriginalFx/JuceLibraryCode/include_juce_audio_processors.cpp.s:
+	$(MAKE) -f CMakeFiles/SHARED_CODE.dir/build.make CMakeFiles/SHARED_CODE.dir/home/mariussolomes/JuceAudioEffect/OriginalFx/JuceLibraryCode/include_juce_audio_processors.cpp.s
+.PHONY : home/mariussolomes/JuceAudioEffect/OriginalFx/JuceLibraryCode/include_juce_audio_processors.cpp.s
 
-home/mariussolomes/digital_audio_effects/OriginalFx/JuceLibraryCode/include_juce_core.o: home/mariussolomes/digital_audio_effects/OriginalFx/JuceLibraryCode/include_juce_core.cpp.o
+home/mariussolomes/JuceAudioEffect/OriginalFx/JuceLibraryCode/include_juce_audio_utils.o: home/mariussolomes/JuceAudioEffect/OriginalFx/JuceLibraryCode/include_juce_audio_utils.cpp.o
 
-.PHONY : home/mariussolomes/digital_audio_effects/OriginalFx/JuceLibraryCode/include_juce_core.o
+.PHONY : home/mariussolomes/JuceAudioEffect/OriginalFx/JuceLibraryCode/include_juce_audio_utils.o
 
 # target to build an object file
-home/mariussolomes/digital_audio_effects/OriginalFx/JuceLibraryCode/include_juce_core.cpp.o:
-	$(MAKE) -f CMakeFiles/SHARED_CODE.dir/build.make CMakeFiles/SHARED_CODE.dir/home/mariussolomes/digital_audio_effects/OriginalFx/JuceLibraryCode/include_juce_core.cpp.o
-.PHONY : home/mariussolomes/digital_audio_effects/OriginalFx/JuceLibraryCode/include_juce_core.cpp.o
+home/mariussolomes/JuceAudioEffect/OriginalFx/JuceLibraryCode/include_juce_audio_utils.cpp.o:
+	$(MAKE) -f CMakeFiles/SHARED_CODE.dir/build.make CMakeFiles/SHARED_CODE.dir/home/mariussolomes/JuceAudioEffect/OriginalFx/JuceLibraryCode/include_juce_audio_utils.cpp.o
+.PHONY : home/mariussolomes/JuceAudioEffect/OriginalFx/JuceLibraryCode/include_juce_audio_utils.cpp.o
 
-home/mariussolomes/digital_audio_effects/OriginalFx/JuceLibraryCode/include_juce_core.i: home/mariussolomes/digital_audio_effects/OriginalFx/JuceLibraryCode/include_juce_core.cpp.i
+home/mariussolomes/JuceAudioEffect/OriginalFx/JuceLibraryCode/include_juce_audio_utils.i: home/mariussolomes/JuceAudioEffect/OriginalFx/JuceLibraryCode/include_juce_audio_utils.cpp.i
 
-.PHONY : home/mariussolomes/digital_audio_effects/OriginalFx/JuceLibraryCode/include_juce_core.i
+.PHONY : home/mariussolomes/JuceAudioEffect/OriginalFx/JuceLibraryCode/include_juce_audio_utils.i
 
 # target to preprocess a source file
-home/mariussolomes/digital_audio_effects/OriginalFx/JuceLibraryCode/include_juce_core.cpp.i:
-	$(MAKE) -f CMakeFiles/SHARED_CODE.dir/build.make CMakeFiles/SHARED_CODE.dir/home/mariussolomes/digital_audio_effects/OriginalFx/JuceLibraryCode/include_juce_core.cpp.i
-.PHONY : home/mariussolomes/digital_audio_effects/OriginalFx/JuceLibraryCode/include_juce_core.cpp.i
+home/mariussolomes/JuceAudioEffect/OriginalFx/JuceLibraryCode/include_juce_audio_utils.cpp.i:
+	$(MAKE) -f CMakeFiles/SHARED_CODE.dir/build.make CMakeFiles/SHARED_CODE.dir/home/mariussolomes/JuceAudioEffect/OriginalFx/JuceLibraryCode/include_juce_audio_utils.cpp.i
+.PHONY : home/mariussolomes/JuceAudioEffect/OriginalFx/JuceLibraryCode/include_juce_audio_utils.cpp.i
 
-home/mariussolomes/digital_audio_effects/OriginalFx/JuceLibraryCode/include_juce_core.s: home/mariussolomes/digital_audio_effects/OriginalFx/JuceLibraryCode/include_juce_core.cpp.s
+home/mariussolomes/JuceAudioEffect/OriginalFx/JuceLibraryCode/include_juce_audio_utils.s: home/mariussolomes/JuceAudioEffect/OriginalFx/JuceLibraryCode/include_juce_audio_utils.cpp.s
 
-.PHONY : home/mariussolomes/digital_audio_effects/OriginalFx/JuceLibraryCode/include_juce_core.s
+.PHONY : home/mariussolomes/JuceAudioEffect/OriginalFx/JuceLibraryCode/include_juce_audio_utils.s
 
 # target to generate assembly for a file
-home/mariussolomes/digital_audio_effects/OriginalFx/JuceLibraryCode/include_juce_core.cpp.s:
-	$(MAKE) -f CMakeFiles/SHARED_CODE.dir/build.make CMakeFiles/SHARED_CODE.dir/home/mariussolomes/digital_audio_effects/OriginalFx/JuceLibraryCode/include_juce_core.cpp.s
-.PHONY : home/mariussolomes/digital_audio_effects/OriginalFx/JuceLibraryCode/include_juce_core.cpp.s
+home/mariussolomes/JuceAudioEffect/OriginalFx/JuceLibraryCode/include_juce_audio_utils.cpp.s:
+	$(MAKE) -f CMakeFiles/SHARED_CODE.dir/build.make CMakeFiles/SHARED_CODE.dir/home/mariussolomes/JuceAudioEffect/OriginalFx/JuceLibraryCode/include_juce_audio_utils.cpp.s
+.PHONY : home/mariussolomes/JuceAudioEffect/OriginalFx/JuceLibraryCode/include_juce_audio_utils.cpp.s
 
-home/mariussolomes/digital_audio_effects/OriginalFx/JuceLibraryCode/include_juce_cryptography.o: home/mariussolomes/digital_audio_effects/OriginalFx/JuceLibraryCode/include_juce_cryptography.cpp.o
+home/mariussolomes/JuceAudioEffect/OriginalFx/JuceLibraryCode/include_juce_core.o: home/mariussolomes/JuceAudioEffect/OriginalFx/JuceLibraryCode/include_juce_core.cpp.o
 
-.PHONY : home/mariussolomes/digital_audio_effects/OriginalFx/JuceLibraryCode/include_juce_cryptography.o
+.PHONY : home/mariussolomes/JuceAudioEffect/OriginalFx/JuceLibraryCode/include_juce_core.o
 
 # target to build an object file
-home/mariussolomes/digital_audio_effects/OriginalFx/JuceLibraryCode/include_juce_cryptography.cpp.o:
-	$(MAKE) -f CMakeFiles/SHARED_CODE.dir/build.make CMakeFiles/SHARED_CODE.dir/home/mariussolomes/digital_audio_effects/OriginalFx/JuceLibraryCode/include_juce_cryptography.cpp.o
-.PHONY : home/mariussolomes/digital_audio_effects/OriginalFx/JuceLibraryCode/include_juce_cryptography.cpp.o
+home/mariussolomes/JuceAudioEffect/OriginalFx/JuceLibraryCode/include_juce_core.cpp.o:
+	$(MAKE) -f CMakeFiles/SHARED_CODE.dir/build.make CMakeFiles/SHARED_CODE.dir/home/mariussolomes/JuceAudioEffect/OriginalFx/JuceLibraryCode/include_juce_core.cpp.o
+.PHONY : home/mariussolomes/JuceAudioEffect/OriginalFx/JuceLibraryCode/include_juce_core.cpp.o
 
-home/mariussolomes/digital_audio_effects/OriginalFx/JuceLibraryCode/include_juce_cryptography.i: home/mariussolomes/digital_audio_effects/OriginalFx/JuceLibraryCode/include_juce_cryptography.cpp.i
+home/mariussolomes/JuceAudioEffect/OriginalFx/JuceLibraryCode/include_juce_core.i: home/mariussolomes/JuceAudioEffect/OriginalFx/JuceLibraryCode/include_juce_core.cpp.i
 
-.PHONY : home/mariussolomes/digital_audio_effects/OriginalFx/JuceLibraryCode/include_juce_cryptography.i
+.PHONY : home/mariussolomes/JuceAudioEffect/OriginalFx/JuceLibraryCode/include_juce_core.i
 
 # target to preprocess a source file
-home/mariussolomes/digital_audio_effects/OriginalFx/JuceLibraryCode/include_juce_cryptography.cpp.i:
-	$(MAKE) -f CMakeFiles/SHARED_CODE.dir/build.make CMakeFiles/SHARED_CODE.dir/home/mariussolomes/digital_audio_effects/OriginalFx/JuceLibraryCode/include_juce_cryptography.cpp.i
-.PHONY : home/mariussolomes/digital_audio_effects/OriginalFx/JuceLibraryCode/include_juce_cryptography.cpp.i
+home/mariussolomes/JuceAudioEffect/OriginalFx/JuceLibraryCode/include_juce_core.cpp.i:
+	$(MAKE) -f CMakeFiles/SHARED_CODE.dir/build.make CMakeFiles/SHARED_CODE.dir/home/mariussolomes/JuceAudioEffect/OriginalFx/JuceLibraryCode/include_juce_core.cpp.i
+.PHONY : home/mariussolomes/JuceAudioEffect/OriginalFx/JuceLibraryCode/include_juce_core.cpp.i
 
-home/mariussolomes/digital_audio_effects/OriginalFx/JuceLibraryCode/include_juce_cryptography.s: home/mariussolomes/digital_audio_effects/OriginalFx/JuceLibraryCode/include_juce_cryptography.cpp.s
+home/mariussolomes/JuceAudioEffect/OriginalFx/JuceLibraryCode/include_juce_core.s: home/mariussolomes/JuceAudioEffect/OriginalFx/JuceLibraryCode/include_juce_core.cpp.s
 
-.PHONY : home/mariussolomes/digital_audio_effects/OriginalFx/JuceLibraryCode/include_juce_cryptography.s
+.PHONY : home/mariussolomes/JuceAudioEffect/OriginalFx/JuceLibraryCode/include_juce_core.s
 
 # target to generate assembly for a file
-home/mariussolomes/digital_audio_effects/OriginalFx/JuceLibraryCode/include_juce_cryptography.cpp.s:
-	$(MAKE) -f CMakeFiles/SHARED_CODE.dir/build.make CMakeFiles/SHARED_CODE.dir/home/mariussolomes/digital_audio_effects/OriginalFx/JuceLibraryCode/include_juce_cryptography.cpp.s
-.PHONY : home/mariussolomes/digital_audio_effects/OriginalFx/JuceLibraryCode/include_juce_cryptography.cpp.s
+home/mariussolomes/JuceAudioEffect/OriginalFx/JuceLibraryCode/include_juce_core.cpp.s:
+	$(MAKE) -f CMakeFiles/SHARED_CODE.dir/build.make CMakeFiles/SHARED_CODE.dir/home/mariussolomes/JuceAudioEffect/OriginalFx/JuceLibraryCode/include_juce_core.cpp.s
+.PHONY : home/mariussolomes/JuceAudioEffect/OriginalFx/JuceLibraryCode/include_juce_core.cpp.s
 
-home/mariussolomes/digital_audio_effects/OriginalFx/JuceLibraryCode/include_juce_data_structures.o: home/mariussolomes/digital_audio_effects/OriginalFx/JuceLibraryCode/include_juce_data_structures.cpp.o
+home/mariussolomes/JuceAudioEffect/OriginalFx/JuceLibraryCode/include_juce_cryptography.o: home/mariussolomes/JuceAudioEffect/OriginalFx/JuceLibraryCode/include_juce_cryptography.cpp.o
 
-.PHONY : home/mariussolomes/digital_audio_effects/OriginalFx/JuceLibraryCode/include_juce_data_structures.o
+.PHONY : home/mariussolomes/JuceAudioEffect/OriginalFx/JuceLibraryCode/include_juce_cryptography.o
 
 # target to build an object file
-home/mariussolomes/digital_audio_effects/OriginalFx/JuceLibraryCode/include_juce_data_structures.cpp.o:
-	$(MAKE) -f CMakeFiles/SHARED_CODE.dir/build.make CMakeFiles/SHARED_CODE.dir/home/mariussolomes/digital_audio_effects/OriginalFx/JuceLibraryCode/include_juce_data_structures.cpp.o
-.PHONY : home/mariussolomes/digital_audio_effects/OriginalFx/JuceLibraryCode/include_juce_data_structures.cpp.o
+home/mariussolomes/JuceAudioEffect/OriginalFx/JuceLibraryCode/include_juce_cryptography.cpp.o:
+	$(MAKE) -f CMakeFiles/SHARED_CODE.dir/build.make CMakeFiles/SHARED_CODE.dir/home/mariussolomes/JuceAudioEffect/OriginalFx/JuceLibraryCode/include_juce_cryptography.cpp.o
+.PHONY : home/mariussolomes/JuceAudioEffect/OriginalFx/JuceLibraryCode/include_juce_cryptography.cpp.o
 
-home/mariussolomes/digital_audio_effects/OriginalFx/JuceLibraryCode/include_juce_data_structures.i: home/mariussolomes/digital_audio_effects/OriginalFx/JuceLibraryCode/include_juce_data_structures.cpp.i
+home/mariussolomes/JuceAudioEffect/OriginalFx/JuceLibraryCode/include_juce_cryptography.i: home/mariussolomes/JuceAudioEffect/OriginalFx/JuceLibraryCode/include_juce_cryptography.cpp.i
 
-.PHONY : home/mariussolomes/digital_audio_effects/OriginalFx/JuceLibraryCode/include_juce_data_structures.i
+.PHONY : home/mariussolomes/JuceAudioEffect/OriginalFx/JuceLibraryCode/include_juce_cryptography.i
 
 # target to preprocess a source file
-home/mariussolomes/digital_audio_effects/OriginalFx/JuceLibraryCode/include_juce_data_structures.cpp.i:
-	$(MAKE) -f CMakeFiles/SHARED_CODE.dir/build.make CMakeFiles/SHARED_CODE.dir/home/mariussolomes/digital_audio_effects/OriginalFx/JuceLibraryCode/include_juce_data_structures.cpp.i
-.PHONY : home/mariussolomes/digital_audio_effects/OriginalFx/JuceLibraryCode/include_juce_data_structures.cpp.i
+home/mariussolomes/JuceAudioEffect/OriginalFx/JuceLibraryCode/include_juce_cryptography.cpp.i:
+	$(MAKE) -f CMakeFiles/SHARED_CODE.dir/build.make CMakeFiles/SHARED_CODE.dir/home/mariussolomes/JuceAudioEffect/OriginalFx/JuceLibraryCode/include_juce_cryptography.cpp.i
+.PHONY : home/mariussolomes/JuceAudioEffect/OriginalFx/JuceLibraryCode/include_juce_cryptography.cpp.i
 
-home/mariussolomes/digital_audio_effects/OriginalFx/JuceLibraryCode/include_juce_data_structures.s: home/mariussolomes/digital_audio_effects/OriginalFx/JuceLibraryCode/include_juce_data_structures.cpp.s
+home/mariussolomes/JuceAudioEffect/OriginalFx/JuceLibraryCode/include_juce_cryptography.s: home/mariussolomes/JuceAudioEffect/OriginalFx/JuceLibraryCode/include_juce_cryptography.cpp.s
 
-.PHONY : home/mariussolomes/digital_audio_effects/OriginalFx/JuceLibraryCode/include_juce_data_structures.s
+.PHONY : home/mariussolomes/JuceAudioEffect/OriginalFx/JuceLibraryCode/include_juce_cryptography.s
 
 # target to generate assembly for a file
-home/mariussolomes/digital_audio_effects/OriginalFx/JuceLibraryCode/include_juce_data_structures.cpp.s:
-	$(MAKE) -f CMakeFiles/SHARED_CODE.dir/build.make CMakeFiles/SHARED_CODE.dir/home/mariussolomes/digital_audio_effects/OriginalFx/JuceLibraryCode/include_juce_data_structures.cpp.s
-.PHONY : home/mariussolomes/digital_audio_effects/OriginalFx/JuceLibraryCode/include_juce_data_structures.cpp.s
+home/mariussolomes/JuceAudioEffect/OriginalFx/JuceLibraryCode/include_juce_cryptography.cpp.s:
+	$(MAKE) -f CMakeFiles/SHARED_CODE.dir/build.make CMakeFiles/SHARED_CODE.dir/home/mariussolomes/JuceAudioEffect/OriginalFx/JuceLibraryCode/include_juce_cryptography.cpp.s
+.PHONY : home/mariussolomes/JuceAudioEffect/OriginalFx/JuceLibraryCode/include_juce_cryptography.cpp.s
 
-home/mariussolomes/digital_audio_effects/OriginalFx/JuceLibraryCode/include_juce_events.o: home/mariussolomes/digital_audio_effects/OriginalFx/JuceLibraryCode/include_juce_events.cpp.o
+home/mariussolomes/JuceAudioEffect/OriginalFx/JuceLibraryCode/include_juce_data_structures.o: home/mariussolomes/JuceAudioEffect/OriginalFx/JuceLibraryCode/include_juce_data_structures.cpp.o
 
-.PHONY : home/mariussolomes/digital_audio_effects/OriginalFx/JuceLibraryCode/include_juce_events.o
+.PHONY : home/mariussolomes/JuceAudioEffect/OriginalFx/JuceLibraryCode/include_juce_data_structures.o
 
 # target to build an object file
-home/mariussolomes/digital_audio_effects/OriginalFx/JuceLibraryCode/include_juce_events.cpp.o:
-	$(MAKE) -f CMakeFiles/SHARED_CODE.dir/build.make CMakeFiles/SHARED_CODE.dir/home/mariussolomes/digital_audio_effects/OriginalFx/JuceLibraryCode/include_juce_events.cpp.o
-.PHONY : home/mariussolomes/digital_audio_effects/OriginalFx/JuceLibraryCode/include_juce_events.cpp.o
+home/mariussolomes/JuceAudioEffect/OriginalFx/JuceLibraryCode/include_juce_data_structures.cpp.o:
+	$(MAKE) -f CMakeFiles/SHARED_CODE.dir/build.make CMakeFiles/SHARED_CODE.dir/home/mariussolomes/JuceAudioEffect/OriginalFx/JuceLibraryCode/include_juce_data_structures.cpp.o
+.PHONY : home/mariussolomes/JuceAudioEffect/OriginalFx/JuceLibraryCode/include_juce_data_structures.cpp.o
 
-home/mariussolomes/digital_audio_effects/OriginalFx/JuceLibraryCode/include_juce_events.i: home/mariussolomes/digital_audio_effects/OriginalFx/JuceLibraryCode/include_juce_events.cpp.i
+home/mariussolomes/JuceAudioEffect/OriginalFx/JuceLibraryCode/include_juce_data_structures.i: home/mariussolomes/JuceAudioEffect/OriginalFx/JuceLibraryCode/include_juce_data_structures.cpp.i
 
-.PHONY : home/mariussolomes/digital_audio_effects/OriginalFx/JuceLibraryCode/include_juce_events.i
+.PHONY : home/mariussolomes/JuceAudioEffect/OriginalFx/JuceLibraryCode/include_juce_data_structures.i
 
 # target to preprocess a source file
-home/mariussolomes/digital_audio_effects/OriginalFx/JuceLibraryCode/include_juce_events.cpp.i:
-	$(MAKE) -f CMakeFiles/SHARED_CODE.dir/build.make CMakeFiles/SHARED_CODE.dir/home/mariussolomes/digital_audio_effects/OriginalFx/JuceLibraryCode/include_juce_events.cpp.i
-.PHONY : home/mariussolomes/digital_audio_effects/OriginalFx/JuceLibraryCode/include_juce_events.cpp.i
+home/mariussolomes/JuceAudioEffect/OriginalFx/JuceLibraryCode/include_juce_data_structures.cpp.i:
+	$(MAKE) -f CMakeFiles/SHARED_CODE.dir/build.make CMakeFiles/SHARED_CODE.dir/home/mariussolomes/JuceAudioEffect/OriginalFx/JuceLibraryCode/include_juce_data_structures.cpp.i
+.PHONY : home/mariussolomes/JuceAudioEffect/OriginalFx/JuceLibraryCode/include_juce_data_structures.cpp.i
 
-home/mariussolomes/digital_audio_effects/OriginalFx/JuceLibraryCode/include_juce_events.s: home/mariussolomes/digital_audio_effects/OriginalFx/JuceLibraryCode/include_juce_events.cpp.s
+home/mariussolomes/JuceAudioEffect/OriginalFx/JuceLibraryCode/include_juce_data_structures.s: home/mariussolomes/JuceAudioEffect/OriginalFx/JuceLibraryCode/include_juce_data_structures.cpp.s
 
-.PHONY : home/mariussolomes/digital_audio_effects/OriginalFx/JuceLibraryCode/include_juce_events.s
+.PHONY : home/mariussolomes/JuceAudioEffect/OriginalFx/JuceLibraryCode/include_juce_data_structures.s
 
 # target to generate assembly for a file
-home/mariussolomes/digital_audio_effects/OriginalFx/JuceLibraryCode/include_juce_events.cpp.s:
-	$(MAKE) -f CMakeFiles/SHARED_CODE.dir/build.make CMakeFiles/SHARED_CODE.dir/home/mariussolomes/digital_audio_effects/OriginalFx/JuceLibraryCode/include_juce_events.cpp.s
-.PHONY : home/mariussolomes/digital_audio_effects/OriginalFx/JuceLibraryCode/include_juce_events.cpp.s
+home/mariussolomes/JuceAudioEffect/OriginalFx/JuceLibraryCode/include_juce_data_structures.cpp.s:
+	$(MAKE) -f CMakeFiles/SHARED_CODE.dir/build.make CMakeFiles/SHARED_CODE.dir/home/mariussolomes/JuceAudioEffect/OriginalFx/JuceLibraryCode/include_juce_data_structures.cpp.s
+.PHONY : home/mariussolomes/JuceAudioEffect/OriginalFx/JuceLibraryCode/include_juce_data_structures.cpp.s
 
-home/mariussolomes/digital_audio_effects/OriginalFx/JuceLibraryCode/include_juce_graphics.o: home/mariussolomes/digital_audio_effects/OriginalFx/JuceLibraryCode/include_juce_graphics.cpp.o
+home/mariussolomes/JuceAudioEffect/OriginalFx/JuceLibraryCode/include_juce_events.o: home/mariussolomes/JuceAudioEffect/OriginalFx/JuceLibraryCode/include_juce_events.cpp.o
 
-.PHONY : home/mariussolomes/digital_audio_effects/OriginalFx/JuceLibraryCode/include_juce_graphics.o
+.PHONY : home/mariussolomes/JuceAudioEffect/OriginalFx/JuceLibraryCode/include_juce_events.o
 
 # target to build an object file
-home/mariussolomes/digital_audio_effects/OriginalFx/JuceLibraryCode/include_juce_graphics.cpp.o:
-	$(MAKE) -f CMakeFiles/SHARED_CODE.dir/build.make CMakeFiles/SHARED_CODE.dir/home/mariussolomes/digital_audio_effects/OriginalFx/JuceLibraryCode/include_juce_graphics.cpp.o
-.PHONY : home/mariussolomes/digital_audio_effects/OriginalFx/JuceLibraryCode/include_juce_graphics.cpp.o
+home/mariussolomes/JuceAudioEffect/OriginalFx/JuceLibraryCode/include_juce_events.cpp.o:
+	$(MAKE) -f CMakeFiles/SHARED_CODE.dir/build.make CMakeFiles/SHARED_CODE.dir/home/mariussolomes/JuceAudioEffect/OriginalFx/JuceLibraryCode/include_juce_events.cpp.o
+.PHONY : home/mariussolomes/JuceAudioEffect/OriginalFx/JuceLibraryCode/include_juce_events.cpp.o
 
-home/mariussolomes/digital_audio_effects/OriginalFx/JuceLibraryCode/include_juce_graphics.i: home/mariussolomes/digital_audio_effects/OriginalFx/JuceLibraryCode/include_juce_graphics.cpp.i
+home/mariussolomes/JuceAudioEffect/OriginalFx/JuceLibraryCode/include_juce_events.i: home/mariussolomes/JuceAudioEffect/OriginalFx/JuceLibraryCode/include_juce_events.cpp.i
 
-.PHONY : home/mariussolomes/digital_audio_effects/OriginalFx/JuceLibraryCode/include_juce_graphics.i
+.PHONY : home/mariussolomes/JuceAudioEffect/OriginalFx/JuceLibraryCode/include_juce_events.i
 
 # target to preprocess a source file
-home/mariussolomes/digital_audio_effects/OriginalFx/JuceLibraryCode/include_juce_graphics.cpp.i:
-	$(MAKE) -f CMakeFiles/SHARED_CODE.dir/build.make CMakeFiles/SHARED_CODE.dir/home/mariussolomes/digital_audio_effects/OriginalFx/JuceLibraryCode/include_juce_graphics.cpp.i
-.PHONY : home/mariussolomes/digital_audio_effects/OriginalFx/JuceLibraryCode/include_juce_graphics.cpp.i
+home/mariussolomes/JuceAudioEffect/OriginalFx/JuceLibraryCode/include_juce_events.cpp.i:
+	$(MAKE) -f CMakeFiles/SHARED_CODE.dir/build.make CMakeFiles/SHARED_CODE.dir/home/mariussolomes/JuceAudioEffect/OriginalFx/JuceLibraryCode/include_juce_events.cpp.i
+.PHONY : home/mariussolomes/JuceAudioEffect/OriginalFx/JuceLibraryCode/include_juce_events.cpp.i
 
-home/mariussolomes/digital_audio_effects/OriginalFx/JuceLibraryCode/include_juce_graphics.s: home/mariussolomes/digital_audio_effects/OriginalFx/JuceLibraryCode/include_juce_graphics.cpp.s
+home/mariussolomes/JuceAudioEffect/OriginalFx/JuceLibraryCode/include_juce_events.s: home/mariussolomes/JuceAudioEffect/OriginalFx/JuceLibraryCode/include_juce_events.cpp.s
 
-.PHONY : home/mariussolomes/digital_audio_effects/OriginalFx/JuceLibraryCode/include_juce_graphics.s
+.PHONY : home/mariussolomes/JuceAudioEffect/OriginalFx/JuceLibraryCode/include_juce_events.s
 
 # target to generate assembly for a file
-home/mariussolomes/digital_audio_effects/OriginalFx/JuceLibraryCode/include_juce_graphics.cpp.s:
-	$(MAKE) -f CMakeFiles/SHARED_CODE.dir/build.make CMakeFiles/SHARED_CODE.dir/home/mariussolomes/digital_audio_effects/OriginalFx/JuceLibraryCode/include_juce_graphics.cpp.s
-.PHONY : home/mariussolomes/digital_audio_effects/OriginalFx/JuceLibraryCode/include_juce_graphics.cpp.s
+home/mariussolomes/JuceAudioEffect/OriginalFx/JuceLibraryCode/include_juce_events.cpp.s:
+	$(MAKE) -f CMakeFiles/SHARED_CODE.dir/build.make CMakeFiles/SHARED_CODE.dir/home/mariussolomes/JuceAudioEffect/OriginalFx/JuceLibraryCode/include_juce_events.cpp.s
+.PHONY : home/mariussolomes/JuceAudioEffect/OriginalFx/JuceLibraryCode/include_juce_events.cpp.s
 
-home/mariussolomes/digital_audio_effects/OriginalFx/JuceLibraryCode/include_juce_gui_basics.o: home/mariussolomes/digital_audio_effects/OriginalFx/JuceLibraryCode/include_juce_gui_basics.cpp.o
+home/mariussolomes/JuceAudioEffect/OriginalFx/JuceLibraryCode/include_juce_graphics.o: home/mariussolomes/JuceAudioEffect/OriginalFx/JuceLibraryCode/include_juce_graphics.cpp.o
 
-.PHONY : home/mariussolomes/digital_audio_effects/OriginalFx/JuceLibraryCode/include_juce_gui_basics.o
+.PHONY : home/mariussolomes/JuceAudioEffect/OriginalFx/JuceLibraryCode/include_juce_graphics.o
 
 # target to build an object file
-home/mariussolomes/digital_audio_effects/OriginalFx/JuceLibraryCode/include_juce_gui_basics.cpp.o:
-	$(MAKE) -f CMakeFiles/SHARED_CODE.dir/build.make CMakeFiles/SHARED_CODE.dir/home/mariussolomes/digital_audio_effects/OriginalFx/JuceLibraryCode/include_juce_gui_basics.cpp.o
-.PHONY : home/mariussolomes/digital_audio_effects/OriginalFx/JuceLibraryCode/include_juce_gui_basics.cpp.o
+home/mariussolomes/JuceAudioEffect/OriginalFx/JuceLibraryCode/include_juce_graphics.cpp.o:
+	$(MAKE) -f CMakeFiles/SHARED_CODE.dir/build.make CMakeFiles/SHARED_CODE.dir/home/mariussolomes/JuceAudioEffect/OriginalFx/JuceLibraryCode/include_juce_graphics.cpp.o
+.PHONY : home/mariussolomes/JuceAudioEffect/OriginalFx/JuceLibraryCode/include_juce_graphics.cpp.o
 
-home/mariussolomes/digital_audio_effects/OriginalFx/JuceLibraryCode/include_juce_gui_basics.i: home/mariussolomes/digital_audio_effects/OriginalFx/JuceLibraryCode/include_juce_gui_basics.cpp.i
+home/mariussolomes/JuceAudioEffect/OriginalFx/JuceLibraryCode/include_juce_graphics.i: home/mariussolomes/JuceAudioEffect/OriginalFx/JuceLibraryCode/include_juce_graphics.cpp.i
 
-.PHONY : home/mariussolomes/digital_audio_effects/OriginalFx/JuceLibraryCode/include_juce_gui_basics.i
+.PHONY : home/mariussolomes/JuceAudioEffect/OriginalFx/JuceLibraryCode/include_juce_graphics.i
 
 # target to preprocess a source file
-home/mariussolomes/digital_audio_effects/OriginalFx/JuceLibraryCode/include_juce_gui_basics.cpp.i:
-	$(MAKE) -f CMakeFiles/SHARED_CODE.dir/build.make CMakeFiles/SHARED_CODE.dir/home/mariussolomes/digital_audio_effects/OriginalFx/JuceLibraryCode/include_juce_gui_basics.cpp.i
-.PHONY : home/mariussolomes/digital_audio_effects/OriginalFx/JuceLibraryCode/include_juce_gui_basics.cpp.i
+home/mariussolomes/JuceAudioEffect/OriginalFx/JuceLibraryCode/include_juce_graphics.cpp.i:
+	$(MAKE) -f CMakeFiles/SHARED_CODE.dir/build.make CMakeFiles/SHARED_CODE.dir/home/mariussolomes/JuceAudioEffect/OriginalFx/JuceLibraryCode/include_juce_graphics.cpp.i
+.PHONY : home/mariussolomes/JuceAudioEffect/OriginalFx/JuceLibraryCode/include_juce_graphics.cpp.i
 
-home/mariussolomes/digital_audio_effects/OriginalFx/JuceLibraryCode/include_juce_gui_basics.s: home/mariussolomes/digital_audio_effects/OriginalFx/JuceLibraryCode/include_juce_gui_basics.cpp.s
+home/mariussolomes/JuceAudioEffect/OriginalFx/JuceLibraryCode/include_juce_graphics.s: home/mariussolomes/JuceAudioEffect/OriginalFx/JuceLibraryCode/include_juce_graphics.cpp.s
 
-.PHONY : home/mariussolomes/digital_audio_effects/OriginalFx/JuceLibraryCode/include_juce_gui_basics.s
+.PHONY : home/mariussolomes/JuceAudioEffect/OriginalFx/JuceLibraryCode/include_juce_graphics.s
 
 # target to generate assembly for a file
-home/mariussolomes/digital_audio_effects/OriginalFx/JuceLibraryCode/include_juce_gui_basics.cpp.s:
-	$(MAKE) -f CMakeFiles/SHARED_CODE.dir/build.make CMakeFiles/SHARED_CODE.dir/home/mariussolomes/digital_audio_effects/OriginalFx/JuceLibraryCode/include_juce_gui_basics.cpp.s
-.PHONY : home/mariussolomes/digital_audio_effects/OriginalFx/JuceLibraryCode/include_juce_gui_basics.cpp.s
+home/mariussolomes/JuceAudioEffect/OriginalFx/JuceLibraryCode/include_juce_graphics.cpp.s:
+	$(MAKE) -f CMakeFiles/SHARED_CODE.dir/build.make CMakeFiles/SHARED_CODE.dir/home/mariussolomes/JuceAudioEffect/OriginalFx/JuceLibraryCode/include_juce_graphics.cpp.s
+.PHONY : home/mariussolomes/JuceAudioEffect/OriginalFx/JuceLibraryCode/include_juce_graphics.cpp.s
 
-home/mariussolomes/digital_audio_effects/OriginalFx/JuceLibraryCode/include_juce_gui_extra.o: home/mariussolomes/digital_audio_effects/OriginalFx/JuceLibraryCode/include_juce_gui_extra.cpp.o
+home/mariussolomes/JuceAudioEffect/OriginalFx/JuceLibraryCode/include_juce_gui_basics.o: home/mariussolomes/JuceAudioEffect/OriginalFx/JuceLibraryCode/include_juce_gui_basics.cpp.o
 
-.PHONY : home/mariussolomes/digital_audio_effects/OriginalFx/JuceLibraryCode/include_juce_gui_extra.o
+.PHONY : home/mariussolomes/JuceAudioEffect/OriginalFx/JuceLibraryCode/include_juce_gui_basics.o
 
 # target to build an object file
-home/mariussolomes/digital_audio_effects/OriginalFx/JuceLibraryCode/include_juce_gui_extra.cpp.o:
-	$(MAKE) -f CMakeFiles/SHARED_CODE.dir/build.make CMakeFiles/SHARED_CODE.dir/home/mariussolomes/digital_audio_effects/OriginalFx/JuceLibraryCode/include_juce_gui_extra.cpp.o
-.PHONY : home/mariussolomes/digital_audio_effects/OriginalFx/JuceLibraryCode/include_juce_gui_extra.cpp.o
+home/mariussolomes/JuceAudioEffect/OriginalFx/JuceLibraryCode/include_juce_gui_basics.cpp.o:
+	$(MAKE) -f CMakeFiles/SHARED_CODE.dir/build.make CMakeFiles/SHARED_CODE.dir/home/mariussolomes/JuceAudioEffect/OriginalFx/JuceLibraryCode/include_juce_gui_basics.cpp.o
+.PHONY : home/mariussolomes/JuceAudioEffect/OriginalFx/JuceLibraryCode/include_juce_gui_basics.cpp.o
 
-home/mariussolomes/digital_audio_effects/OriginalFx/JuceLibraryCode/include_juce_gui_extra.i: home/mariussolomes/digital_audio_effects/OriginalFx/JuceLibraryCode/include_juce_gui_extra.cpp.i
+home/mariussolomes/JuceAudioEffect/OriginalFx/JuceLibraryCode/include_juce_gui_basics.i: home/mariussolomes/JuceAudioEffect/OriginalFx/JuceLibraryCode/include_juce_gui_basics.cpp.i
 
-.PHONY : home/mariussolomes/digital_audio_effects/OriginalFx/JuceLibraryCode/include_juce_gui_extra.i
+.PHONY : home/mariussolomes/JuceAudioEffect/OriginalFx/JuceLibraryCode/include_juce_gui_basics.i
 
 # target to preprocess a source file
-home/mariussolomes/digital_audio_effects/OriginalFx/JuceLibraryCode/include_juce_gui_extra.cpp.i:
-	$(MAKE) -f CMakeFiles/SHARED_CODE.dir/build.make CMakeFiles/SHARED_CODE.dir/home/mariussolomes/digital_audio_effects/OriginalFx/JuceLibraryCode/include_juce_gui_extra.cpp.i
-.PHONY : home/mariussolomes/digital_audio_effects/OriginalFx/JuceLibraryCode/include_juce_gui_extra.cpp.i
+home/mariussolomes/JuceAudioEffect/OriginalFx/JuceLibraryCode/include_juce_gui_basics.cpp.i:
+	$(MAKE) -f CMakeFiles/SHARED_CODE.dir/build.make CMakeFiles/SHARED_CODE.dir/home/mariussolomes/JuceAudioEffect/OriginalFx/JuceLibraryCode/include_juce_gui_basics.cpp.i
+.PHONY : home/mariussolomes/JuceAudioEffect/OriginalFx/JuceLibraryCode/include_juce_gui_basics.cpp.i
 
-home/mariussolomes/digital_audio_effects/OriginalFx/JuceLibraryCode/include_juce_gui_extra.s: home/mariussolomes/digital_audio_effects/OriginalFx/JuceLibraryCode/include_juce_gui_extra.cpp.s
+home/mariussolomes/JuceAudioEffect/OriginalFx/JuceLibraryCode/include_juce_gui_basics.s: home/mariussolomes/JuceAudioEffect/OriginalFx/JuceLibraryCode/include_juce_gui_basics.cpp.s
 
-.PHONY : home/mariussolomes/digital_audio_effects/OriginalFx/JuceLibraryCode/include_juce_gui_extra.s
+.PHONY : home/mariussolomes/JuceAudioEffect/OriginalFx/JuceLibraryCode/include_juce_gui_basics.s
 
 # target to generate assembly for a file
-home/mariussolomes/digital_audio_effects/OriginalFx/JuceLibraryCode/include_juce_gui_extra.cpp.s:
-	$(MAKE) -f CMakeFiles/SHARED_CODE.dir/build.make CMakeFiles/SHARED_CODE.dir/home/mariussolomes/digital_audio_effects/OriginalFx/JuceLibraryCode/include_juce_gui_extra.cpp.s
-.PHONY : home/mariussolomes/digital_audio_effects/OriginalFx/JuceLibraryCode/include_juce_gui_extra.cpp.s
+home/mariussolomes/JuceAudioEffect/OriginalFx/JuceLibraryCode/include_juce_gui_basics.cpp.s:
+	$(MAKE) -f CMakeFiles/SHARED_CODE.dir/build.make CMakeFiles/SHARED_CODE.dir/home/mariussolomes/JuceAudioEffect/OriginalFx/JuceLibraryCode/include_juce_gui_basics.cpp.s
+.PHONY : home/mariussolomes/JuceAudioEffect/OriginalFx/JuceLibraryCode/include_juce_gui_basics.cpp.s
 
-home/mariussolomes/digital_audio_effects/OriginalFx/JuceLibraryCode/include_juce_opengl.o: home/mariussolomes/digital_audio_effects/OriginalFx/JuceLibraryCode/include_juce_opengl.cpp.o
+home/mariussolomes/JuceAudioEffect/OriginalFx/JuceLibraryCode/include_juce_gui_extra.o: home/mariussolomes/JuceAudioEffect/OriginalFx/JuceLibraryCode/include_juce_gui_extra.cpp.o
 
-.PHONY : home/mariussolomes/digital_audio_effects/OriginalFx/JuceLibraryCode/include_juce_opengl.o
+.PHONY : home/mariussolomes/JuceAudioEffect/OriginalFx/JuceLibraryCode/include_juce_gui_extra.o
 
 # target to build an object file
-home/mariussolomes/digital_audio_effects/OriginalFx/JuceLibraryCode/include_juce_opengl.cpp.o:
-	$(MAKE) -f CMakeFiles/SHARED_CODE.dir/build.make CMakeFiles/SHARED_CODE.dir/home/mariussolomes/digital_audio_effects/OriginalFx/JuceLibraryCode/include_juce_opengl.cpp.o
-.PHONY : home/mariussolomes/digital_audio_effects/OriginalFx/JuceLibraryCode/include_juce_opengl.cpp.o
+home/mariussolomes/JuceAudioEffect/OriginalFx/JuceLibraryCode/include_juce_gui_extra.cpp.o:
+	$(MAKE) -f CMakeFiles/SHARED_CODE.dir/build.make CMakeFiles/SHARED_CODE.dir/home/mariussolomes/JuceAudioEffect/OriginalFx/JuceLibraryCode/include_juce_gui_extra.cpp.o
+.PHONY : home/mariussolomes/JuceAudioEffect/OriginalFx/JuceLibraryCode/include_juce_gui_extra.cpp.o
 
-home/mariussolomes/digital_audio_effects/OriginalFx/JuceLibraryCode/include_juce_opengl.i: home/mariussolomes/digital_audio_effects/OriginalFx/JuceLibraryCode/include_juce_opengl.cpp.i
+home/mariussolomes/JuceAudioEffect/OriginalFx/JuceLibraryCode/include_juce_gui_extra.i: home/mariussolomes/JuceAudioEffect/OriginalFx/JuceLibraryCode/include_juce_gui_extra.cpp.i
 
-.PHONY : home/mariussolomes/digital_audio_effects/OriginalFx/JuceLibraryCode/include_juce_opengl.i
+.PHONY : home/mariussolomes/JuceAudioEffect/OriginalFx/JuceLibraryCode/include_juce_gui_extra.i
 
 # target to preprocess a source file
-home/mariussolomes/digital_audio_effects/OriginalFx/JuceLibraryCode/include_juce_opengl.cpp.i:
-	$(MAKE) -f CMakeFiles/SHARED_CODE.dir/build.make CMakeFiles/SHARED_CODE.dir/home/mariussolomes/digital_audio_effects/OriginalFx/JuceLibraryCode/include_juce_opengl.cpp.i
-.PHONY : home/mariussolomes/digital_audio_effects/OriginalFx/JuceLibraryCode/include_juce_opengl.cpp.i
+home/mariussolomes/JuceAudioEffect/OriginalFx/JuceLibraryCode/include_juce_gui_extra.cpp.i:
+	$(MAKE) -f CMakeFiles/SHARED_CODE.dir/build.make CMakeFiles/SHARED_CODE.dir/home/mariussolomes/JuceAudioEffect/OriginalFx/JuceLibraryCode/include_juce_gui_extra.cpp.i
+.PHONY : home/mariussolomes/JuceAudioEffect/OriginalFx/JuceLibraryCode/include_juce_gui_extra.cpp.i
 
-home/mariussolomes/digital_audio_effects/OriginalFx/JuceLibraryCode/include_juce_opengl.s: home/mariussolomes/digital_audio_effects/OriginalFx/JuceLibraryCode/include_juce_opengl.cpp.s
+home/mariussolomes/JuceAudioEffect/OriginalFx/JuceLibraryCode/include_juce_gui_extra.s: home/mariussolomes/JuceAudioEffect/OriginalFx/JuceLibraryCode/include_juce_gui_extra.cpp.s
 
-.PHONY : home/mariussolomes/digital_audio_effects/OriginalFx/JuceLibraryCode/include_juce_opengl.s
+.PHONY : home/mariussolomes/JuceAudioEffect/OriginalFx/JuceLibraryCode/include_juce_gui_extra.s
 
 # target to generate assembly for a file
-home/mariussolomes/digital_audio_effects/OriginalFx/JuceLibraryCode/include_juce_opengl.cpp.s:
-	$(MAKE) -f CMakeFiles/SHARED_CODE.dir/build.make CMakeFiles/SHARED_CODE.dir/home/mariussolomes/digital_audio_effects/OriginalFx/JuceLibraryCode/include_juce_opengl.cpp.s
-.PHONY : home/mariussolomes/digital_audio_effects/OriginalFx/JuceLibraryCode/include_juce_opengl.cpp.s
+home/mariussolomes/JuceAudioEffect/OriginalFx/JuceLibraryCode/include_juce_gui_extra.cpp.s:
+	$(MAKE) -f CMakeFiles/SHARED_CODE.dir/build.make CMakeFiles/SHARED_CODE.dir/home/mariussolomes/JuceAudioEffect/OriginalFx/JuceLibraryCode/include_juce_gui_extra.cpp.s
+.PHONY : home/mariussolomes/JuceAudioEffect/OriginalFx/JuceLibraryCode/include_juce_gui_extra.cpp.s
 
-home/mariussolomes/digital_audio_effects/OriginalFx/Source/PluginEditor.o: home/mariussolomes/digital_audio_effects/OriginalFx/Source/PluginEditor.cpp.o
+home/mariussolomes/JuceAudioEffect/OriginalFx/JuceLibraryCode/include_juce_opengl.o: home/mariussolomes/JuceAudioEffect/OriginalFx/JuceLibraryCode/include_juce_opengl.cpp.o
 
-.PHONY : home/mariussolomes/digital_audio_effects/OriginalFx/Source/PluginEditor.o
+.PHONY : home/mariussolomes/JuceAudioEffect/OriginalFx/JuceLibraryCode/include_juce_opengl.o
 
 # target to build an object file
-home/mariussolomes/digital_audio_effects/OriginalFx/Source/PluginEditor.cpp.o:
-	$(MAKE) -f CMakeFiles/SHARED_CODE.dir/build.make CMakeFiles/SHARED_CODE.dir/home/mariussolomes/digital_audio_effects/OriginalFx/Source/PluginEditor.cpp.o
-.PHONY : home/mariussolomes/digital_audio_effects/OriginalFx/Source/PluginEditor.cpp.o
+home/mariussolomes/JuceAudioEffect/OriginalFx/JuceLibraryCode/include_juce_opengl.cpp.o:
+	$(MAKE) -f CMakeFiles/SHARED_CODE.dir/build.make CMakeFiles/SHARED_CODE.dir/home/mariussolomes/JuceAudioEffect/OriginalFx/JuceLibraryCode/include_juce_opengl.cpp.o
+.PHONY : home/mariussolomes/JuceAudioEffect/OriginalFx/JuceLibraryCode/include_juce_opengl.cpp.o
 
-home/mariussolomes/digital_audio_effects/OriginalFx/Source/PluginEditor.i: home/mariussolomes/digital_audio_effects/OriginalFx/Source/PluginEditor.cpp.i
+home/mariussolomes/JuceAudioEffect/OriginalFx/JuceLibraryCode/include_juce_opengl.i: home/mariussolomes/JuceAudioEffect/OriginalFx/JuceLibraryCode/include_juce_opengl.cpp.i
 
-.PHONY : home/mariussolomes/digital_audio_effects/OriginalFx/Source/PluginEditor.i
+.PHONY : home/mariussolomes/JuceAudioEffect/OriginalFx/JuceLibraryCode/include_juce_opengl.i
 
 # target to preprocess a source file
-home/mariussolomes/digital_audio_effects/OriginalFx/Source/PluginEditor.cpp.i:
-	$(MAKE) -f CMakeFiles/SHARED_CODE.dir/build.make CMakeFiles/SHARED_CODE.dir/home/mariussolomes/digital_audio_effects/OriginalFx/Source/PluginEditor.cpp.i
-.PHONY : home/mariussolomes/digital_audio_effects/OriginalFx/Source/PluginEditor.cpp.i
+home/mariussolomes/JuceAudioEffect/OriginalFx/JuceLibraryCode/include_juce_opengl.cpp.i:
+	$(MAKE) -f CMakeFiles/SHARED_CODE.dir/build.make CMakeFiles/SHARED_CODE.dir/home/mariussolomes/JuceAudioEffect/OriginalFx/JuceLibraryCode/include_juce_opengl.cpp.i
+.PHONY : home/mariussolomes/JuceAudioEffect/OriginalFx/JuceLibraryCode/include_juce_opengl.cpp.i
 
-home/mariussolomes/digital_audio_effects/OriginalFx/Source/PluginEditor.s: home/mariussolomes/digital_audio_effects/OriginalFx/Source/PluginEditor.cpp.s
+home/mariussolomes/JuceAudioEffect/OriginalFx/JuceLibraryCode/include_juce_opengl.s: home/mariussolomes/JuceAudioEffect/OriginalFx/JuceLibraryCode/include_juce_opengl.cpp.s
 
-.PHONY : home/mariussolomes/digital_audio_effects/OriginalFx/Source/PluginEditor.s
+.PHONY : home/mariussolomes/JuceAudioEffect/OriginalFx/JuceLibraryCode/include_juce_opengl.s
 
 # target to generate assembly for a file
-home/mariussolomes/digital_audio_effects/OriginalFx/Source/PluginEditor.cpp.s:
-	$(MAKE) -f CMakeFiles/SHARED_CODE.dir/build.make CMakeFiles/SHARED_CODE.dir/home/mariussolomes/digital_audio_effects/OriginalFx/Source/PluginEditor.cpp.s
-.PHONY : home/mariussolomes/digital_audio_effects/OriginalFx/Source/PluginEditor.cpp.s
+home/mariussolomes/JuceAudioEffect/OriginalFx/JuceLibraryCode/include_juce_opengl.cpp.s:
+	$(MAKE) -f CMakeFiles/SHARED_CODE.dir/build.make CMakeFiles/SHARED_CODE.dir/home/mariussolomes/JuceAudioEffect/OriginalFx/JuceLibraryCode/include_juce_opengl.cpp.s
+.PHONY : home/mariussolomes/JuceAudioEffect/OriginalFx/JuceLibraryCode/include_juce_opengl.cpp.s
 
-home/mariussolomes/digital_audio_effects/OriginalFx/Source/PluginProcessor.o: home/mariussolomes/digital_audio_effects/OriginalFx/Source/PluginProcessor.cpp.o
+home/mariussolomes/JuceAudioEffect/OriginalFx/Source/PluginEditor.o: home/mariussolomes/JuceAudioEffect/OriginalFx/Source/PluginEditor.cpp.o
 
-.PHONY : home/mariussolomes/digital_audio_effects/OriginalFx/Source/PluginProcessor.o
+.PHONY : home/mariussolomes/JuceAudioEffect/OriginalFx/Source/PluginEditor.o
 
 # target to build an object file
-home/mariussolomes/digital_audio_effects/OriginalFx/Source/PluginProcessor.cpp.o:
-	$(MAKE) -f CMakeFiles/SHARED_CODE.dir/build.make CMakeFiles/SHARED_CODE.dir/home/mariussolomes/digital_audio_effects/OriginalFx/Source/PluginProcessor.cpp.o
-.PHONY : home/mariussolomes/digital_audio_effects/OriginalFx/Source/PluginProcessor.cpp.o
+home/mariussolomes/JuceAudioEffect/OriginalFx/Source/PluginEditor.cpp.o:
+	$(MAKE) -f CMakeFiles/SHARED_CODE.dir/build.make CMakeFiles/SHARED_CODE.dir/home/mariussolomes/JuceAudioEffect/OriginalFx/Source/PluginEditor.cpp.o
+.PHONY : home/mariussolomes/JuceAudioEffect/OriginalFx/Source/PluginEditor.cpp.o
 
-home/mariussolomes/digital_audio_effects/OriginalFx/Source/PluginProcessor.i: home/mariussolomes/digital_audio_effects/OriginalFx/Source/PluginProcessor.cpp.i
+home/mariussolomes/JuceAudioEffect/OriginalFx/Source/PluginEditor.i: home/mariussolomes/JuceAudioEffect/OriginalFx/Source/PluginEditor.cpp.i
 
-.PHONY : home/mariussolomes/digital_audio_effects/OriginalFx/Source/PluginProcessor.i
+.PHONY : home/mariussolomes/JuceAudioEffect/OriginalFx/Source/PluginEditor.i
 
 # target to preprocess a source file
-home/mariussolomes/digital_audio_effects/OriginalFx/Source/PluginProcessor.cpp.i:
-	$(MAKE) -f CMakeFiles/SHARED_CODE.dir/build.make CMakeFiles/SHARED_CODE.dir/home/mariussolomes/digital_audio_effects/OriginalFx/Source/PluginProcessor.cpp.i
-.PHONY : home/mariussolomes/digital_audio_effects/OriginalFx/Source/PluginProcessor.cpp.i
+home/mariussolomes/JuceAudioEffect/OriginalFx/Source/PluginEditor.cpp.i:
+	$(MAKE) -f CMakeFiles/SHARED_CODE.dir/build.make CMakeFiles/SHARED_CODE.dir/home/mariussolomes/JuceAudioEffect/OriginalFx/Source/PluginEditor.cpp.i
+.PHONY : home/mariussolomes/JuceAudioEffect/OriginalFx/Source/PluginEditor.cpp.i
 
-home/mariussolomes/digital_audio_effects/OriginalFx/Source/PluginProcessor.s: home/mariussolomes/digital_audio_effects/OriginalFx/Source/PluginProcessor.cpp.s
+home/mariussolomes/JuceAudioEffect/OriginalFx/Source/PluginEditor.s: home/mariussolomes/JuceAudioEffect/OriginalFx/Source/PluginEditor.cpp.s
 
-.PHONY : home/mariussolomes/digital_audio_effects/OriginalFx/Source/PluginProcessor.s
+.PHONY : home/mariussolomes/JuceAudioEffect/OriginalFx/Source/PluginEditor.s
 
 # target to generate assembly for a file
-home/mariussolomes/digital_audio_effects/OriginalFx/Source/PluginProcessor.cpp.s:
-	$(MAKE) -f CMakeFiles/SHARED_CODE.dir/build.make CMakeFiles/SHARED_CODE.dir/home/mariussolomes/digital_audio_effects/OriginalFx/Source/PluginProcessor.cpp.s
-.PHONY : home/mariussolomes/digital_audio_effects/OriginalFx/Source/PluginProcessor.cpp.s
+home/mariussolomes/JuceAudioEffect/OriginalFx/Source/PluginEditor.cpp.s:
+	$(MAKE) -f CMakeFiles/SHARED_CODE.dir/build.make CMakeFiles/SHARED_CODE.dir/home/mariussolomes/JuceAudioEffect/OriginalFx/Source/PluginEditor.cpp.s
+.PHONY : home/mariussolomes/JuceAudioEffect/OriginalFx/Source/PluginEditor.cpp.s
+
+home/mariussolomes/JuceAudioEffect/OriginalFx/Source/PluginProcessor.o: home/mariussolomes/JuceAudioEffect/OriginalFx/Source/PluginProcessor.cpp.o
+
+.PHONY : home/mariussolomes/JuceAudioEffect/OriginalFx/Source/PluginProcessor.o
+
+# target to build an object file
+home/mariussolomes/JuceAudioEffect/OriginalFx/Source/PluginProcessor.cpp.o:
+	$(MAKE) -f CMakeFiles/SHARED_CODE.dir/build.make CMakeFiles/SHARED_CODE.dir/home/mariussolomes/JuceAudioEffect/OriginalFx/Source/PluginProcessor.cpp.o
+.PHONY : home/mariussolomes/JuceAudioEffect/OriginalFx/Source/PluginProcessor.cpp.o
+
+home/mariussolomes/JuceAudioEffect/OriginalFx/Source/PluginProcessor.i: home/mariussolomes/JuceAudioEffect/OriginalFx/Source/PluginProcessor.cpp.i
+
+.PHONY : home/mariussolomes/JuceAudioEffect/OriginalFx/Source/PluginProcessor.i
+
+# target to preprocess a source file
+home/mariussolomes/JuceAudioEffect/OriginalFx/Source/PluginProcessor.cpp.i:
+	$(MAKE) -f CMakeFiles/SHARED_CODE.dir/build.make CMakeFiles/SHARED_CODE.dir/home/mariussolomes/JuceAudioEffect/OriginalFx/Source/PluginProcessor.cpp.i
+.PHONY : home/mariussolomes/JuceAudioEffect/OriginalFx/Source/PluginProcessor.cpp.i
+
+home/mariussolomes/JuceAudioEffect/OriginalFx/Source/PluginProcessor.s: home/mariussolomes/JuceAudioEffect/OriginalFx/Source/PluginProcessor.cpp.s
+
+.PHONY : home/mariussolomes/JuceAudioEffect/OriginalFx/Source/PluginProcessor.s
+
+# target to generate assembly for a file
+home/mariussolomes/JuceAudioEffect/OriginalFx/Source/PluginProcessor.cpp.s:
+	$(MAKE) -f CMakeFiles/SHARED_CODE.dir/build.make CMakeFiles/SHARED_CODE.dir/home/mariussolomes/JuceAudioEffect/OriginalFx/Source/PluginProcessor.cpp.s
+.PHONY : home/mariussolomes/JuceAudioEffect/OriginalFx/Source/PluginProcessor.cpp.s
+
+home/mariussolomes/JuceAudioEffect/OriginalFx/Source/SliderUtil.o: home/mariussolomes/JuceAudioEffect/OriginalFx/Source/SliderUtil.cpp.o
+
+.PHONY : home/mariussolomes/JuceAudioEffect/OriginalFx/Source/SliderUtil.o
+
+# target to build an object file
+home/mariussolomes/JuceAudioEffect/OriginalFx/Source/SliderUtil.cpp.o:
+	$(MAKE) -f CMakeFiles/SHARED_CODE.dir/build.make CMakeFiles/SHARED_CODE.dir/home/mariussolomes/JuceAudioEffect/OriginalFx/Source/SliderUtil.cpp.o
+.PHONY : home/mariussolomes/JuceAudioEffect/OriginalFx/Source/SliderUtil.cpp.o
+
+home/mariussolomes/JuceAudioEffect/OriginalFx/Source/SliderUtil.i: home/mariussolomes/JuceAudioEffect/OriginalFx/Source/SliderUtil.cpp.i
+
+.PHONY : home/mariussolomes/JuceAudioEffect/OriginalFx/Source/SliderUtil.i
+
+# target to preprocess a source file
+home/mariussolomes/JuceAudioEffect/OriginalFx/Source/SliderUtil.cpp.i:
+	$(MAKE) -f CMakeFiles/SHARED_CODE.dir/build.make CMakeFiles/SHARED_CODE.dir/home/mariussolomes/JuceAudioEffect/OriginalFx/Source/SliderUtil.cpp.i
+.PHONY : home/mariussolomes/JuceAudioEffect/OriginalFx/Source/SliderUtil.cpp.i
+
+home/mariussolomes/JuceAudioEffect/OriginalFx/Source/SliderUtil.s: home/mariussolomes/JuceAudioEffect/OriginalFx/Source/SliderUtil.cpp.s
+
+.PHONY : home/mariussolomes/JuceAudioEffect/OriginalFx/Source/SliderUtil.s
+
+# target to generate assembly for a file
+home/mariussolomes/JuceAudioEffect/OriginalFx/Source/SliderUtil.cpp.s:
+	$(MAKE) -f CMakeFiles/SHARED_CODE.dir/build.make CMakeFiles/SHARED_CODE.dir/home/mariussolomes/JuceAudioEffect/OriginalFx/Source/SliderUtil.cpp.s
+.PHONY : home/mariussolomes/JuceAudioEffect/OriginalFx/Source/SliderUtil.cpp.s
 
 # Help Target
 help:
@@ -605,57 +632,60 @@ help:
 	@echo "... edit_cache"
 	@echo "... STANDALONE_PLUGIN"
 	@echo "... SHARED_CODE"
-	@echo "... home/mariussolomes/digital_audio_effects/OriginalFx/JuceLibraryCode/include_juce_audio_basics.o"
-	@echo "... home/mariussolomes/digital_audio_effects/OriginalFx/JuceLibraryCode/include_juce_audio_basics.i"
-	@echo "... home/mariussolomes/digital_audio_effects/OriginalFx/JuceLibraryCode/include_juce_audio_basics.s"
-	@echo "... home/mariussolomes/digital_audio_effects/OriginalFx/JuceLibraryCode/include_juce_audio_devices.o"
-	@echo "... home/mariussolomes/digital_audio_effects/OriginalFx/JuceLibraryCode/include_juce_audio_devices.i"
-	@echo "... home/mariussolomes/digital_audio_effects/OriginalFx/JuceLibraryCode/include_juce_audio_devices.s"
-	@echo "... home/mariussolomes/digital_audio_effects/OriginalFx/JuceLibraryCode/include_juce_audio_formats.o"
-	@echo "... home/mariussolomes/digital_audio_effects/OriginalFx/JuceLibraryCode/include_juce_audio_formats.i"
-	@echo "... home/mariussolomes/digital_audio_effects/OriginalFx/JuceLibraryCode/include_juce_audio_formats.s"
-	@echo "... home/mariussolomes/digital_audio_effects/OriginalFx/JuceLibraryCode/include_juce_audio_plugin_client_Standalone.o"
-	@echo "... home/mariussolomes/digital_audio_effects/OriginalFx/JuceLibraryCode/include_juce_audio_plugin_client_Standalone.i"
-	@echo "... home/mariussolomes/digital_audio_effects/OriginalFx/JuceLibraryCode/include_juce_audio_plugin_client_Standalone.s"
-	@echo "... home/mariussolomes/digital_audio_effects/OriginalFx/JuceLibraryCode/include_juce_audio_plugin_client_utils.o"
-	@echo "... home/mariussolomes/digital_audio_effects/OriginalFx/JuceLibraryCode/include_juce_audio_plugin_client_utils.i"
-	@echo "... home/mariussolomes/digital_audio_effects/OriginalFx/JuceLibraryCode/include_juce_audio_plugin_client_utils.s"
-	@echo "... home/mariussolomes/digital_audio_effects/OriginalFx/JuceLibraryCode/include_juce_audio_processors.o"
-	@echo "... home/mariussolomes/digital_audio_effects/OriginalFx/JuceLibraryCode/include_juce_audio_processors.i"
-	@echo "... home/mariussolomes/digital_audio_effects/OriginalFx/JuceLibraryCode/include_juce_audio_processors.s"
-	@echo "... home/mariussolomes/digital_audio_effects/OriginalFx/JuceLibraryCode/include_juce_audio_utils.o"
-	@echo "... home/mariussolomes/digital_audio_effects/OriginalFx/JuceLibraryCode/include_juce_audio_utils.i"
-	@echo "... home/mariussolomes/digital_audio_effects/OriginalFx/JuceLibraryCode/include_juce_audio_utils.s"
-	@echo "... home/mariussolomes/digital_audio_effects/OriginalFx/JuceLibraryCode/include_juce_core.o"
-	@echo "... home/mariussolomes/digital_audio_effects/OriginalFx/JuceLibraryCode/include_juce_core.i"
-	@echo "... home/mariussolomes/digital_audio_effects/OriginalFx/JuceLibraryCode/include_juce_core.s"
-	@echo "... home/mariussolomes/digital_audio_effects/OriginalFx/JuceLibraryCode/include_juce_cryptography.o"
-	@echo "... home/mariussolomes/digital_audio_effects/OriginalFx/JuceLibraryCode/include_juce_cryptography.i"
-	@echo "... home/mariussolomes/digital_audio_effects/OriginalFx/JuceLibraryCode/include_juce_cryptography.s"
-	@echo "... home/mariussolomes/digital_audio_effects/OriginalFx/JuceLibraryCode/include_juce_data_structures.o"
-	@echo "... home/mariussolomes/digital_audio_effects/OriginalFx/JuceLibraryCode/include_juce_data_structures.i"
-	@echo "... home/mariussolomes/digital_audio_effects/OriginalFx/JuceLibraryCode/include_juce_data_structures.s"
-	@echo "... home/mariussolomes/digital_audio_effects/OriginalFx/JuceLibraryCode/include_juce_events.o"
-	@echo "... home/mariussolomes/digital_audio_effects/OriginalFx/JuceLibraryCode/include_juce_events.i"
-	@echo "... home/mariussolomes/digital_audio_effects/OriginalFx/JuceLibraryCode/include_juce_events.s"
-	@echo "... home/mariussolomes/digital_audio_effects/OriginalFx/JuceLibraryCode/include_juce_graphics.o"
-	@echo "... home/mariussolomes/digital_audio_effects/OriginalFx/JuceLibraryCode/include_juce_graphics.i"
-	@echo "... home/mariussolomes/digital_audio_effects/OriginalFx/JuceLibraryCode/include_juce_graphics.s"
-	@echo "... home/mariussolomes/digital_audio_effects/OriginalFx/JuceLibraryCode/include_juce_gui_basics.o"
-	@echo "... home/mariussolomes/digital_audio_effects/OriginalFx/JuceLibraryCode/include_juce_gui_basics.i"
-	@echo "... home/mariussolomes/digital_audio_effects/OriginalFx/JuceLibraryCode/include_juce_gui_basics.s"
-	@echo "... home/mariussolomes/digital_audio_effects/OriginalFx/JuceLibraryCode/include_juce_gui_extra.o"
-	@echo "... home/mariussolomes/digital_audio_effects/OriginalFx/JuceLibraryCode/include_juce_gui_extra.i"
-	@echo "... home/mariussolomes/digital_audio_effects/OriginalFx/JuceLibraryCode/include_juce_gui_extra.s"
-	@echo "... home/mariussolomes/digital_audio_effects/OriginalFx/JuceLibraryCode/include_juce_opengl.o"
-	@echo "... home/mariussolomes/digital_audio_effects/OriginalFx/JuceLibraryCode/include_juce_opengl.i"
-	@echo "... home/mariussolomes/digital_audio_effects/OriginalFx/JuceLibraryCode/include_juce_opengl.s"
-	@echo "... home/mariussolomes/digital_audio_effects/OriginalFx/Source/PluginEditor.o"
-	@echo "... home/mariussolomes/digital_audio_effects/OriginalFx/Source/PluginEditor.i"
-	@echo "... home/mariussolomes/digital_audio_effects/OriginalFx/Source/PluginEditor.s"
-	@echo "... home/mariussolomes/digital_audio_effects/OriginalFx/Source/PluginProcessor.o"
-	@echo "... home/mariussolomes/digital_audio_effects/OriginalFx/Source/PluginProcessor.i"
-	@echo "... home/mariussolomes/digital_audio_effects/OriginalFx/Source/PluginProcessor.s"
+	@echo "... home/mariussolomes/JuceAudioEffect/OriginalFx/JuceLibraryCode/include_juce_audio_basics.o"
+	@echo "... home/mariussolomes/JuceAudioEffect/OriginalFx/JuceLibraryCode/include_juce_audio_basics.i"
+	@echo "... home/mariussolomes/JuceAudioEffect/OriginalFx/JuceLibraryCode/include_juce_audio_basics.s"
+	@echo "... home/mariussolomes/JuceAudioEffect/OriginalFx/JuceLibraryCode/include_juce_audio_devices.o"
+	@echo "... home/mariussolomes/JuceAudioEffect/OriginalFx/JuceLibraryCode/include_juce_audio_devices.i"
+	@echo "... home/mariussolomes/JuceAudioEffect/OriginalFx/JuceLibraryCode/include_juce_audio_devices.s"
+	@echo "... home/mariussolomes/JuceAudioEffect/OriginalFx/JuceLibraryCode/include_juce_audio_formats.o"
+	@echo "... home/mariussolomes/JuceAudioEffect/OriginalFx/JuceLibraryCode/include_juce_audio_formats.i"
+	@echo "... home/mariussolomes/JuceAudioEffect/OriginalFx/JuceLibraryCode/include_juce_audio_formats.s"
+	@echo "... home/mariussolomes/JuceAudioEffect/OriginalFx/JuceLibraryCode/include_juce_audio_plugin_client_Standalone.o"
+	@echo "... home/mariussolomes/JuceAudioEffect/OriginalFx/JuceLibraryCode/include_juce_audio_plugin_client_Standalone.i"
+	@echo "... home/mariussolomes/JuceAudioEffect/OriginalFx/JuceLibraryCode/include_juce_audio_plugin_client_Standalone.s"
+	@echo "... home/mariussolomes/JuceAudioEffect/OriginalFx/JuceLibraryCode/include_juce_audio_plugin_client_utils.o"
+	@echo "... home/mariussolomes/JuceAudioEffect/OriginalFx/JuceLibraryCode/include_juce_audio_plugin_client_utils.i"
+	@echo "... home/mariussolomes/JuceAudioEffect/OriginalFx/JuceLibraryCode/include_juce_audio_plugin_client_utils.s"
+	@echo "... home/mariussolomes/JuceAudioEffect/OriginalFx/JuceLibraryCode/include_juce_audio_processors.o"
+	@echo "... home/mariussolomes/JuceAudioEffect/OriginalFx/JuceLibraryCode/include_juce_audio_processors.i"
+	@echo "... home/mariussolomes/JuceAudioEffect/OriginalFx/JuceLibraryCode/include_juce_audio_processors.s"
+	@echo "... home/mariussolomes/JuceAudioEffect/OriginalFx/JuceLibraryCode/include_juce_audio_utils.o"
+	@echo "... home/mariussolomes/JuceAudioEffect/OriginalFx/JuceLibraryCode/include_juce_audio_utils.i"
+	@echo "... home/mariussolomes/JuceAudioEffect/OriginalFx/JuceLibraryCode/include_juce_audio_utils.s"
+	@echo "... home/mariussolomes/JuceAudioEffect/OriginalFx/JuceLibraryCode/include_juce_core.o"
+	@echo "... home/mariussolomes/JuceAudioEffect/OriginalFx/JuceLibraryCode/include_juce_core.i"
+	@echo "... home/mariussolomes/JuceAudioEffect/OriginalFx/JuceLibraryCode/include_juce_core.s"
+	@echo "... home/mariussolomes/JuceAudioEffect/OriginalFx/JuceLibraryCode/include_juce_cryptography.o"
+	@echo "... home/mariussolomes/JuceAudioEffect/OriginalFx/JuceLibraryCode/include_juce_cryptography.i"
+	@echo "... home/mariussolomes/JuceAudioEffect/OriginalFx/JuceLibraryCode/include_juce_cryptography.s"
+	@echo "... home/mariussolomes/JuceAudioEffect/OriginalFx/JuceLibraryCode/include_juce_data_structures.o"
+	@echo "... home/mariussolomes/JuceAudioEffect/OriginalFx/JuceLibraryCode/include_juce_data_structures.i"
+	@echo "... home/mariussolomes/JuceAudioEffect/OriginalFx/JuceLibraryCode/include_juce_data_structures.s"
+	@echo "... home/mariussolomes/JuceAudioEffect/OriginalFx/JuceLibraryCode/include_juce_events.o"
+	@echo "... home/mariussolomes/JuceAudioEffect/OriginalFx/JuceLibraryCode/include_juce_events.i"
+	@echo "... home/mariussolomes/JuceAudioEffect/OriginalFx/JuceLibraryCode/include_juce_events.s"
+	@echo "... home/mariussolomes/JuceAudioEffect/OriginalFx/JuceLibraryCode/include_juce_graphics.o"
+	@echo "... home/mariussolomes/JuceAudioEffect/OriginalFx/JuceLibraryCode/include_juce_graphics.i"
+	@echo "... home/mariussolomes/JuceAudioEffect/OriginalFx/JuceLibraryCode/include_juce_graphics.s"
+	@echo "... home/mariussolomes/JuceAudioEffect/OriginalFx/JuceLibraryCode/include_juce_gui_basics.o"
+	@echo "... home/mariussolomes/JuceAudioEffect/OriginalFx/JuceLibraryCode/include_juce_gui_basics.i"
+	@echo "... home/mariussolomes/JuceAudioEffect/OriginalFx/JuceLibraryCode/include_juce_gui_basics.s"
+	@echo "... home/mariussolomes/JuceAudioEffect/OriginalFx/JuceLibraryCode/include_juce_gui_extra.o"
+	@echo "... home/mariussolomes/JuceAudioEffect/OriginalFx/JuceLibraryCode/include_juce_gui_extra.i"
+	@echo "... home/mariussolomes/JuceAudioEffect/OriginalFx/JuceLibraryCode/include_juce_gui_extra.s"
+	@echo "... home/mariussolomes/JuceAudioEffect/OriginalFx/JuceLibraryCode/include_juce_opengl.o"
+	@echo "... home/mariussolomes/JuceAudioEffect/OriginalFx/JuceLibraryCode/include_juce_opengl.i"
+	@echo "... home/mariussolomes/JuceAudioEffect/OriginalFx/JuceLibraryCode/include_juce_opengl.s"
+	@echo "... home/mariussolomes/JuceAudioEffect/OriginalFx/Source/PluginEditor.o"
+	@echo "... home/mariussolomes/JuceAudioEffect/OriginalFx/Source/PluginEditor.i"
+	@echo "... home/mariussolomes/JuceAudioEffect/OriginalFx/Source/PluginEditor.s"
+	@echo "... home/mariussolomes/JuceAudioEffect/OriginalFx/Source/PluginProcessor.o"
+	@echo "... home/mariussolomes/JuceAudioEffect/OriginalFx/Source/PluginProcessor.i"
+	@echo "... home/mariussolomes/JuceAudioEffect/OriginalFx/Source/PluginProcessor.s"
+	@echo "... home/mariussolomes/JuceAudioEffect/OriginalFx/Source/SliderUtil.o"
+	@echo "... home/mariussolomes/JuceAudioEffect/OriginalFx/Source/SliderUtil.i"
+	@echo "... home/mariussolomes/JuceAudioEffect/OriginalFx/Source/SliderUtil.s"
 .PHONY : help
 
 

@@ -4,7 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/home/mariussolomes/digital_audio_effects/OriginalFx/JuceLibraryCode/include_juce_audio_plugin_client_Standalone.cpp" "/home/mariussolomes/digital_audio_effects/OriginalFx/Builds/CLion/cmake-build-debug/CMakeFiles/STANDALONE_PLUGIN.dir/home/mariussolomes/digital_audio_effects/OriginalFx/JuceLibraryCode/include_juce_audio_plugin_client_Standalone.cpp.o"
+  "/home/mariussolomes/JuceAudioEffect/OriginalFx/JuceLibraryCode/include_juce_audio_plugin_client_Standalone.cpp" "/home/mariussolomes/JuceAudioEffect/OriginalFx/Builds/CLion/cmake-build-debug/CMakeFiles/STANDALONE_PLUGIN.dir/home/mariussolomes/JuceAudioEffect/OriginalFx/JuceLibraryCode/include_juce_audio_plugin_client_Standalone.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 
@@ -55,7 +55,7 @@ set(CMAKE_CXX_TARGET_INCLUDE_PATH
 
 # Targets to which this target links.
 set(CMAKE_TARGET_LINKED_INFO_FILES
-  "/home/mariussolomes/digital_audio_effects/OriginalFx/Builds/CLion/cmake-build-debug/CMakeFiles/SHARED_CODE.dir/DependInfo.cmake"
+  "/home/mariussolomes/JuceAudioEffect/OriginalFx/Builds/CLion/cmake-build-debug/CMakeFiles/SHARED_CODE.dir/DependInfo.cmake"
   )
 
 # Fortran module output directory.

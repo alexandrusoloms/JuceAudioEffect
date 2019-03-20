@@ -43,10 +43,10 @@ RM = /snap/clion/61/bin/cmake/linux/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/mariussolomes/digital_audio_effects/OriginalFx/Builds/CLion
+CMAKE_SOURCE_DIR = /home/mariussolomes/JuceAudioEffect/OriginalFx/Builds/CLion
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/mariussolomes/digital_audio_effects/OriginalFx/Builds/CLion/cmake-build-debug
+CMAKE_BINARY_DIR = /home/mariussolomes/JuceAudioEffect/OriginalFx/Builds/CLion/cmake-build-debug
 
 # Include any dependencies generated for this target.
 include CMakeFiles/SHARED_CODE.dir/depend.make
@@ -57,255 +57,270 @@ include CMakeFiles/SHARED_CODE.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/SHARED_CODE.dir/flags.make
 
-CMakeFiles/SHARED_CODE.dir/home/mariussolomes/digital_audio_effects/OriginalFx/Source/PluginProcessor.cpp.o: CMakeFiles/SHARED_CODE.dir/flags.make
-CMakeFiles/SHARED_CODE.dir/home/mariussolomes/digital_audio_effects/OriginalFx/Source/PluginProcessor.cpp.o: /home/mariussolomes/digital_audio_effects/OriginalFx/Source/PluginProcessor.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/mariussolomes/digital_audio_effects/OriginalFx/Builds/CLion/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/SHARED_CODE.dir/home/mariussolomes/digital_audio_effects/OriginalFx/Source/PluginProcessor.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/SHARED_CODE.dir/home/mariussolomes/digital_audio_effects/OriginalFx/Source/PluginProcessor.cpp.o -c /home/mariussolomes/digital_audio_effects/OriginalFx/Source/PluginProcessor.cpp
+CMakeFiles/SHARED_CODE.dir/home/mariussolomes/JuceAudioEffect/OriginalFx/Source/SliderUtil.cpp.o: CMakeFiles/SHARED_CODE.dir/flags.make
+CMakeFiles/SHARED_CODE.dir/home/mariussolomes/JuceAudioEffect/OriginalFx/Source/SliderUtil.cpp.o: /home/mariussolomes/JuceAudioEffect/OriginalFx/Source/SliderUtil.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/mariussolomes/JuceAudioEffect/OriginalFx/Builds/CLion/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/SHARED_CODE.dir/home/mariussolomes/JuceAudioEffect/OriginalFx/Source/SliderUtil.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/SHARED_CODE.dir/home/mariussolomes/JuceAudioEffect/OriginalFx/Source/SliderUtil.cpp.o -c /home/mariussolomes/JuceAudioEffect/OriginalFx/Source/SliderUtil.cpp
 
-CMakeFiles/SHARED_CODE.dir/home/mariussolomes/digital_audio_effects/OriginalFx/Source/PluginProcessor.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/SHARED_CODE.dir/home/mariussolomes/digital_audio_effects/OriginalFx/Source/PluginProcessor.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/mariussolomes/digital_audio_effects/OriginalFx/Source/PluginProcessor.cpp > CMakeFiles/SHARED_CODE.dir/home/mariussolomes/digital_audio_effects/OriginalFx/Source/PluginProcessor.cpp.i
+CMakeFiles/SHARED_CODE.dir/home/mariussolomes/JuceAudioEffect/OriginalFx/Source/SliderUtil.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/SHARED_CODE.dir/home/mariussolomes/JuceAudioEffect/OriginalFx/Source/SliderUtil.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/mariussolomes/JuceAudioEffect/OriginalFx/Source/SliderUtil.cpp > CMakeFiles/SHARED_CODE.dir/home/mariussolomes/JuceAudioEffect/OriginalFx/Source/SliderUtil.cpp.i
 
-CMakeFiles/SHARED_CODE.dir/home/mariussolomes/digital_audio_effects/OriginalFx/Source/PluginProcessor.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/SHARED_CODE.dir/home/mariussolomes/digital_audio_effects/OriginalFx/Source/PluginProcessor.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/mariussolomes/digital_audio_effects/OriginalFx/Source/PluginProcessor.cpp -o CMakeFiles/SHARED_CODE.dir/home/mariussolomes/digital_audio_effects/OriginalFx/Source/PluginProcessor.cpp.s
+CMakeFiles/SHARED_CODE.dir/home/mariussolomes/JuceAudioEffect/OriginalFx/Source/SliderUtil.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/SHARED_CODE.dir/home/mariussolomes/JuceAudioEffect/OriginalFx/Source/SliderUtil.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/mariussolomes/JuceAudioEffect/OriginalFx/Source/SliderUtil.cpp -o CMakeFiles/SHARED_CODE.dir/home/mariussolomes/JuceAudioEffect/OriginalFx/Source/SliderUtil.cpp.s
 
-CMakeFiles/SHARED_CODE.dir/home/mariussolomes/digital_audio_effects/OriginalFx/Source/PluginEditor.cpp.o: CMakeFiles/SHARED_CODE.dir/flags.make
-CMakeFiles/SHARED_CODE.dir/home/mariussolomes/digital_audio_effects/OriginalFx/Source/PluginEditor.cpp.o: /home/mariussolomes/digital_audio_effects/OriginalFx/Source/PluginEditor.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/mariussolomes/digital_audio_effects/OriginalFx/Builds/CLion/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/SHARED_CODE.dir/home/mariussolomes/digital_audio_effects/OriginalFx/Source/PluginEditor.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/SHARED_CODE.dir/home/mariussolomes/digital_audio_effects/OriginalFx/Source/PluginEditor.cpp.o -c /home/mariussolomes/digital_audio_effects/OriginalFx/Source/PluginEditor.cpp
+CMakeFiles/SHARED_CODE.dir/home/mariussolomes/JuceAudioEffect/OriginalFx/Source/PluginProcessor.cpp.o: CMakeFiles/SHARED_CODE.dir/flags.make
+CMakeFiles/SHARED_CODE.dir/home/mariussolomes/JuceAudioEffect/OriginalFx/Source/PluginProcessor.cpp.o: /home/mariussolomes/JuceAudioEffect/OriginalFx/Source/PluginProcessor.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/mariussolomes/JuceAudioEffect/OriginalFx/Builds/CLion/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/SHARED_CODE.dir/home/mariussolomes/JuceAudioEffect/OriginalFx/Source/PluginProcessor.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/SHARED_CODE.dir/home/mariussolomes/JuceAudioEffect/OriginalFx/Source/PluginProcessor.cpp.o -c /home/mariussolomes/JuceAudioEffect/OriginalFx/Source/PluginProcessor.cpp
 
-CMakeFiles/SHARED_CODE.dir/home/mariussolomes/digital_audio_effects/OriginalFx/Source/PluginEditor.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/SHARED_CODE.dir/home/mariussolomes/digital_audio_effects/OriginalFx/Source/PluginEditor.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/mariussolomes/digital_audio_effects/OriginalFx/Source/PluginEditor.cpp > CMakeFiles/SHARED_CODE.dir/home/mariussolomes/digital_audio_effects/OriginalFx/Source/PluginEditor.cpp.i
+CMakeFiles/SHARED_CODE.dir/home/mariussolomes/JuceAudioEffect/OriginalFx/Source/PluginProcessor.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/SHARED_CODE.dir/home/mariussolomes/JuceAudioEffect/OriginalFx/Source/PluginProcessor.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/mariussolomes/JuceAudioEffect/OriginalFx/Source/PluginProcessor.cpp > CMakeFiles/SHARED_CODE.dir/home/mariussolomes/JuceAudioEffect/OriginalFx/Source/PluginProcessor.cpp.i
 
-CMakeFiles/SHARED_CODE.dir/home/mariussolomes/digital_audio_effects/OriginalFx/Source/PluginEditor.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/SHARED_CODE.dir/home/mariussolomes/digital_audio_effects/OriginalFx/Source/PluginEditor.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/mariussolomes/digital_audio_effects/OriginalFx/Source/PluginEditor.cpp -o CMakeFiles/SHARED_CODE.dir/home/mariussolomes/digital_audio_effects/OriginalFx/Source/PluginEditor.cpp.s
+CMakeFiles/SHARED_CODE.dir/home/mariussolomes/JuceAudioEffect/OriginalFx/Source/PluginProcessor.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/SHARED_CODE.dir/home/mariussolomes/JuceAudioEffect/OriginalFx/Source/PluginProcessor.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/mariussolomes/JuceAudioEffect/OriginalFx/Source/PluginProcessor.cpp -o CMakeFiles/SHARED_CODE.dir/home/mariussolomes/JuceAudioEffect/OriginalFx/Source/PluginProcessor.cpp.s
 
-CMakeFiles/SHARED_CODE.dir/home/mariussolomes/digital_audio_effects/OriginalFx/JuceLibraryCode/include_juce_audio_basics.cpp.o: CMakeFiles/SHARED_CODE.dir/flags.make
-CMakeFiles/SHARED_CODE.dir/home/mariussolomes/digital_audio_effects/OriginalFx/JuceLibraryCode/include_juce_audio_basics.cpp.o: /home/mariussolomes/digital_audio_effects/OriginalFx/JuceLibraryCode/include_juce_audio_basics.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/mariussolomes/digital_audio_effects/OriginalFx/Builds/CLion/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/SHARED_CODE.dir/home/mariussolomes/digital_audio_effects/OriginalFx/JuceLibraryCode/include_juce_audio_basics.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/SHARED_CODE.dir/home/mariussolomes/digital_audio_effects/OriginalFx/JuceLibraryCode/include_juce_audio_basics.cpp.o -c /home/mariussolomes/digital_audio_effects/OriginalFx/JuceLibraryCode/include_juce_audio_basics.cpp
+CMakeFiles/SHARED_CODE.dir/home/mariussolomes/JuceAudioEffect/OriginalFx/Source/PluginEditor.cpp.o: CMakeFiles/SHARED_CODE.dir/flags.make
+CMakeFiles/SHARED_CODE.dir/home/mariussolomes/JuceAudioEffect/OriginalFx/Source/PluginEditor.cpp.o: /home/mariussolomes/JuceAudioEffect/OriginalFx/Source/PluginEditor.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/mariussolomes/JuceAudioEffect/OriginalFx/Builds/CLion/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/SHARED_CODE.dir/home/mariussolomes/JuceAudioEffect/OriginalFx/Source/PluginEditor.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/SHARED_CODE.dir/home/mariussolomes/JuceAudioEffect/OriginalFx/Source/PluginEditor.cpp.o -c /home/mariussolomes/JuceAudioEffect/OriginalFx/Source/PluginEditor.cpp
 
-CMakeFiles/SHARED_CODE.dir/home/mariussolomes/digital_audio_effects/OriginalFx/JuceLibraryCode/include_juce_audio_basics.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/SHARED_CODE.dir/home/mariussolomes/digital_audio_effects/OriginalFx/JuceLibraryCode/include_juce_audio_basics.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/mariussolomes/digital_audio_effects/OriginalFx/JuceLibraryCode/include_juce_audio_basics.cpp > CMakeFiles/SHARED_CODE.dir/home/mariussolomes/digital_audio_effects/OriginalFx/JuceLibraryCode/include_juce_audio_basics.cpp.i
+CMakeFiles/SHARED_CODE.dir/home/mariussolomes/JuceAudioEffect/OriginalFx/Source/PluginEditor.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/SHARED_CODE.dir/home/mariussolomes/JuceAudioEffect/OriginalFx/Source/PluginEditor.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/mariussolomes/JuceAudioEffect/OriginalFx/Source/PluginEditor.cpp > CMakeFiles/SHARED_CODE.dir/home/mariussolomes/JuceAudioEffect/OriginalFx/Source/PluginEditor.cpp.i
 
-CMakeFiles/SHARED_CODE.dir/home/mariussolomes/digital_audio_effects/OriginalFx/JuceLibraryCode/include_juce_audio_basics.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/SHARED_CODE.dir/home/mariussolomes/digital_audio_effects/OriginalFx/JuceLibraryCode/include_juce_audio_basics.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/mariussolomes/digital_audio_effects/OriginalFx/JuceLibraryCode/include_juce_audio_basics.cpp -o CMakeFiles/SHARED_CODE.dir/home/mariussolomes/digital_audio_effects/OriginalFx/JuceLibraryCode/include_juce_audio_basics.cpp.s
+CMakeFiles/SHARED_CODE.dir/home/mariussolomes/JuceAudioEffect/OriginalFx/Source/PluginEditor.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/SHARED_CODE.dir/home/mariussolomes/JuceAudioEffect/OriginalFx/Source/PluginEditor.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/mariussolomes/JuceAudioEffect/OriginalFx/Source/PluginEditor.cpp -o CMakeFiles/SHARED_CODE.dir/home/mariussolomes/JuceAudioEffect/OriginalFx/Source/PluginEditor.cpp.s
 
-CMakeFiles/SHARED_CODE.dir/home/mariussolomes/digital_audio_effects/OriginalFx/JuceLibraryCode/include_juce_audio_devices.cpp.o: CMakeFiles/SHARED_CODE.dir/flags.make
-CMakeFiles/SHARED_CODE.dir/home/mariussolomes/digital_audio_effects/OriginalFx/JuceLibraryCode/include_juce_audio_devices.cpp.o: /home/mariussolomes/digital_audio_effects/OriginalFx/JuceLibraryCode/include_juce_audio_devices.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/mariussolomes/digital_audio_effects/OriginalFx/Builds/CLion/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/SHARED_CODE.dir/home/mariussolomes/digital_audio_effects/OriginalFx/JuceLibraryCode/include_juce_audio_devices.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/SHARED_CODE.dir/home/mariussolomes/digital_audio_effects/OriginalFx/JuceLibraryCode/include_juce_audio_devices.cpp.o -c /home/mariussolomes/digital_audio_effects/OriginalFx/JuceLibraryCode/include_juce_audio_devices.cpp
+CMakeFiles/SHARED_CODE.dir/home/mariussolomes/JuceAudioEffect/OriginalFx/JuceLibraryCode/include_juce_audio_basics.cpp.o: CMakeFiles/SHARED_CODE.dir/flags.make
+CMakeFiles/SHARED_CODE.dir/home/mariussolomes/JuceAudioEffect/OriginalFx/JuceLibraryCode/include_juce_audio_basics.cpp.o: /home/mariussolomes/JuceAudioEffect/OriginalFx/JuceLibraryCode/include_juce_audio_basics.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/mariussolomes/JuceAudioEffect/OriginalFx/Builds/CLion/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/SHARED_CODE.dir/home/mariussolomes/JuceAudioEffect/OriginalFx/JuceLibraryCode/include_juce_audio_basics.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/SHARED_CODE.dir/home/mariussolomes/JuceAudioEffect/OriginalFx/JuceLibraryCode/include_juce_audio_basics.cpp.o -c /home/mariussolomes/JuceAudioEffect/OriginalFx/JuceLibraryCode/include_juce_audio_basics.cpp
 
-CMakeFiles/SHARED_CODE.dir/home/mariussolomes/digital_audio_effects/OriginalFx/JuceLibraryCode/include_juce_audio_devices.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/SHARED_CODE.dir/home/mariussolomes/digital_audio_effects/OriginalFx/JuceLibraryCode/include_juce_audio_devices.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/mariussolomes/digital_audio_effects/OriginalFx/JuceLibraryCode/include_juce_audio_devices.cpp > CMakeFiles/SHARED_CODE.dir/home/mariussolomes/digital_audio_effects/OriginalFx/JuceLibraryCode/include_juce_audio_devices.cpp.i
+CMakeFiles/SHARED_CODE.dir/home/mariussolomes/JuceAudioEffect/OriginalFx/JuceLibraryCode/include_juce_audio_basics.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/SHARED_CODE.dir/home/mariussolomes/JuceAudioEffect/OriginalFx/JuceLibraryCode/include_juce_audio_basics.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/mariussolomes/JuceAudioEffect/OriginalFx/JuceLibraryCode/include_juce_audio_basics.cpp > CMakeFiles/SHARED_CODE.dir/home/mariussolomes/JuceAudioEffect/OriginalFx/JuceLibraryCode/include_juce_audio_basics.cpp.i
 
-CMakeFiles/SHARED_CODE.dir/home/mariussolomes/digital_audio_effects/OriginalFx/JuceLibraryCode/include_juce_audio_devices.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/SHARED_CODE.dir/home/mariussolomes/digital_audio_effects/OriginalFx/JuceLibraryCode/include_juce_audio_devices.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/mariussolomes/digital_audio_effects/OriginalFx/JuceLibraryCode/include_juce_audio_devices.cpp -o CMakeFiles/SHARED_CODE.dir/home/mariussolomes/digital_audio_effects/OriginalFx/JuceLibraryCode/include_juce_audio_devices.cpp.s
+CMakeFiles/SHARED_CODE.dir/home/mariussolomes/JuceAudioEffect/OriginalFx/JuceLibraryCode/include_juce_audio_basics.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/SHARED_CODE.dir/home/mariussolomes/JuceAudioEffect/OriginalFx/JuceLibraryCode/include_juce_audio_basics.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/mariussolomes/JuceAudioEffect/OriginalFx/JuceLibraryCode/include_juce_audio_basics.cpp -o CMakeFiles/SHARED_CODE.dir/home/mariussolomes/JuceAudioEffect/OriginalFx/JuceLibraryCode/include_juce_audio_basics.cpp.s
 
-CMakeFiles/SHARED_CODE.dir/home/mariussolomes/digital_audio_effects/OriginalFx/JuceLibraryCode/include_juce_audio_formats.cpp.o: CMakeFiles/SHARED_CODE.dir/flags.make
-CMakeFiles/SHARED_CODE.dir/home/mariussolomes/digital_audio_effects/OriginalFx/JuceLibraryCode/include_juce_audio_formats.cpp.o: /home/mariussolomes/digital_audio_effects/OriginalFx/JuceLibraryCode/include_juce_audio_formats.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/mariussolomes/digital_audio_effects/OriginalFx/Builds/CLion/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/SHARED_CODE.dir/home/mariussolomes/digital_audio_effects/OriginalFx/JuceLibraryCode/include_juce_audio_formats.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/SHARED_CODE.dir/home/mariussolomes/digital_audio_effects/OriginalFx/JuceLibraryCode/include_juce_audio_formats.cpp.o -c /home/mariussolomes/digital_audio_effects/OriginalFx/JuceLibraryCode/include_juce_audio_formats.cpp
+CMakeFiles/SHARED_CODE.dir/home/mariussolomes/JuceAudioEffect/OriginalFx/JuceLibraryCode/include_juce_audio_devices.cpp.o: CMakeFiles/SHARED_CODE.dir/flags.make
+CMakeFiles/SHARED_CODE.dir/home/mariussolomes/JuceAudioEffect/OriginalFx/JuceLibraryCode/include_juce_audio_devices.cpp.o: /home/mariussolomes/JuceAudioEffect/OriginalFx/JuceLibraryCode/include_juce_audio_devices.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/mariussolomes/JuceAudioEffect/OriginalFx/Builds/CLion/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/SHARED_CODE.dir/home/mariussolomes/JuceAudioEffect/OriginalFx/JuceLibraryCode/include_juce_audio_devices.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/SHARED_CODE.dir/home/mariussolomes/JuceAudioEffect/OriginalFx/JuceLibraryCode/include_juce_audio_devices.cpp.o -c /home/mariussolomes/JuceAudioEffect/OriginalFx/JuceLibraryCode/include_juce_audio_devices.cpp
 
-CMakeFiles/SHARED_CODE.dir/home/mariussolomes/digital_audio_effects/OriginalFx/JuceLibraryCode/include_juce_audio_formats.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/SHARED_CODE.dir/home/mariussolomes/digital_audio_effects/OriginalFx/JuceLibraryCode/include_juce_audio_formats.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/mariussolomes/digital_audio_effects/OriginalFx/JuceLibraryCode/include_juce_audio_formats.cpp > CMakeFiles/SHARED_CODE.dir/home/mariussolomes/digital_audio_effects/OriginalFx/JuceLibraryCode/include_juce_audio_formats.cpp.i
+CMakeFiles/SHARED_CODE.dir/home/mariussolomes/JuceAudioEffect/OriginalFx/JuceLibraryCode/include_juce_audio_devices.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/SHARED_CODE.dir/home/mariussolomes/JuceAudioEffect/OriginalFx/JuceLibraryCode/include_juce_audio_devices.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/mariussolomes/JuceAudioEffect/OriginalFx/JuceLibraryCode/include_juce_audio_devices.cpp > CMakeFiles/SHARED_CODE.dir/home/mariussolomes/JuceAudioEffect/OriginalFx/JuceLibraryCode/include_juce_audio_devices.cpp.i
 
-CMakeFiles/SHARED_CODE.dir/home/mariussolomes/digital_audio_effects/OriginalFx/JuceLibraryCode/include_juce_audio_formats.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/SHARED_CODE.dir/home/mariussolomes/digital_audio_effects/OriginalFx/JuceLibraryCode/include_juce_audio_formats.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/mariussolomes/digital_audio_effects/OriginalFx/JuceLibraryCode/include_juce_audio_formats.cpp -o CMakeFiles/SHARED_CODE.dir/home/mariussolomes/digital_audio_effects/OriginalFx/JuceLibraryCode/include_juce_audio_formats.cpp.s
+CMakeFiles/SHARED_CODE.dir/home/mariussolomes/JuceAudioEffect/OriginalFx/JuceLibraryCode/include_juce_audio_devices.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/SHARED_CODE.dir/home/mariussolomes/JuceAudioEffect/OriginalFx/JuceLibraryCode/include_juce_audio_devices.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/mariussolomes/JuceAudioEffect/OriginalFx/JuceLibraryCode/include_juce_audio_devices.cpp -o CMakeFiles/SHARED_CODE.dir/home/mariussolomes/JuceAudioEffect/OriginalFx/JuceLibraryCode/include_juce_audio_devices.cpp.s
 
-CMakeFiles/SHARED_CODE.dir/home/mariussolomes/digital_audio_effects/OriginalFx/JuceLibraryCode/include_juce_audio_plugin_client_utils.cpp.o: CMakeFiles/SHARED_CODE.dir/flags.make
-CMakeFiles/SHARED_CODE.dir/home/mariussolomes/digital_audio_effects/OriginalFx/JuceLibraryCode/include_juce_audio_plugin_client_utils.cpp.o: /home/mariussolomes/digital_audio_effects/OriginalFx/JuceLibraryCode/include_juce_audio_plugin_client_utils.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/mariussolomes/digital_audio_effects/OriginalFx/Builds/CLion/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/SHARED_CODE.dir/home/mariussolomes/digital_audio_effects/OriginalFx/JuceLibraryCode/include_juce_audio_plugin_client_utils.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/SHARED_CODE.dir/home/mariussolomes/digital_audio_effects/OriginalFx/JuceLibraryCode/include_juce_audio_plugin_client_utils.cpp.o -c /home/mariussolomes/digital_audio_effects/OriginalFx/JuceLibraryCode/include_juce_audio_plugin_client_utils.cpp
+CMakeFiles/SHARED_CODE.dir/home/mariussolomes/JuceAudioEffect/OriginalFx/JuceLibraryCode/include_juce_audio_formats.cpp.o: CMakeFiles/SHARED_CODE.dir/flags.make
+CMakeFiles/SHARED_CODE.dir/home/mariussolomes/JuceAudioEffect/OriginalFx/JuceLibraryCode/include_juce_audio_formats.cpp.o: /home/mariussolomes/JuceAudioEffect/OriginalFx/JuceLibraryCode/include_juce_audio_formats.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/mariussolomes/JuceAudioEffect/OriginalFx/Builds/CLion/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/SHARED_CODE.dir/home/mariussolomes/JuceAudioEffect/OriginalFx/JuceLibraryCode/include_juce_audio_formats.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/SHARED_CODE.dir/home/mariussolomes/JuceAudioEffect/OriginalFx/JuceLibraryCode/include_juce_audio_formats.cpp.o -c /home/mariussolomes/JuceAudioEffect/OriginalFx/JuceLibraryCode/include_juce_audio_formats.cpp
 
-CMakeFiles/SHARED_CODE.dir/home/mariussolomes/digital_audio_effects/OriginalFx/JuceLibraryCode/include_juce_audio_plugin_client_utils.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/SHARED_CODE.dir/home/mariussolomes/digital_audio_effects/OriginalFx/JuceLibraryCode/include_juce_audio_plugin_client_utils.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/mariussolomes/digital_audio_effects/OriginalFx/JuceLibraryCode/include_juce_audio_plugin_client_utils.cpp > CMakeFiles/SHARED_CODE.dir/home/mariussolomes/digital_audio_effects/OriginalFx/JuceLibraryCode/include_juce_audio_plugin_client_utils.cpp.i
+CMakeFiles/SHARED_CODE.dir/home/mariussolomes/JuceAudioEffect/OriginalFx/JuceLibraryCode/include_juce_audio_formats.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/SHARED_CODE.dir/home/mariussolomes/JuceAudioEffect/OriginalFx/JuceLibraryCode/include_juce_audio_formats.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/mariussolomes/JuceAudioEffect/OriginalFx/JuceLibraryCode/include_juce_audio_formats.cpp > CMakeFiles/SHARED_CODE.dir/home/mariussolomes/JuceAudioEffect/OriginalFx/JuceLibraryCode/include_juce_audio_formats.cpp.i
 
-CMakeFiles/SHARED_CODE.dir/home/mariussolomes/digital_audio_effects/OriginalFx/JuceLibraryCode/include_juce_audio_plugin_client_utils.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/SHARED_CODE.dir/home/mariussolomes/digital_audio_effects/OriginalFx/JuceLibraryCode/include_juce_audio_plugin_client_utils.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/mariussolomes/digital_audio_effects/OriginalFx/JuceLibraryCode/include_juce_audio_plugin_client_utils.cpp -o CMakeFiles/SHARED_CODE.dir/home/mariussolomes/digital_audio_effects/OriginalFx/JuceLibraryCode/include_juce_audio_plugin_client_utils.cpp.s
+CMakeFiles/SHARED_CODE.dir/home/mariussolomes/JuceAudioEffect/OriginalFx/JuceLibraryCode/include_juce_audio_formats.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/SHARED_CODE.dir/home/mariussolomes/JuceAudioEffect/OriginalFx/JuceLibraryCode/include_juce_audio_formats.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/mariussolomes/JuceAudioEffect/OriginalFx/JuceLibraryCode/include_juce_audio_formats.cpp -o CMakeFiles/SHARED_CODE.dir/home/mariussolomes/JuceAudioEffect/OriginalFx/JuceLibraryCode/include_juce_audio_formats.cpp.s
 
-CMakeFiles/SHARED_CODE.dir/home/mariussolomes/digital_audio_effects/OriginalFx/JuceLibraryCode/include_juce_audio_processors.cpp.o: CMakeFiles/SHARED_CODE.dir/flags.make
-CMakeFiles/SHARED_CODE.dir/home/mariussolomes/digital_audio_effects/OriginalFx/JuceLibraryCode/include_juce_audio_processors.cpp.o: /home/mariussolomes/digital_audio_effects/OriginalFx/JuceLibraryCode/include_juce_audio_processors.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/mariussolomes/digital_audio_effects/OriginalFx/Builds/CLion/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/SHARED_CODE.dir/home/mariussolomes/digital_audio_effects/OriginalFx/JuceLibraryCode/include_juce_audio_processors.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/SHARED_CODE.dir/home/mariussolomes/digital_audio_effects/OriginalFx/JuceLibraryCode/include_juce_audio_processors.cpp.o -c /home/mariussolomes/digital_audio_effects/OriginalFx/JuceLibraryCode/include_juce_audio_processors.cpp
+CMakeFiles/SHARED_CODE.dir/home/mariussolomes/JuceAudioEffect/OriginalFx/JuceLibraryCode/include_juce_audio_plugin_client_utils.cpp.o: CMakeFiles/SHARED_CODE.dir/flags.make
+CMakeFiles/SHARED_CODE.dir/home/mariussolomes/JuceAudioEffect/OriginalFx/JuceLibraryCode/include_juce_audio_plugin_client_utils.cpp.o: /home/mariussolomes/JuceAudioEffect/OriginalFx/JuceLibraryCode/include_juce_audio_plugin_client_utils.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/mariussolomes/JuceAudioEffect/OriginalFx/Builds/CLion/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/SHARED_CODE.dir/home/mariussolomes/JuceAudioEffect/OriginalFx/JuceLibraryCode/include_juce_audio_plugin_client_utils.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/SHARED_CODE.dir/home/mariussolomes/JuceAudioEffect/OriginalFx/JuceLibraryCode/include_juce_audio_plugin_client_utils.cpp.o -c /home/mariussolomes/JuceAudioEffect/OriginalFx/JuceLibraryCode/include_juce_audio_plugin_client_utils.cpp
 
-CMakeFiles/SHARED_CODE.dir/home/mariussolomes/digital_audio_effects/OriginalFx/JuceLibraryCode/include_juce_audio_processors.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/SHARED_CODE.dir/home/mariussolomes/digital_audio_effects/OriginalFx/JuceLibraryCode/include_juce_audio_processors.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/mariussolomes/digital_audio_effects/OriginalFx/JuceLibraryCode/include_juce_audio_processors.cpp > CMakeFiles/SHARED_CODE.dir/home/mariussolomes/digital_audio_effects/OriginalFx/JuceLibraryCode/include_juce_audio_processors.cpp.i
+CMakeFiles/SHARED_CODE.dir/home/mariussolomes/JuceAudioEffect/OriginalFx/JuceLibraryCode/include_juce_audio_plugin_client_utils.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/SHARED_CODE.dir/home/mariussolomes/JuceAudioEffect/OriginalFx/JuceLibraryCode/include_juce_audio_plugin_client_utils.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/mariussolomes/JuceAudioEffect/OriginalFx/JuceLibraryCode/include_juce_audio_plugin_client_utils.cpp > CMakeFiles/SHARED_CODE.dir/home/mariussolomes/JuceAudioEffect/OriginalFx/JuceLibraryCode/include_juce_audio_plugin_client_utils.cpp.i
 
-CMakeFiles/SHARED_CODE.dir/home/mariussolomes/digital_audio_effects/OriginalFx/JuceLibraryCode/include_juce_audio_processors.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/SHARED_CODE.dir/home/mariussolomes/digital_audio_effects/OriginalFx/JuceLibraryCode/include_juce_audio_processors.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/mariussolomes/digital_audio_effects/OriginalFx/JuceLibraryCode/include_juce_audio_processors.cpp -o CMakeFiles/SHARED_CODE.dir/home/mariussolomes/digital_audio_effects/OriginalFx/JuceLibraryCode/include_juce_audio_processors.cpp.s
+CMakeFiles/SHARED_CODE.dir/home/mariussolomes/JuceAudioEffect/OriginalFx/JuceLibraryCode/include_juce_audio_plugin_client_utils.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/SHARED_CODE.dir/home/mariussolomes/JuceAudioEffect/OriginalFx/JuceLibraryCode/include_juce_audio_plugin_client_utils.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/mariussolomes/JuceAudioEffect/OriginalFx/JuceLibraryCode/include_juce_audio_plugin_client_utils.cpp -o CMakeFiles/SHARED_CODE.dir/home/mariussolomes/JuceAudioEffect/OriginalFx/JuceLibraryCode/include_juce_audio_plugin_client_utils.cpp.s
 
-CMakeFiles/SHARED_CODE.dir/home/mariussolomes/digital_audio_effects/OriginalFx/JuceLibraryCode/include_juce_audio_utils.cpp.o: CMakeFiles/SHARED_CODE.dir/flags.make
-CMakeFiles/SHARED_CODE.dir/home/mariussolomes/digital_audio_effects/OriginalFx/JuceLibraryCode/include_juce_audio_utils.cpp.o: /home/mariussolomes/digital_audio_effects/OriginalFx/JuceLibraryCode/include_juce_audio_utils.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/mariussolomes/digital_audio_effects/OriginalFx/Builds/CLion/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/SHARED_CODE.dir/home/mariussolomes/digital_audio_effects/OriginalFx/JuceLibraryCode/include_juce_audio_utils.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/SHARED_CODE.dir/home/mariussolomes/digital_audio_effects/OriginalFx/JuceLibraryCode/include_juce_audio_utils.cpp.o -c /home/mariussolomes/digital_audio_effects/OriginalFx/JuceLibraryCode/include_juce_audio_utils.cpp
+CMakeFiles/SHARED_CODE.dir/home/mariussolomes/JuceAudioEffect/OriginalFx/JuceLibraryCode/include_juce_audio_processors.cpp.o: CMakeFiles/SHARED_CODE.dir/flags.make
+CMakeFiles/SHARED_CODE.dir/home/mariussolomes/JuceAudioEffect/OriginalFx/JuceLibraryCode/include_juce_audio_processors.cpp.o: /home/mariussolomes/JuceAudioEffect/OriginalFx/JuceLibraryCode/include_juce_audio_processors.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/mariussolomes/JuceAudioEffect/OriginalFx/Builds/CLion/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/SHARED_CODE.dir/home/mariussolomes/JuceAudioEffect/OriginalFx/JuceLibraryCode/include_juce_audio_processors.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/SHARED_CODE.dir/home/mariussolomes/JuceAudioEffect/OriginalFx/JuceLibraryCode/include_juce_audio_processors.cpp.o -c /home/mariussolomes/JuceAudioEffect/OriginalFx/JuceLibraryCode/include_juce_audio_processors.cpp
 
-CMakeFiles/SHARED_CODE.dir/home/mariussolomes/digital_audio_effects/OriginalFx/JuceLibraryCode/include_juce_audio_utils.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/SHARED_CODE.dir/home/mariussolomes/digital_audio_effects/OriginalFx/JuceLibraryCode/include_juce_audio_utils.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/mariussolomes/digital_audio_effects/OriginalFx/JuceLibraryCode/include_juce_audio_utils.cpp > CMakeFiles/SHARED_CODE.dir/home/mariussolomes/digital_audio_effects/OriginalFx/JuceLibraryCode/include_juce_audio_utils.cpp.i
+CMakeFiles/SHARED_CODE.dir/home/mariussolomes/JuceAudioEffect/OriginalFx/JuceLibraryCode/include_juce_audio_processors.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/SHARED_CODE.dir/home/mariussolomes/JuceAudioEffect/OriginalFx/JuceLibraryCode/include_juce_audio_processors.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/mariussolomes/JuceAudioEffect/OriginalFx/JuceLibraryCode/include_juce_audio_processors.cpp > CMakeFiles/SHARED_CODE.dir/home/mariussolomes/JuceAudioEffect/OriginalFx/JuceLibraryCode/include_juce_audio_processors.cpp.i
 
-CMakeFiles/SHARED_CODE.dir/home/mariussolomes/digital_audio_effects/OriginalFx/JuceLibraryCode/include_juce_audio_utils.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/SHARED_CODE.dir/home/mariussolomes/digital_audio_effects/OriginalFx/JuceLibraryCode/include_juce_audio_utils.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/mariussolomes/digital_audio_effects/OriginalFx/JuceLibraryCode/include_juce_audio_utils.cpp -o CMakeFiles/SHARED_CODE.dir/home/mariussolomes/digital_audio_effects/OriginalFx/JuceLibraryCode/include_juce_audio_utils.cpp.s
+CMakeFiles/SHARED_CODE.dir/home/mariussolomes/JuceAudioEffect/OriginalFx/JuceLibraryCode/include_juce_audio_processors.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/SHARED_CODE.dir/home/mariussolomes/JuceAudioEffect/OriginalFx/JuceLibraryCode/include_juce_audio_processors.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/mariussolomes/JuceAudioEffect/OriginalFx/JuceLibraryCode/include_juce_audio_processors.cpp -o CMakeFiles/SHARED_CODE.dir/home/mariussolomes/JuceAudioEffect/OriginalFx/JuceLibraryCode/include_juce_audio_processors.cpp.s
 
-CMakeFiles/SHARED_CODE.dir/home/mariussolomes/digital_audio_effects/OriginalFx/JuceLibraryCode/include_juce_core.cpp.o: CMakeFiles/SHARED_CODE.dir/flags.make
-CMakeFiles/SHARED_CODE.dir/home/mariussolomes/digital_audio_effects/OriginalFx/JuceLibraryCode/include_juce_core.cpp.o: /home/mariussolomes/digital_audio_effects/OriginalFx/JuceLibraryCode/include_juce_core.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/mariussolomes/digital_audio_effects/OriginalFx/Builds/CLion/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/SHARED_CODE.dir/home/mariussolomes/digital_audio_effects/OriginalFx/JuceLibraryCode/include_juce_core.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/SHARED_CODE.dir/home/mariussolomes/digital_audio_effects/OriginalFx/JuceLibraryCode/include_juce_core.cpp.o -c /home/mariussolomes/digital_audio_effects/OriginalFx/JuceLibraryCode/include_juce_core.cpp
+CMakeFiles/SHARED_CODE.dir/home/mariussolomes/JuceAudioEffect/OriginalFx/JuceLibraryCode/include_juce_audio_utils.cpp.o: CMakeFiles/SHARED_CODE.dir/flags.make
+CMakeFiles/SHARED_CODE.dir/home/mariussolomes/JuceAudioEffect/OriginalFx/JuceLibraryCode/include_juce_audio_utils.cpp.o: /home/mariussolomes/JuceAudioEffect/OriginalFx/JuceLibraryCode/include_juce_audio_utils.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/mariussolomes/JuceAudioEffect/OriginalFx/Builds/CLion/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/SHARED_CODE.dir/home/mariussolomes/JuceAudioEffect/OriginalFx/JuceLibraryCode/include_juce_audio_utils.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/SHARED_CODE.dir/home/mariussolomes/JuceAudioEffect/OriginalFx/JuceLibraryCode/include_juce_audio_utils.cpp.o -c /home/mariussolomes/JuceAudioEffect/OriginalFx/JuceLibraryCode/include_juce_audio_utils.cpp
 
-CMakeFiles/SHARED_CODE.dir/home/mariussolomes/digital_audio_effects/OriginalFx/JuceLibraryCode/include_juce_core.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/SHARED_CODE.dir/home/mariussolomes/digital_audio_effects/OriginalFx/JuceLibraryCode/include_juce_core.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/mariussolomes/digital_audio_effects/OriginalFx/JuceLibraryCode/include_juce_core.cpp > CMakeFiles/SHARED_CODE.dir/home/mariussolomes/digital_audio_effects/OriginalFx/JuceLibraryCode/include_juce_core.cpp.i
+CMakeFiles/SHARED_CODE.dir/home/mariussolomes/JuceAudioEffect/OriginalFx/JuceLibraryCode/include_juce_audio_utils.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/SHARED_CODE.dir/home/mariussolomes/JuceAudioEffect/OriginalFx/JuceLibraryCode/include_juce_audio_utils.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/mariussolomes/JuceAudioEffect/OriginalFx/JuceLibraryCode/include_juce_audio_utils.cpp > CMakeFiles/SHARED_CODE.dir/home/mariussolomes/JuceAudioEffect/OriginalFx/JuceLibraryCode/include_juce_audio_utils.cpp.i
 
-CMakeFiles/SHARED_CODE.dir/home/mariussolomes/digital_audio_effects/OriginalFx/JuceLibraryCode/include_juce_core.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/SHARED_CODE.dir/home/mariussolomes/digital_audio_effects/OriginalFx/JuceLibraryCode/include_juce_core.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/mariussolomes/digital_audio_effects/OriginalFx/JuceLibraryCode/include_juce_core.cpp -o CMakeFiles/SHARED_CODE.dir/home/mariussolomes/digital_audio_effects/OriginalFx/JuceLibraryCode/include_juce_core.cpp.s
+CMakeFiles/SHARED_CODE.dir/home/mariussolomes/JuceAudioEffect/OriginalFx/JuceLibraryCode/include_juce_audio_utils.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/SHARED_CODE.dir/home/mariussolomes/JuceAudioEffect/OriginalFx/JuceLibraryCode/include_juce_audio_utils.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/mariussolomes/JuceAudioEffect/OriginalFx/JuceLibraryCode/include_juce_audio_utils.cpp -o CMakeFiles/SHARED_CODE.dir/home/mariussolomes/JuceAudioEffect/OriginalFx/JuceLibraryCode/include_juce_audio_utils.cpp.s
 
-CMakeFiles/SHARED_CODE.dir/home/mariussolomes/digital_audio_effects/OriginalFx/JuceLibraryCode/include_juce_cryptography.cpp.o: CMakeFiles/SHARED_CODE.dir/flags.make
-CMakeFiles/SHARED_CODE.dir/home/mariussolomes/digital_audio_effects/OriginalFx/JuceLibraryCode/include_juce_cryptography.cpp.o: /home/mariussolomes/digital_audio_effects/OriginalFx/JuceLibraryCode/include_juce_cryptography.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/mariussolomes/digital_audio_effects/OriginalFx/Builds/CLion/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object CMakeFiles/SHARED_CODE.dir/home/mariussolomes/digital_audio_effects/OriginalFx/JuceLibraryCode/include_juce_cryptography.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/SHARED_CODE.dir/home/mariussolomes/digital_audio_effects/OriginalFx/JuceLibraryCode/include_juce_cryptography.cpp.o -c /home/mariussolomes/digital_audio_effects/OriginalFx/JuceLibraryCode/include_juce_cryptography.cpp
+CMakeFiles/SHARED_CODE.dir/home/mariussolomes/JuceAudioEffect/OriginalFx/JuceLibraryCode/include_juce_core.cpp.o: CMakeFiles/SHARED_CODE.dir/flags.make
+CMakeFiles/SHARED_CODE.dir/home/mariussolomes/JuceAudioEffect/OriginalFx/JuceLibraryCode/include_juce_core.cpp.o: /home/mariussolomes/JuceAudioEffect/OriginalFx/JuceLibraryCode/include_juce_core.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/mariussolomes/JuceAudioEffect/OriginalFx/Builds/CLion/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object CMakeFiles/SHARED_CODE.dir/home/mariussolomes/JuceAudioEffect/OriginalFx/JuceLibraryCode/include_juce_core.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/SHARED_CODE.dir/home/mariussolomes/JuceAudioEffect/OriginalFx/JuceLibraryCode/include_juce_core.cpp.o -c /home/mariussolomes/JuceAudioEffect/OriginalFx/JuceLibraryCode/include_juce_core.cpp
 
-CMakeFiles/SHARED_CODE.dir/home/mariussolomes/digital_audio_effects/OriginalFx/JuceLibraryCode/include_juce_cryptography.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/SHARED_CODE.dir/home/mariussolomes/digital_audio_effects/OriginalFx/JuceLibraryCode/include_juce_cryptography.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/mariussolomes/digital_audio_effects/OriginalFx/JuceLibraryCode/include_juce_cryptography.cpp > CMakeFiles/SHARED_CODE.dir/home/mariussolomes/digital_audio_effects/OriginalFx/JuceLibraryCode/include_juce_cryptography.cpp.i
+CMakeFiles/SHARED_CODE.dir/home/mariussolomes/JuceAudioEffect/OriginalFx/JuceLibraryCode/include_juce_core.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/SHARED_CODE.dir/home/mariussolomes/JuceAudioEffect/OriginalFx/JuceLibraryCode/include_juce_core.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/mariussolomes/JuceAudioEffect/OriginalFx/JuceLibraryCode/include_juce_core.cpp > CMakeFiles/SHARED_CODE.dir/home/mariussolomes/JuceAudioEffect/OriginalFx/JuceLibraryCode/include_juce_core.cpp.i
 
-CMakeFiles/SHARED_CODE.dir/home/mariussolomes/digital_audio_effects/OriginalFx/JuceLibraryCode/include_juce_cryptography.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/SHARED_CODE.dir/home/mariussolomes/digital_audio_effects/OriginalFx/JuceLibraryCode/include_juce_cryptography.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/mariussolomes/digital_audio_effects/OriginalFx/JuceLibraryCode/include_juce_cryptography.cpp -o CMakeFiles/SHARED_CODE.dir/home/mariussolomes/digital_audio_effects/OriginalFx/JuceLibraryCode/include_juce_cryptography.cpp.s
+CMakeFiles/SHARED_CODE.dir/home/mariussolomes/JuceAudioEffect/OriginalFx/JuceLibraryCode/include_juce_core.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/SHARED_CODE.dir/home/mariussolomes/JuceAudioEffect/OriginalFx/JuceLibraryCode/include_juce_core.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/mariussolomes/JuceAudioEffect/OriginalFx/JuceLibraryCode/include_juce_core.cpp -o CMakeFiles/SHARED_CODE.dir/home/mariussolomes/JuceAudioEffect/OriginalFx/JuceLibraryCode/include_juce_core.cpp.s
 
-CMakeFiles/SHARED_CODE.dir/home/mariussolomes/digital_audio_effects/OriginalFx/JuceLibraryCode/include_juce_data_structures.cpp.o: CMakeFiles/SHARED_CODE.dir/flags.make
-CMakeFiles/SHARED_CODE.dir/home/mariussolomes/digital_audio_effects/OriginalFx/JuceLibraryCode/include_juce_data_structures.cpp.o: /home/mariussolomes/digital_audio_effects/OriginalFx/JuceLibraryCode/include_juce_data_structures.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/mariussolomes/digital_audio_effects/OriginalFx/Builds/CLion/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object CMakeFiles/SHARED_CODE.dir/home/mariussolomes/digital_audio_effects/OriginalFx/JuceLibraryCode/include_juce_data_structures.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/SHARED_CODE.dir/home/mariussolomes/digital_audio_effects/OriginalFx/JuceLibraryCode/include_juce_data_structures.cpp.o -c /home/mariussolomes/digital_audio_effects/OriginalFx/JuceLibraryCode/include_juce_data_structures.cpp
+CMakeFiles/SHARED_CODE.dir/home/mariussolomes/JuceAudioEffect/OriginalFx/JuceLibraryCode/include_juce_cryptography.cpp.o: CMakeFiles/SHARED_CODE.dir/flags.make
+CMakeFiles/SHARED_CODE.dir/home/mariussolomes/JuceAudioEffect/OriginalFx/JuceLibraryCode/include_juce_cryptography.cpp.o: /home/mariussolomes/JuceAudioEffect/OriginalFx/JuceLibraryCode/include_juce_cryptography.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/mariussolomes/JuceAudioEffect/OriginalFx/Builds/CLion/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object CMakeFiles/SHARED_CODE.dir/home/mariussolomes/JuceAudioEffect/OriginalFx/JuceLibraryCode/include_juce_cryptography.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/SHARED_CODE.dir/home/mariussolomes/JuceAudioEffect/OriginalFx/JuceLibraryCode/include_juce_cryptography.cpp.o -c /home/mariussolomes/JuceAudioEffect/OriginalFx/JuceLibraryCode/include_juce_cryptography.cpp
 
-CMakeFiles/SHARED_CODE.dir/home/mariussolomes/digital_audio_effects/OriginalFx/JuceLibraryCode/include_juce_data_structures.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/SHARED_CODE.dir/home/mariussolomes/digital_audio_effects/OriginalFx/JuceLibraryCode/include_juce_data_structures.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/mariussolomes/digital_audio_effects/OriginalFx/JuceLibraryCode/include_juce_data_structures.cpp > CMakeFiles/SHARED_CODE.dir/home/mariussolomes/digital_audio_effects/OriginalFx/JuceLibraryCode/include_juce_data_structures.cpp.i
+CMakeFiles/SHARED_CODE.dir/home/mariussolomes/JuceAudioEffect/OriginalFx/JuceLibraryCode/include_juce_cryptography.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/SHARED_CODE.dir/home/mariussolomes/JuceAudioEffect/OriginalFx/JuceLibraryCode/include_juce_cryptography.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/mariussolomes/JuceAudioEffect/OriginalFx/JuceLibraryCode/include_juce_cryptography.cpp > CMakeFiles/SHARED_CODE.dir/home/mariussolomes/JuceAudioEffect/OriginalFx/JuceLibraryCode/include_juce_cryptography.cpp.i
 
-CMakeFiles/SHARED_CODE.dir/home/mariussolomes/digital_audio_effects/OriginalFx/JuceLibraryCode/include_juce_data_structures.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/SHARED_CODE.dir/home/mariussolomes/digital_audio_effects/OriginalFx/JuceLibraryCode/include_juce_data_structures.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/mariussolomes/digital_audio_effects/OriginalFx/JuceLibraryCode/include_juce_data_structures.cpp -o CMakeFiles/SHARED_CODE.dir/home/mariussolomes/digital_audio_effects/OriginalFx/JuceLibraryCode/include_juce_data_structures.cpp.s
+CMakeFiles/SHARED_CODE.dir/home/mariussolomes/JuceAudioEffect/OriginalFx/JuceLibraryCode/include_juce_cryptography.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/SHARED_CODE.dir/home/mariussolomes/JuceAudioEffect/OriginalFx/JuceLibraryCode/include_juce_cryptography.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/mariussolomes/JuceAudioEffect/OriginalFx/JuceLibraryCode/include_juce_cryptography.cpp -o CMakeFiles/SHARED_CODE.dir/home/mariussolomes/JuceAudioEffect/OriginalFx/JuceLibraryCode/include_juce_cryptography.cpp.s
 
-CMakeFiles/SHARED_CODE.dir/home/mariussolomes/digital_audio_effects/OriginalFx/JuceLibraryCode/include_juce_events.cpp.o: CMakeFiles/SHARED_CODE.dir/flags.make
-CMakeFiles/SHARED_CODE.dir/home/mariussolomes/digital_audio_effects/OriginalFx/JuceLibraryCode/include_juce_events.cpp.o: /home/mariussolomes/digital_audio_effects/OriginalFx/JuceLibraryCode/include_juce_events.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/mariussolomes/digital_audio_effects/OriginalFx/Builds/CLion/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building CXX object CMakeFiles/SHARED_CODE.dir/home/mariussolomes/digital_audio_effects/OriginalFx/JuceLibraryCode/include_juce_events.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/SHARED_CODE.dir/home/mariussolomes/digital_audio_effects/OriginalFx/JuceLibraryCode/include_juce_events.cpp.o -c /home/mariussolomes/digital_audio_effects/OriginalFx/JuceLibraryCode/include_juce_events.cpp
+CMakeFiles/SHARED_CODE.dir/home/mariussolomes/JuceAudioEffect/OriginalFx/JuceLibraryCode/include_juce_data_structures.cpp.o: CMakeFiles/SHARED_CODE.dir/flags.make
+CMakeFiles/SHARED_CODE.dir/home/mariussolomes/JuceAudioEffect/OriginalFx/JuceLibraryCode/include_juce_data_structures.cpp.o: /home/mariussolomes/JuceAudioEffect/OriginalFx/JuceLibraryCode/include_juce_data_structures.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/mariussolomes/JuceAudioEffect/OriginalFx/Builds/CLion/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building CXX object CMakeFiles/SHARED_CODE.dir/home/mariussolomes/JuceAudioEffect/OriginalFx/JuceLibraryCode/include_juce_data_structures.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/SHARED_CODE.dir/home/mariussolomes/JuceAudioEffect/OriginalFx/JuceLibraryCode/include_juce_data_structures.cpp.o -c /home/mariussolomes/JuceAudioEffect/OriginalFx/JuceLibraryCode/include_juce_data_structures.cpp
 
-CMakeFiles/SHARED_CODE.dir/home/mariussolomes/digital_audio_effects/OriginalFx/JuceLibraryCode/include_juce_events.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/SHARED_CODE.dir/home/mariussolomes/digital_audio_effects/OriginalFx/JuceLibraryCode/include_juce_events.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/mariussolomes/digital_audio_effects/OriginalFx/JuceLibraryCode/include_juce_events.cpp > CMakeFiles/SHARED_CODE.dir/home/mariussolomes/digital_audio_effects/OriginalFx/JuceLibraryCode/include_juce_events.cpp.i
+CMakeFiles/SHARED_CODE.dir/home/mariussolomes/JuceAudioEffect/OriginalFx/JuceLibraryCode/include_juce_data_structures.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/SHARED_CODE.dir/home/mariussolomes/JuceAudioEffect/OriginalFx/JuceLibraryCode/include_juce_data_structures.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/mariussolomes/JuceAudioEffect/OriginalFx/JuceLibraryCode/include_juce_data_structures.cpp > CMakeFiles/SHARED_CODE.dir/home/mariussolomes/JuceAudioEffect/OriginalFx/JuceLibraryCode/include_juce_data_structures.cpp.i
 
-CMakeFiles/SHARED_CODE.dir/home/mariussolomes/digital_audio_effects/OriginalFx/JuceLibraryCode/include_juce_events.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/SHARED_CODE.dir/home/mariussolomes/digital_audio_effects/OriginalFx/JuceLibraryCode/include_juce_events.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/mariussolomes/digital_audio_effects/OriginalFx/JuceLibraryCode/include_juce_events.cpp -o CMakeFiles/SHARED_CODE.dir/home/mariussolomes/digital_audio_effects/OriginalFx/JuceLibraryCode/include_juce_events.cpp.s
+CMakeFiles/SHARED_CODE.dir/home/mariussolomes/JuceAudioEffect/OriginalFx/JuceLibraryCode/include_juce_data_structures.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/SHARED_CODE.dir/home/mariussolomes/JuceAudioEffect/OriginalFx/JuceLibraryCode/include_juce_data_structures.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/mariussolomes/JuceAudioEffect/OriginalFx/JuceLibraryCode/include_juce_data_structures.cpp -o CMakeFiles/SHARED_CODE.dir/home/mariussolomes/JuceAudioEffect/OriginalFx/JuceLibraryCode/include_juce_data_structures.cpp.s
 
-CMakeFiles/SHARED_CODE.dir/home/mariussolomes/digital_audio_effects/OriginalFx/JuceLibraryCode/include_juce_graphics.cpp.o: CMakeFiles/SHARED_CODE.dir/flags.make
-CMakeFiles/SHARED_CODE.dir/home/mariussolomes/digital_audio_effects/OriginalFx/JuceLibraryCode/include_juce_graphics.cpp.o: /home/mariussolomes/digital_audio_effects/OriginalFx/JuceLibraryCode/include_juce_graphics.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/mariussolomes/digital_audio_effects/OriginalFx/Builds/CLion/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building CXX object CMakeFiles/SHARED_CODE.dir/home/mariussolomes/digital_audio_effects/OriginalFx/JuceLibraryCode/include_juce_graphics.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/SHARED_CODE.dir/home/mariussolomes/digital_audio_effects/OriginalFx/JuceLibraryCode/include_juce_graphics.cpp.o -c /home/mariussolomes/digital_audio_effects/OriginalFx/JuceLibraryCode/include_juce_graphics.cpp
+CMakeFiles/SHARED_CODE.dir/home/mariussolomes/JuceAudioEffect/OriginalFx/JuceLibraryCode/include_juce_events.cpp.o: CMakeFiles/SHARED_CODE.dir/flags.make
+CMakeFiles/SHARED_CODE.dir/home/mariussolomes/JuceAudioEffect/OriginalFx/JuceLibraryCode/include_juce_events.cpp.o: /home/mariussolomes/JuceAudioEffect/OriginalFx/JuceLibraryCode/include_juce_events.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/mariussolomes/JuceAudioEffect/OriginalFx/Builds/CLion/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building CXX object CMakeFiles/SHARED_CODE.dir/home/mariussolomes/JuceAudioEffect/OriginalFx/JuceLibraryCode/include_juce_events.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/SHARED_CODE.dir/home/mariussolomes/JuceAudioEffect/OriginalFx/JuceLibraryCode/include_juce_events.cpp.o -c /home/mariussolomes/JuceAudioEffect/OriginalFx/JuceLibraryCode/include_juce_events.cpp
 
-CMakeFiles/SHARED_CODE.dir/home/mariussolomes/digital_audio_effects/OriginalFx/JuceLibraryCode/include_juce_graphics.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/SHARED_CODE.dir/home/mariussolomes/digital_audio_effects/OriginalFx/JuceLibraryCode/include_juce_graphics.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/mariussolomes/digital_audio_effects/OriginalFx/JuceLibraryCode/include_juce_graphics.cpp > CMakeFiles/SHARED_CODE.dir/home/mariussolomes/digital_audio_effects/OriginalFx/JuceLibraryCode/include_juce_graphics.cpp.i
+CMakeFiles/SHARED_CODE.dir/home/mariussolomes/JuceAudioEffect/OriginalFx/JuceLibraryCode/include_juce_events.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/SHARED_CODE.dir/home/mariussolomes/JuceAudioEffect/OriginalFx/JuceLibraryCode/include_juce_events.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/mariussolomes/JuceAudioEffect/OriginalFx/JuceLibraryCode/include_juce_events.cpp > CMakeFiles/SHARED_CODE.dir/home/mariussolomes/JuceAudioEffect/OriginalFx/JuceLibraryCode/include_juce_events.cpp.i
 
-CMakeFiles/SHARED_CODE.dir/home/mariussolomes/digital_audio_effects/OriginalFx/JuceLibraryCode/include_juce_graphics.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/SHARED_CODE.dir/home/mariussolomes/digital_audio_effects/OriginalFx/JuceLibraryCode/include_juce_graphics.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/mariussolomes/digital_audio_effects/OriginalFx/JuceLibraryCode/include_juce_graphics.cpp -o CMakeFiles/SHARED_CODE.dir/home/mariussolomes/digital_audio_effects/OriginalFx/JuceLibraryCode/include_juce_graphics.cpp.s
+CMakeFiles/SHARED_CODE.dir/home/mariussolomes/JuceAudioEffect/OriginalFx/JuceLibraryCode/include_juce_events.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/SHARED_CODE.dir/home/mariussolomes/JuceAudioEffect/OriginalFx/JuceLibraryCode/include_juce_events.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/mariussolomes/JuceAudioEffect/OriginalFx/JuceLibraryCode/include_juce_events.cpp -o CMakeFiles/SHARED_CODE.dir/home/mariussolomes/JuceAudioEffect/OriginalFx/JuceLibraryCode/include_juce_events.cpp.s
 
-CMakeFiles/SHARED_CODE.dir/home/mariussolomes/digital_audio_effects/OriginalFx/JuceLibraryCode/include_juce_gui_basics.cpp.o: CMakeFiles/SHARED_CODE.dir/flags.make
-CMakeFiles/SHARED_CODE.dir/home/mariussolomes/digital_audio_effects/OriginalFx/JuceLibraryCode/include_juce_gui_basics.cpp.o: /home/mariussolomes/digital_audio_effects/OriginalFx/JuceLibraryCode/include_juce_gui_basics.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/mariussolomes/digital_audio_effects/OriginalFx/Builds/CLion/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building CXX object CMakeFiles/SHARED_CODE.dir/home/mariussolomes/digital_audio_effects/OriginalFx/JuceLibraryCode/include_juce_gui_basics.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/SHARED_CODE.dir/home/mariussolomes/digital_audio_effects/OriginalFx/JuceLibraryCode/include_juce_gui_basics.cpp.o -c /home/mariussolomes/digital_audio_effects/OriginalFx/JuceLibraryCode/include_juce_gui_basics.cpp
+CMakeFiles/SHARED_CODE.dir/home/mariussolomes/JuceAudioEffect/OriginalFx/JuceLibraryCode/include_juce_graphics.cpp.o: CMakeFiles/SHARED_CODE.dir/flags.make
+CMakeFiles/SHARED_CODE.dir/home/mariussolomes/JuceAudioEffect/OriginalFx/JuceLibraryCode/include_juce_graphics.cpp.o: /home/mariussolomes/JuceAudioEffect/OriginalFx/JuceLibraryCode/include_juce_graphics.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/mariussolomes/JuceAudioEffect/OriginalFx/Builds/CLion/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building CXX object CMakeFiles/SHARED_CODE.dir/home/mariussolomes/JuceAudioEffect/OriginalFx/JuceLibraryCode/include_juce_graphics.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/SHARED_CODE.dir/home/mariussolomes/JuceAudioEffect/OriginalFx/JuceLibraryCode/include_juce_graphics.cpp.o -c /home/mariussolomes/JuceAudioEffect/OriginalFx/JuceLibraryCode/include_juce_graphics.cpp
 
-CMakeFiles/SHARED_CODE.dir/home/mariussolomes/digital_audio_effects/OriginalFx/JuceLibraryCode/include_juce_gui_basics.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/SHARED_CODE.dir/home/mariussolomes/digital_audio_effects/OriginalFx/JuceLibraryCode/include_juce_gui_basics.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/mariussolomes/digital_audio_effects/OriginalFx/JuceLibraryCode/include_juce_gui_basics.cpp > CMakeFiles/SHARED_CODE.dir/home/mariussolomes/digital_audio_effects/OriginalFx/JuceLibraryCode/include_juce_gui_basics.cpp.i
+CMakeFiles/SHARED_CODE.dir/home/mariussolomes/JuceAudioEffect/OriginalFx/JuceLibraryCode/include_juce_graphics.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/SHARED_CODE.dir/home/mariussolomes/JuceAudioEffect/OriginalFx/JuceLibraryCode/include_juce_graphics.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/mariussolomes/JuceAudioEffect/OriginalFx/JuceLibraryCode/include_juce_graphics.cpp > CMakeFiles/SHARED_CODE.dir/home/mariussolomes/JuceAudioEffect/OriginalFx/JuceLibraryCode/include_juce_graphics.cpp.i
 
-CMakeFiles/SHARED_CODE.dir/home/mariussolomes/digital_audio_effects/OriginalFx/JuceLibraryCode/include_juce_gui_basics.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/SHARED_CODE.dir/home/mariussolomes/digital_audio_effects/OriginalFx/JuceLibraryCode/include_juce_gui_basics.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/mariussolomes/digital_audio_effects/OriginalFx/JuceLibraryCode/include_juce_gui_basics.cpp -o CMakeFiles/SHARED_CODE.dir/home/mariussolomes/digital_audio_effects/OriginalFx/JuceLibraryCode/include_juce_gui_basics.cpp.s
+CMakeFiles/SHARED_CODE.dir/home/mariussolomes/JuceAudioEffect/OriginalFx/JuceLibraryCode/include_juce_graphics.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/SHARED_CODE.dir/home/mariussolomes/JuceAudioEffect/OriginalFx/JuceLibraryCode/include_juce_graphics.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/mariussolomes/JuceAudioEffect/OriginalFx/JuceLibraryCode/include_juce_graphics.cpp -o CMakeFiles/SHARED_CODE.dir/home/mariussolomes/JuceAudioEffect/OriginalFx/JuceLibraryCode/include_juce_graphics.cpp.s
 
-CMakeFiles/SHARED_CODE.dir/home/mariussolomes/digital_audio_effects/OriginalFx/JuceLibraryCode/include_juce_gui_extra.cpp.o: CMakeFiles/SHARED_CODE.dir/flags.make
-CMakeFiles/SHARED_CODE.dir/home/mariussolomes/digital_audio_effects/OriginalFx/JuceLibraryCode/include_juce_gui_extra.cpp.o: /home/mariussolomes/digital_audio_effects/OriginalFx/JuceLibraryCode/include_juce_gui_extra.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/mariussolomes/digital_audio_effects/OriginalFx/Builds/CLion/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building CXX object CMakeFiles/SHARED_CODE.dir/home/mariussolomes/digital_audio_effects/OriginalFx/JuceLibraryCode/include_juce_gui_extra.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/SHARED_CODE.dir/home/mariussolomes/digital_audio_effects/OriginalFx/JuceLibraryCode/include_juce_gui_extra.cpp.o -c /home/mariussolomes/digital_audio_effects/OriginalFx/JuceLibraryCode/include_juce_gui_extra.cpp
+CMakeFiles/SHARED_CODE.dir/home/mariussolomes/JuceAudioEffect/OriginalFx/JuceLibraryCode/include_juce_gui_basics.cpp.o: CMakeFiles/SHARED_CODE.dir/flags.make
+CMakeFiles/SHARED_CODE.dir/home/mariussolomes/JuceAudioEffect/OriginalFx/JuceLibraryCode/include_juce_gui_basics.cpp.o: /home/mariussolomes/JuceAudioEffect/OriginalFx/JuceLibraryCode/include_juce_gui_basics.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/mariussolomes/JuceAudioEffect/OriginalFx/Builds/CLion/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building CXX object CMakeFiles/SHARED_CODE.dir/home/mariussolomes/JuceAudioEffect/OriginalFx/JuceLibraryCode/include_juce_gui_basics.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/SHARED_CODE.dir/home/mariussolomes/JuceAudioEffect/OriginalFx/JuceLibraryCode/include_juce_gui_basics.cpp.o -c /home/mariussolomes/JuceAudioEffect/OriginalFx/JuceLibraryCode/include_juce_gui_basics.cpp
 
-CMakeFiles/SHARED_CODE.dir/home/mariussolomes/digital_audio_effects/OriginalFx/JuceLibraryCode/include_juce_gui_extra.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/SHARED_CODE.dir/home/mariussolomes/digital_audio_effects/OriginalFx/JuceLibraryCode/include_juce_gui_extra.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/mariussolomes/digital_audio_effects/OriginalFx/JuceLibraryCode/include_juce_gui_extra.cpp > CMakeFiles/SHARED_CODE.dir/home/mariussolomes/digital_audio_effects/OriginalFx/JuceLibraryCode/include_juce_gui_extra.cpp.i
+CMakeFiles/SHARED_CODE.dir/home/mariussolomes/JuceAudioEffect/OriginalFx/JuceLibraryCode/include_juce_gui_basics.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/SHARED_CODE.dir/home/mariussolomes/JuceAudioEffect/OriginalFx/JuceLibraryCode/include_juce_gui_basics.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/mariussolomes/JuceAudioEffect/OriginalFx/JuceLibraryCode/include_juce_gui_basics.cpp > CMakeFiles/SHARED_CODE.dir/home/mariussolomes/JuceAudioEffect/OriginalFx/JuceLibraryCode/include_juce_gui_basics.cpp.i
 
-CMakeFiles/SHARED_CODE.dir/home/mariussolomes/digital_audio_effects/OriginalFx/JuceLibraryCode/include_juce_gui_extra.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/SHARED_CODE.dir/home/mariussolomes/digital_audio_effects/OriginalFx/JuceLibraryCode/include_juce_gui_extra.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/mariussolomes/digital_audio_effects/OriginalFx/JuceLibraryCode/include_juce_gui_extra.cpp -o CMakeFiles/SHARED_CODE.dir/home/mariussolomes/digital_audio_effects/OriginalFx/JuceLibraryCode/include_juce_gui_extra.cpp.s
+CMakeFiles/SHARED_CODE.dir/home/mariussolomes/JuceAudioEffect/OriginalFx/JuceLibraryCode/include_juce_gui_basics.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/SHARED_CODE.dir/home/mariussolomes/JuceAudioEffect/OriginalFx/JuceLibraryCode/include_juce_gui_basics.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/mariussolomes/JuceAudioEffect/OriginalFx/JuceLibraryCode/include_juce_gui_basics.cpp -o CMakeFiles/SHARED_CODE.dir/home/mariussolomes/JuceAudioEffect/OriginalFx/JuceLibraryCode/include_juce_gui_basics.cpp.s
 
-CMakeFiles/SHARED_CODE.dir/home/mariussolomes/digital_audio_effects/OriginalFx/JuceLibraryCode/include_juce_opengl.cpp.o: CMakeFiles/SHARED_CODE.dir/flags.make
-CMakeFiles/SHARED_CODE.dir/home/mariussolomes/digital_audio_effects/OriginalFx/JuceLibraryCode/include_juce_opengl.cpp.o: /home/mariussolomes/digital_audio_effects/OriginalFx/JuceLibraryCode/include_juce_opengl.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/mariussolomes/digital_audio_effects/OriginalFx/Builds/CLion/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building CXX object CMakeFiles/SHARED_CODE.dir/home/mariussolomes/digital_audio_effects/OriginalFx/JuceLibraryCode/include_juce_opengl.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/SHARED_CODE.dir/home/mariussolomes/digital_audio_effects/OriginalFx/JuceLibraryCode/include_juce_opengl.cpp.o -c /home/mariussolomes/digital_audio_effects/OriginalFx/JuceLibraryCode/include_juce_opengl.cpp
+CMakeFiles/SHARED_CODE.dir/home/mariussolomes/JuceAudioEffect/OriginalFx/JuceLibraryCode/include_juce_gui_extra.cpp.o: CMakeFiles/SHARED_CODE.dir/flags.make
+CMakeFiles/SHARED_CODE.dir/home/mariussolomes/JuceAudioEffect/OriginalFx/JuceLibraryCode/include_juce_gui_extra.cpp.o: /home/mariussolomes/JuceAudioEffect/OriginalFx/JuceLibraryCode/include_juce_gui_extra.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/mariussolomes/JuceAudioEffect/OriginalFx/Builds/CLion/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building CXX object CMakeFiles/SHARED_CODE.dir/home/mariussolomes/JuceAudioEffect/OriginalFx/JuceLibraryCode/include_juce_gui_extra.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/SHARED_CODE.dir/home/mariussolomes/JuceAudioEffect/OriginalFx/JuceLibraryCode/include_juce_gui_extra.cpp.o -c /home/mariussolomes/JuceAudioEffect/OriginalFx/JuceLibraryCode/include_juce_gui_extra.cpp
 
-CMakeFiles/SHARED_CODE.dir/home/mariussolomes/digital_audio_effects/OriginalFx/JuceLibraryCode/include_juce_opengl.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/SHARED_CODE.dir/home/mariussolomes/digital_audio_effects/OriginalFx/JuceLibraryCode/include_juce_opengl.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/mariussolomes/digital_audio_effects/OriginalFx/JuceLibraryCode/include_juce_opengl.cpp > CMakeFiles/SHARED_CODE.dir/home/mariussolomes/digital_audio_effects/OriginalFx/JuceLibraryCode/include_juce_opengl.cpp.i
+CMakeFiles/SHARED_CODE.dir/home/mariussolomes/JuceAudioEffect/OriginalFx/JuceLibraryCode/include_juce_gui_extra.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/SHARED_CODE.dir/home/mariussolomes/JuceAudioEffect/OriginalFx/JuceLibraryCode/include_juce_gui_extra.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/mariussolomes/JuceAudioEffect/OriginalFx/JuceLibraryCode/include_juce_gui_extra.cpp > CMakeFiles/SHARED_CODE.dir/home/mariussolomes/JuceAudioEffect/OriginalFx/JuceLibraryCode/include_juce_gui_extra.cpp.i
 
-CMakeFiles/SHARED_CODE.dir/home/mariussolomes/digital_audio_effects/OriginalFx/JuceLibraryCode/include_juce_opengl.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/SHARED_CODE.dir/home/mariussolomes/digital_audio_effects/OriginalFx/JuceLibraryCode/include_juce_opengl.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/mariussolomes/digital_audio_effects/OriginalFx/JuceLibraryCode/include_juce_opengl.cpp -o CMakeFiles/SHARED_CODE.dir/home/mariussolomes/digital_audio_effects/OriginalFx/JuceLibraryCode/include_juce_opengl.cpp.s
+CMakeFiles/SHARED_CODE.dir/home/mariussolomes/JuceAudioEffect/OriginalFx/JuceLibraryCode/include_juce_gui_extra.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/SHARED_CODE.dir/home/mariussolomes/JuceAudioEffect/OriginalFx/JuceLibraryCode/include_juce_gui_extra.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/mariussolomes/JuceAudioEffect/OriginalFx/JuceLibraryCode/include_juce_gui_extra.cpp -o CMakeFiles/SHARED_CODE.dir/home/mariussolomes/JuceAudioEffect/OriginalFx/JuceLibraryCode/include_juce_gui_extra.cpp.s
+
+CMakeFiles/SHARED_CODE.dir/home/mariussolomes/JuceAudioEffect/OriginalFx/JuceLibraryCode/include_juce_opengl.cpp.o: CMakeFiles/SHARED_CODE.dir/flags.make
+CMakeFiles/SHARED_CODE.dir/home/mariussolomes/JuceAudioEffect/OriginalFx/JuceLibraryCode/include_juce_opengl.cpp.o: /home/mariussolomes/JuceAudioEffect/OriginalFx/JuceLibraryCode/include_juce_opengl.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/mariussolomes/JuceAudioEffect/OriginalFx/Builds/CLion/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Building CXX object CMakeFiles/SHARED_CODE.dir/home/mariussolomes/JuceAudioEffect/OriginalFx/JuceLibraryCode/include_juce_opengl.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/SHARED_CODE.dir/home/mariussolomes/JuceAudioEffect/OriginalFx/JuceLibraryCode/include_juce_opengl.cpp.o -c /home/mariussolomes/JuceAudioEffect/OriginalFx/JuceLibraryCode/include_juce_opengl.cpp
+
+CMakeFiles/SHARED_CODE.dir/home/mariussolomes/JuceAudioEffect/OriginalFx/JuceLibraryCode/include_juce_opengl.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/SHARED_CODE.dir/home/mariussolomes/JuceAudioEffect/OriginalFx/JuceLibraryCode/include_juce_opengl.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/mariussolomes/JuceAudioEffect/OriginalFx/JuceLibraryCode/include_juce_opengl.cpp > CMakeFiles/SHARED_CODE.dir/home/mariussolomes/JuceAudioEffect/OriginalFx/JuceLibraryCode/include_juce_opengl.cpp.i
+
+CMakeFiles/SHARED_CODE.dir/home/mariussolomes/JuceAudioEffect/OriginalFx/JuceLibraryCode/include_juce_opengl.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/SHARED_CODE.dir/home/mariussolomes/JuceAudioEffect/OriginalFx/JuceLibraryCode/include_juce_opengl.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/mariussolomes/JuceAudioEffect/OriginalFx/JuceLibraryCode/include_juce_opengl.cpp -o CMakeFiles/SHARED_CODE.dir/home/mariussolomes/JuceAudioEffect/OriginalFx/JuceLibraryCode/include_juce_opengl.cpp.s
 
 # Object files for target SHARED_CODE
 SHARED_CODE_OBJECTS = \
-"CMakeFiles/SHARED_CODE.dir/home/mariussolomes/digital_audio_effects/OriginalFx/Source/PluginProcessor.cpp.o" \
-"CMakeFiles/SHARED_CODE.dir/home/mariussolomes/digital_audio_effects/OriginalFx/Source/PluginEditor.cpp.o" \
-"CMakeFiles/SHARED_CODE.dir/home/mariussolomes/digital_audio_effects/OriginalFx/JuceLibraryCode/include_juce_audio_basics.cpp.o" \
-"CMakeFiles/SHARED_CODE.dir/home/mariussolomes/digital_audio_effects/OriginalFx/JuceLibraryCode/include_juce_audio_devices.cpp.o" \
-"CMakeFiles/SHARED_CODE.dir/home/mariussolomes/digital_audio_effects/OriginalFx/JuceLibraryCode/include_juce_audio_formats.cpp.o" \
-"CMakeFiles/SHARED_CODE.dir/home/mariussolomes/digital_audio_effects/OriginalFx/JuceLibraryCode/include_juce_audio_plugin_client_utils.cpp.o" \
-"CMakeFiles/SHARED_CODE.dir/home/mariussolomes/digital_audio_effects/OriginalFx/JuceLibraryCode/include_juce_audio_processors.cpp.o" \
-"CMakeFiles/SHARED_CODE.dir/home/mariussolomes/digital_audio_effects/OriginalFx/JuceLibraryCode/include_juce_audio_utils.cpp.o" \
-"CMakeFiles/SHARED_CODE.dir/home/mariussolomes/digital_audio_effects/OriginalFx/JuceLibraryCode/include_juce_core.cpp.o" \
-"CMakeFiles/SHARED_CODE.dir/home/mariussolomes/digital_audio_effects/OriginalFx/JuceLibraryCode/include_juce_cryptography.cpp.o" \
-"CMakeFiles/SHARED_CODE.dir/home/mariussolomes/digital_audio_effects/OriginalFx/JuceLibraryCode/include_juce_data_structures.cpp.o" \
-"CMakeFiles/SHARED_CODE.dir/home/mariussolomes/digital_audio_effects/OriginalFx/JuceLibraryCode/include_juce_events.cpp.o" \
-"CMakeFiles/SHARED_CODE.dir/home/mariussolomes/digital_audio_effects/OriginalFx/JuceLibraryCode/include_juce_graphics.cpp.o" \
-"CMakeFiles/SHARED_CODE.dir/home/mariussolomes/digital_audio_effects/OriginalFx/JuceLibraryCode/include_juce_gui_basics.cpp.o" \
-"CMakeFiles/SHARED_CODE.dir/home/mariussolomes/digital_audio_effects/OriginalFx/JuceLibraryCode/include_juce_gui_extra.cpp.o" \
-"CMakeFiles/SHARED_CODE.dir/home/mariussolomes/digital_audio_effects/OriginalFx/JuceLibraryCode/include_juce_opengl.cpp.o"
+"CMakeFiles/SHARED_CODE.dir/home/mariussolomes/JuceAudioEffect/OriginalFx/Source/SliderUtil.cpp.o" \
+"CMakeFiles/SHARED_CODE.dir/home/mariussolomes/JuceAudioEffect/OriginalFx/Source/PluginProcessor.cpp.o" \
+"CMakeFiles/SHARED_CODE.dir/home/mariussolomes/JuceAudioEffect/OriginalFx/Source/PluginEditor.cpp.o" \
+"CMakeFiles/SHARED_CODE.dir/home/mariussolomes/JuceAudioEffect/OriginalFx/JuceLibraryCode/include_juce_audio_basics.cpp.o" \
+"CMakeFiles/SHARED_CODE.dir/home/mariussolomes/JuceAudioEffect/OriginalFx/JuceLibraryCode/include_juce_audio_devices.cpp.o" \
+"CMakeFiles/SHARED_CODE.dir/home/mariussolomes/JuceAudioEffect/OriginalFx/JuceLibraryCode/include_juce_audio_formats.cpp.o" \
+"CMakeFiles/SHARED_CODE.dir/home/mariussolomes/JuceAudioEffect/OriginalFx/JuceLibraryCode/include_juce_audio_plugin_client_utils.cpp.o" \
+"CMakeFiles/SHARED_CODE.dir/home/mariussolomes/JuceAudioEffect/OriginalFx/JuceLibraryCode/include_juce_audio_processors.cpp.o" \
+"CMakeFiles/SHARED_CODE.dir/home/mariussolomes/JuceAudioEffect/OriginalFx/JuceLibraryCode/include_juce_audio_utils.cpp.o" \
+"CMakeFiles/SHARED_CODE.dir/home/mariussolomes/JuceAudioEffect/OriginalFx/JuceLibraryCode/include_juce_core.cpp.o" \
+"CMakeFiles/SHARED_CODE.dir/home/mariussolomes/JuceAudioEffect/OriginalFx/JuceLibraryCode/include_juce_cryptography.cpp.o" \
+"CMakeFiles/SHARED_CODE.dir/home/mariussolomes/JuceAudioEffect/OriginalFx/JuceLibraryCode/include_juce_data_structures.cpp.o" \
+"CMakeFiles/SHARED_CODE.dir/home/mariussolomes/JuceAudioEffect/OriginalFx/JuceLibraryCode/include_juce_events.cpp.o" \
+"CMakeFiles/SHARED_CODE.dir/home/mariussolomes/JuceAudioEffect/OriginalFx/JuceLibraryCode/include_juce_graphics.cpp.o" \
+"CMakeFiles/SHARED_CODE.dir/home/mariussolomes/JuceAudioEffect/OriginalFx/JuceLibraryCode/include_juce_gui_basics.cpp.o" \
+"CMakeFiles/SHARED_CODE.dir/home/mariussolomes/JuceAudioEffect/OriginalFx/JuceLibraryCode/include_juce_gui_extra.cpp.o" \
+"CMakeFiles/SHARED_CODE.dir/home/mariussolomes/JuceAudioEffect/OriginalFx/JuceLibraryCode/include_juce_opengl.cpp.o"
 
 # External object files for target SHARED_CODE
 SHARED_CODE_EXTERNAL_OBJECTS =
 
-libOriginalFx.a: CMakeFiles/SHARED_CODE.dir/home/mariussolomes/digital_audio_effects/OriginalFx/Source/PluginProcessor.cpp.o
-libOriginalFx.a: CMakeFiles/SHARED_CODE.dir/home/mariussolomes/digital_audio_effects/OriginalFx/Source/PluginEditor.cpp.o
-libOriginalFx.a: CMakeFiles/SHARED_CODE.dir/home/mariussolomes/digital_audio_effects/OriginalFx/JuceLibraryCode/include_juce_audio_basics.cpp.o
-libOriginalFx.a: CMakeFiles/SHARED_CODE.dir/home/mariussolomes/digital_audio_effects/OriginalFx/JuceLibraryCode/include_juce_audio_devices.cpp.o
-libOriginalFx.a: CMakeFiles/SHARED_CODE.dir/home/mariussolomes/digital_audio_effects/OriginalFx/JuceLibraryCode/include_juce_audio_formats.cpp.o
-libOriginalFx.a: CMakeFiles/SHARED_CODE.dir/home/mariussolomes/digital_audio_effects/OriginalFx/JuceLibraryCode/include_juce_audio_plugin_client_utils.cpp.o
-libOriginalFx.a: CMakeFiles/SHARED_CODE.dir/home/mariussolomes/digital_audio_effects/OriginalFx/JuceLibraryCode/include_juce_audio_processors.cpp.o
-libOriginalFx.a: CMakeFiles/SHARED_CODE.dir/home/mariussolomes/digital_audio_effects/OriginalFx/JuceLibraryCode/include_juce_audio_utils.cpp.o
-libOriginalFx.a: CMakeFiles/SHARED_CODE.dir/home/mariussolomes/digital_audio_effects/OriginalFx/JuceLibraryCode/include_juce_core.cpp.o
-libOriginalFx.a: CMakeFiles/SHARED_CODE.dir/home/mariussolomes/digital_audio_effects/OriginalFx/JuceLibraryCode/include_juce_cryptography.cpp.o
-libOriginalFx.a: CMakeFiles/SHARED_CODE.dir/home/mariussolomes/digital_audio_effects/OriginalFx/JuceLibraryCode/include_juce_data_structures.cpp.o
-libOriginalFx.a: CMakeFiles/SHARED_CODE.dir/home/mariussolomes/digital_audio_effects/OriginalFx/JuceLibraryCode/include_juce_events.cpp.o
-libOriginalFx.a: CMakeFiles/SHARED_CODE.dir/home/mariussolomes/digital_audio_effects/OriginalFx/JuceLibraryCode/include_juce_graphics.cpp.o
-libOriginalFx.a: CMakeFiles/SHARED_CODE.dir/home/mariussolomes/digital_audio_effects/OriginalFx/JuceLibraryCode/include_juce_gui_basics.cpp.o
-libOriginalFx.a: CMakeFiles/SHARED_CODE.dir/home/mariussolomes/digital_audio_effects/OriginalFx/JuceLibraryCode/include_juce_gui_extra.cpp.o
-libOriginalFx.a: CMakeFiles/SHARED_CODE.dir/home/mariussolomes/digital_audio_effects/OriginalFx/JuceLibraryCode/include_juce_opengl.cpp.o
+libOriginalFx.a: CMakeFiles/SHARED_CODE.dir/home/mariussolomes/JuceAudioEffect/OriginalFx/Source/SliderUtil.cpp.o
+libOriginalFx.a: CMakeFiles/SHARED_CODE.dir/home/mariussolomes/JuceAudioEffect/OriginalFx/Source/PluginProcessor.cpp.o
+libOriginalFx.a: CMakeFiles/SHARED_CODE.dir/home/mariussolomes/JuceAudioEffect/OriginalFx/Source/PluginEditor.cpp.o
+libOriginalFx.a: CMakeFiles/SHARED_CODE.dir/home/mariussolomes/JuceAudioEffect/OriginalFx/JuceLibraryCode/include_juce_audio_basics.cpp.o
+libOriginalFx.a: CMakeFiles/SHARED_CODE.dir/home/mariussolomes/JuceAudioEffect/OriginalFx/JuceLibraryCode/include_juce_audio_devices.cpp.o
+libOriginalFx.a: CMakeFiles/SHARED_CODE.dir/home/mariussolomes/JuceAudioEffect/OriginalFx/JuceLibraryCode/include_juce_audio_formats.cpp.o
+libOriginalFx.a: CMakeFiles/SHARED_CODE.dir/home/mariussolomes/JuceAudioEffect/OriginalFx/JuceLibraryCode/include_juce_audio_plugin_client_utils.cpp.o
+libOriginalFx.a: CMakeFiles/SHARED_CODE.dir/home/mariussolomes/JuceAudioEffect/OriginalFx/JuceLibraryCode/include_juce_audio_processors.cpp.o
+libOriginalFx.a: CMakeFiles/SHARED_CODE.dir/home/mariussolomes/JuceAudioEffect/OriginalFx/JuceLibraryCode/include_juce_audio_utils.cpp.o
+libOriginalFx.a: CMakeFiles/SHARED_CODE.dir/home/mariussolomes/JuceAudioEffect/OriginalFx/JuceLibraryCode/include_juce_core.cpp.o
+libOriginalFx.a: CMakeFiles/SHARED_CODE.dir/home/mariussolomes/JuceAudioEffect/OriginalFx/JuceLibraryCode/include_juce_cryptography.cpp.o
+libOriginalFx.a: CMakeFiles/SHARED_CODE.dir/home/mariussolomes/JuceAudioEffect/OriginalFx/JuceLibraryCode/include_juce_data_structures.cpp.o
+libOriginalFx.a: CMakeFiles/SHARED_CODE.dir/home/mariussolomes/JuceAudioEffect/OriginalFx/JuceLibraryCode/include_juce_events.cpp.o
+libOriginalFx.a: CMakeFiles/SHARED_CODE.dir/home/mariussolomes/JuceAudioEffect/OriginalFx/JuceLibraryCode/include_juce_graphics.cpp.o
+libOriginalFx.a: CMakeFiles/SHARED_CODE.dir/home/mariussolomes/JuceAudioEffect/OriginalFx/JuceLibraryCode/include_juce_gui_basics.cpp.o
+libOriginalFx.a: CMakeFiles/SHARED_CODE.dir/home/mariussolomes/JuceAudioEffect/OriginalFx/JuceLibraryCode/include_juce_gui_extra.cpp.o
+libOriginalFx.a: CMakeFiles/SHARED_CODE.dir/home/mariussolomes/JuceAudioEffect/OriginalFx/JuceLibraryCode/include_juce_opengl.cpp.o
 libOriginalFx.a: CMakeFiles/SHARED_CODE.dir/build.make
 libOriginalFx.a: CMakeFiles/SHARED_CODE.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/mariussolomes/digital_audio_effects/OriginalFx/Builds/CLion/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Linking CXX static library libOriginalFx.a"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/mariussolomes/JuceAudioEffect/OriginalFx/Builds/CLion/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Linking CXX static library libOriginalFx.a"
 	$(CMAKE_COMMAND) -P CMakeFiles/SHARED_CODE.dir/cmake_clean_target.cmake
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/SHARED_CODE.dir/link.txt --verbose=$(VERBOSE)
 
@@ -319,6 +334,6 @@ CMakeFiles/SHARED_CODE.dir/clean:
 .PHONY : CMakeFiles/SHARED_CODE.dir/clean
 
 CMakeFiles/SHARED_CODE.dir/depend:
-	cd /home/mariussolomes/digital_audio_effects/OriginalFx/Builds/CLion/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/mariussolomes/digital_audio_effects/OriginalFx/Builds/CLion /home/mariussolomes/digital_audio_effects/OriginalFx/Builds/CLion /home/mariussolomes/digital_audio_effects/OriginalFx/Builds/CLion/cmake-build-debug /home/mariussolomes/digital_audio_effects/OriginalFx/Builds/CLion/cmake-build-debug /home/mariussolomes/digital_audio_effects/OriginalFx/Builds/CLion/cmake-build-debug/CMakeFiles/SHARED_CODE.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/mariussolomes/JuceAudioEffect/OriginalFx/Builds/CLion/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/mariussolomes/JuceAudioEffect/OriginalFx/Builds/CLion /home/mariussolomes/JuceAudioEffect/OriginalFx/Builds/CLion /home/mariussolomes/JuceAudioEffect/OriginalFx/Builds/CLion/cmake-build-debug /home/mariussolomes/JuceAudioEffect/OriginalFx/Builds/CLion/cmake-build-debug /home/mariussolomes/JuceAudioEffect/OriginalFx/Builds/CLion/cmake-build-debug/CMakeFiles/SHARED_CODE.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/SHARED_CODE.dir/depend
 

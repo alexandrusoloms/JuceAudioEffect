@@ -14,7 +14,7 @@
 //==============================================================================
 OriginalFxAudioProcessor::OriginalFxAudioProcessor()
 #ifndef JucePlugin_PreferredChannelConfigurations
-     : AudioProcessor (BusesProperties()
+: AudioProcessor (BusesProperties()
                      #if ! JucePlugin_IsMidiEffect
                       #if ! JucePlugin_IsSynth
                        .withInput  ("Input",  AudioChannelSet::stereo(), true)
@@ -24,6 +24,28 @@ OriginalFxAudioProcessor::OriginalFxAudioProcessor()
                        )
 #endif
 {
+    addParameter(highPassFilterCutOff = new AudioParameterFloat("FilterCutoffHighPass", "Filter Cutoff High Pass", 50.0f, 20000.0f, 50.0f));
+    addParameter(lowPassFilterCutOff = new AudioParameterFloat("FilterQHighPass", "Filter Q High Pass", 50.0f, 20000.0f, 50.0f));
+
+    // for (auto itr=reverbSliderArray)
+    // default are applied
+    float damping, roomSize, dryLevel, wetLevel, width, freezeMode;
+    damping = 1.0;
+    roomSize = 0.5;
+    dryLevel = 0.3;
+    wetLevel = 0.2;
+    width = 0.6;
+    freezeMode = 0.5;
+
+    theReverbParameters.damping = damping;
+    theReverbParameters.roomSize = roomSize;
+    theReverbParameters.dryLevel = dryLevel;
+    theReverbParameters.wetLevel = wetLevel;
+    theReverbParameters.width = width;
+    theReverbParameters.freezeMode = freezeMode;
+
+    theReverb.setParameters(theReverbParameters);
+
 }
 
 OriginalFxAudioProcessor::~OriginalFxAudioProcessor()
@@ -38,29 +60,29 @@ const String OriginalFxAudioProcessor::getName() const
 
 bool OriginalFxAudioProcessor::acceptsMidi() const
 {
-   #if JucePlugin_WantsMidiInput
+#if JucePlugin_WantsMidiInput
     return true;
-   #else
+#else
     return false;
-   #endif
+#endif
 }
 
 bool OriginalFxAudioProcessor::producesMidi() const
 {
-   #if JucePlugin_ProducesMidiOutput
+#if JucePlugin_ProducesMidiOutput
     return true;
-   #else
+#else
     return false;
-   #endif
+#endif
 }
 
 bool OriginalFxAudioProcessor::isMidiEffect() const
 {
-   #if JucePlugin_IsMidiEffect
+#if JucePlugin_IsMidiEffect
     return true;
-   #else
+#else
     return false;
-   #endif
+#endif
 }
 
 double OriginalFxAudioProcessor::getTailLengthSeconds() const
@@ -71,7 +93,7 @@ double OriginalFxAudioProcessor::getTailLengthSeconds() const
 int OriginalFxAudioProcessor::getNumPrograms()
 {
     return 1;   // NB: some hosts don't cope very well if you tell them there are 0 programs,
-                // so this should be at least 1, even if you're not really implementing programs.
+    // so this should be at least 1, even if you're not really implementing programs.
 }
 
 int OriginalFxAudioProcessor::getCurrentProgram()
@@ -97,6 +119,8 @@ void OriginalFxAudioProcessor::prepareToPlay (double sampleRate, int samplesPerB
 {
     // Use this method as the place to do any pre-playback
     // initialisation that you need..
+
+
 }
 
 void OriginalFxAudioProcessor::releaseResources()
@@ -141,8 +165,8 @@ void OriginalFxAudioProcessor::processBlock (AudioBuffer<float>& buffer, MidiBuf
     // This is here to avoid people getting screaming feedback
     // when they first compile a plugin, but obviously you don't need to keep
     // this code if your algorithm always overwrites all the output channels.
-    for (auto i = totalNumInputChannels; i < totalNumOutputChannels; ++i)
-        buffer.clear (i, 0, buffer.getNumSamples());
+    // for (auto i = totalNumInputChannels; i < totalNumOutputChannels; ++i)
+    //    buffer.clear (i, 0, buffer.getNumSamples());
 
     // This is the place where you'd normally do the guts of your plugin's
     // audio processing...
@@ -154,9 +178,34 @@ void OriginalFxAudioProcessor::processBlock (AudioBuffer<float>& buffer, MidiBuf
     {
         auto* channelData = buffer.getWritePointer (channel);
 
+        // High pass filter
+        IIRCoefficients highCoefficients = IIRCoefficients::makeHighPass(getSampleRate(), *highPassFilterCutOff);
+        filter.setCoefficients(highCoefficients);
+        filter.processSamples(buffer.getWritePointer(channel), buffer.getNumSamples());
+
+        theReverb.setParameters(theReverbParameters);
+        theReverb.processMono(channelData, buffer.getNumSamples());
+
+        // Low Pass filter
+        IIRCoefficients lowCoefficients = IIRCoefficients::makeLowPass(getSampleRate(), *lowPassFilterCutOff);
+        filter.setCoefficients(lowCoefficients);
+
+        filter.processSamples(channelData, buffer.getNumSamples());
+
+
         // ..do something to the data...
+    } // OriginalFxAudioProcessor
+
+    for (int channel = totalNumInputChannels; channel < getTotalNumOutputChannels(); ++channel) {
+        buffer.clear(channel, 0, buffer.getNumSamples());
     }
 }
+
+void OriginalFxAudioProcessor::shrinkBuffer(float* buffer) {
+
+
+}
+
 
 //==============================================================================
 bool OriginalFxAudioProcessor::hasEditor() const

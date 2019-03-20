@@ -2282,11 +2282,11 @@ misc/juce_AnimatedAppComponent.h
 
 /home/mariussolomes/JUCE/modules/juce_gui_extra/misc/juce_WebBrowserComponent.h
 
-/home/mariussolomes/digital_audio_effects/OriginalFx/JuceLibraryCode/AppConfig.h
+/home/mariussolomes/JuceAudioEffect/OriginalFx/JuceLibraryCode/AppConfig.h
 
-/home/mariussolomes/digital_audio_effects/OriginalFx/JuceLibraryCode/include_juce_audio_plugin_client_Standalone.cpp
+/home/mariussolomes/JuceAudioEffect/OriginalFx/JuceLibraryCode/include_juce_audio_plugin_client_Standalone.cpp
 AppConfig.h
-/home/mariussolomes/digital_audio_effects/OriginalFx/JuceLibraryCode/AppConfig.h
+/home/mariussolomes/JuceAudioEffect/OriginalFx/JuceLibraryCode/AppConfig.h
 juce_audio_plugin_client/juce_audio_plugin_client_Standalone.cpp
 -
 
