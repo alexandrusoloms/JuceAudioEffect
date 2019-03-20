@@ -10,6 +10,7 @@
 
 #include "PluginProcessor.h"
 #include "PluginEditor.h"
+#include <iostream>
 
 //==============================================================================
 OriginalFxAudioProcessor::OriginalFxAudioProcessor()
@@ -191,7 +192,6 @@ void OriginalFxAudioProcessor::processBlock (AudioBuffer<float>& buffer, MidiBuf
         filter.setCoefficients(lowCoefficients);
 
         filter.processSamples(channelData, buffer.getNumSamples());
-
 
         // ..do something to the data...
     } // OriginalFxAudioProcessor

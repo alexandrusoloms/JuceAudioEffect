@@ -32,7 +32,7 @@ OriginalFxAudioProcessorEditor::OriginalFxAudioProcessorEditor (OriginalFxAudioP
      */
     for (auto itr = reverbSliderArray.begin(); itr != reverbSliderArray.end(); itr++) {
 
-        addAndMakeVisible(itr);
+        addAndMakeVisible(*itr);
         itr->setSliderStyle(Slider::LinearVertical);
         itr->addListener(this);
         itr->setRange(0.01f, 1.0f, 0.01f);
