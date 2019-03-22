@@ -179,19 +179,20 @@ void OriginalFxAudioProcessor::processBlock (AudioBuffer<float>& buffer, MidiBuf
     {
         auto* channelData = buffer.getWritePointer (channel);
 
-        // High pass filter
-        IIRCoefficients highCoefficients = IIRCoefficients::makeHighPass(getSampleRate(), *highPassFilterCutOff);
-        filter.setCoefficients(highCoefficients);
-        filter.processSamples(buffer.getWritePointer(channel), buffer.getNumSamples());
-
         theReverb.setParameters(theReverbParameters);
         theReverb.processMono(channelData, buffer.getNumSamples());
 
-        // Low Pass filter
-        IIRCoefficients lowCoefficients = IIRCoefficients::makeLowPass(getSampleRate(), *lowPassFilterCutOff);
-        filter.setCoefficients(lowCoefficients);
+//        // High pass filter
+//        IIRCoefficients highCoefficients = IIRCoefficients::makeHighPass(getSampleRate(), *highPassFilterCutOff);
+//        filter.setCoefficients(highCoefficients);
+//        filter.processSamples(buffer.getWritePointer(channel), buffer.getNumSamples());
+//
+//        // Low Pass filter
+//        IIRCoefficients lowCoefficients = IIRCoefficients::makeLowPass(getSampleRate(), *lowPassFilterCutOff);
+//        filter.setCoefficients(lowCoefficients);
+//
+//        filter.processSamples(channelData, buffer.getNumSamples());
 
-        filter.processSamples(channelData, buffer.getNumSamples());
 
         // ..do something to the data...
     } // OriginalFxAudioProcessor
